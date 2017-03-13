@@ -1,0 +1,450 @@
+/* ::::: http://eae-abie801.epnet.com:8080/uid-shared-design-repo/buzzgrid/boilerplate.css ::::: */
+
+audio:not([controls]) { display: none; }
+html { font-size: 100%; overflow-y: scroll; }
+body { margin: 0px; font-size: 100%; line-height: 1.231; }
+body, button, input, select, textarea { font-family: helvetica,arial,"lucida grande",verdana,"メイリオ","ＭＳ Ｐゴシック",sans-serif; color: rgb(34, 34, 34); }
+q::before, q::after { content: none; }
+svg:not(:root) { overflow: hidden; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }
+@media only screen and (min-width: 480px) {
+}
+@media only screen and (min-width: 768px) {
+}
+.clearfix::before, .clearfix::after { content: ""; display: table; }
+.clearfix::after { clear: both; }
+.clearfix {  }
+p { margin: 0px; }
+html { overflow-y: auto; background-color: transparent; height: 100%; }
+body { background: rgb(255, 255, 255) none repeat scroll 0% 0%; position: relative; height: 100%; }
+body, div, img, p, button, input, select, textarea, a { box-sizing: border-box; }
+/* ::::: http://eae-abie801.epnet.com:8080/uid-shared-design-repo/buzzgrid/index.css ::::: */
+
+.primaryContainer { height: auto; margin-left: auto; margin-right: auto; min-height: 100%; width: auto; background-image: url('wireframebg.png'); background-position: 0% 0%; background-repeat: repeat-x; background-attachment: scroll; background-size: auto auto; max-width: none; padding-right: 0px; padding-left: 0px; position: relative; }
+#box6 { float: left; height: 100px; clear: both; width: 97.6012%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(198, 247, 205); opacity: 1; margin-top: 40px; margin-left: 1.19664%; }
+#box7 { float: left; height: 100px; margin: 35px 0px 0px 1.19742%; clear: both; width: 30.9321%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(252, 238, 192); }
+#box9 { float: left; height: 100px; margin: 35px 0px 0px 2.39953%; clear: none; width: 30.9321%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(252, 238, 192); }
+#box11 { float: left; height: 100px; margin: 35px 0px 0px 2.39953%; clear: none; width: 30.9321%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(252, 238, 192); }
+#box13 { float: left; height: 100px; margin: 35px 0px 0px 1.19196%; clear: both; width: 64.2588%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(208, 239, 253); }
+#box15 { float: left; height: 100px; margin: 35px 0px 0px 2.40889%; clear: none; width: 30.9321%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(208, 239, 253); }
+#text2 { float: none; font-size: 1.6em; width: 94.9999%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 11px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; display: block; }
+#box17 { float: left; height: 100px; margin: 35px 0px 0px 1.18026%; clear: both; width: 30.9321%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(252, 225, 250); }
+#box19 { float: left; height: 100px; margin: 35px 0px 0px 2.40364%; clear: none; width: 64.2588%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(252, 225, 250); }
+#text4 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#box21 { float: left; height: 100px; margin: 38px 0px 0px 1.19196%; clear: both; width: 47.5997%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(222, 211, 123); }
+#box23 { float: left; height: 100px; margin: 38px 0px 0px 2.40187%; clear: none; width: 47.5997%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(222, 211, 123); }
+#box25 { float: left; height: 100px; margin: 35px 0px 0px 1.19196%; clear: both; width: 22.5998%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(74, 206, 245); }
+#box27 { float: left; height: 100px; margin: 35px 0px 0px 2.40265%; clear: none; width: 22.5998%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(74, 206, 245); }
+#box29 { float: left; height: 100px; margin: 35px 0px 0px 2.4%; clear: none; width: 22.5998%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(74, 206, 245); }
+#box31 { float: left; height: 100px; margin: 35px 0px 0px 2.4%; clear: none; width: 22.5998%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(74, 206, 245); }
+#box33 { float: left; height: 100px; margin: 35px 0px 0px 1.19196%; clear: both; width: 22.5998%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(245, 205, 130); }
+#box35 { float: left; height: 100px; margin: 35px 0px 0px 2.40265%; clear: none; width: 72.5828%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(245, 205, 130); }
+#box41 { float: left; height: 100px; margin: 35px 0px 0px 1.19742%; clear: both; width: 22.5998%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(114, 216, 127); }
+#box43 { float: left; height: 100px; margin: 35px 0px 0px 2.40004%; clear: none; width: 47.5985%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(114, 216, 127); padding-top: 0px; }
+#box45 { float: left; height: 100px; margin: 35px 0px 0px 2.39953%; clear: none; width: 22.5998%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(114, 216, 127); }
+#box47 { float: left; height: 100px; margin: 35px 0px 0px 1.19742%; clear: both; width: 22.5998%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(184, 173, 248); }
+#box49 { float: left; height: 100px; margin: 35px 0px 0px 2.40031%; clear: none; width: 22.5998%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(184, 173, 248); }
+#box51 { float: left; height: 100px; margin: 35px 0px 0px 2.39953%; clear: none; width: 47.5985%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(184, 173, 248); }
+#box53 { float: left; height: 100px; margin: 35px 0px 0px 1.19742%; clear: both; width: 47.5985%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(95, 186, 198); }
+#box55 { float: left; height: 100px; margin: 35px 0px 0px 2.40265%; clear: none; width: 22.5998%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(95, 186, 198); }
+#box57 { float: left; height: 100px; margin: 35px 0px 0px 2.4%; clear: none; width: 22.5998%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(95, 186, 198); }
+body { background-image: url('full-grid-bg.png'); background-position: 0% 0%; background-repeat: repeat-y; background-attachment: scroll; background-size: contain; }
+#box4 { float: left; height: 50px; clear: none; width: auto; display: block; position: fixed; top: 0px; left: 0%; right: 88.5172%; }
+#text { float: left; font-size: 1.3em; width: auto; height: 51px; text-align: left; font-weight: 600; line-height: 1em; clear: none; min-height: 0px; color: rgb(255, 255, 255); min-width: 0px; padding: 15px 0px 0px 1.2%; position: fixed; }
+#box5 { float: left; height: 35px; clear: none; width: auto; display: none; position: fixed; top: 0px; left: 0%; }
+#Layout_3 { float: none; font-size: 1.3em; width: auto; height: auto; text-align: left; font-weight: 600; line-height: 1em; clear: none; min-height: 0px; color: rgb(255, 255, 255); min-width: 0px; padding: 15px 0px 0px 1.2%; position: fixed; top: 0px; left: 0%; right: auto; }
+#box2 { float: left; height: 35px; clear: none; width: auto; display: none; position: fixed; top: 0px; left: 0%; }
+#Layout2 { float: none; font-size: 1.3em; width: auto; height: auto; text-align: left; font-weight: 600; line-height: 1em; clear: none; min-height: 0px; color: rgb(255, 255, 255); min-width: 0px; padding: 15px 0px 0px 1.2%; position: fixed; top: 0px; left: 0px; }
+#box3 { float: left; height: 35px; clear: none; width: auto; display: none; position: fixed; top: 0px; left: 0%; }
+#Layout1 { float: none; font-size: 1.3em; width: auto; height: auto; text-align: left; font-weight: 600; line-height: 1em; clear: none; min-height: 0px; color: rgb(255, 255, 255); min-width: 0px; padding: 15px 0px 0px 1.2%; position: fixed; top: 0px; left: 0%; right: auto; }
+#box61 { float: left; height: 100px; margin: 35px 0px 0px 1.2%; clear: both; width: 14.3621%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(239, 248, 173); padding-left: 0%; }
+#box63 { float: left; height: 100px; margin: 35px 0px 0px 2.4%; clear: none; width: 80.8186%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(239, 248, 173); }
+#box65 { float: left; height: 100px; margin: 35px 0px 0px 1.19976%; clear: both; width: 80.9333%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(239, 248, 173); padding: 0px; }
+#box37 { float: left; height: 100px; margin: 35px 0px 0px 1.19742%; clear: both; width: 72.5828%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(236, 130, 245); padding: 0px; }
+#box39 { float: left; height: 100px; margin: 35px 0px 0px 2.40004%; clear: none; width: 22.5998%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(236, 130, 245); }
+#box67 { float: left; height: 100px; margin: 35px 0px 0px 2.39953%; clear: none; width: 14.1179%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(239, 248, 173); padding: 0px; }
+#box69 { float: left; height: 100px; margin: 35px 0px 0px 1.19976%; clear: both; width: 14.3621%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(239, 248, 173); padding-left: 0%; }
+#box71 { float: left; height: 100px; margin: 35px 0px 0px 2.39953%; clear: none; width: 64.1725%; min-width: 0px; position: relative; top: 0px; left: 0px; padding: 0px; background-color: rgb(239, 248, 173); }
+#box73 { float: left; height: 100px; margin: 35px 0px 0px 2.39953%; clear: none; width: 14.1179%; min-width: 0px; position: relative; top: 0px; left: 0px; padding: 0px; background-color: rgb(239, 248, 173); }
+#box75 { float: left; height: 100px; margin: 35px 0px 0px 1.19742%; clear: both; width: 14.3621%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(239, 248, 173); }
+#box77 { float: left; height: 100px; margin: 35px 0px 0px 2.39953%; clear: none; width: 55.8219%; min-width: 0px; position: relative; top: 0px; left: 0px; padding: 0px; background-color: rgb(239, 248, 173); }
+#box79 { float: left; height: 100px; margin: 35px 0px 0px 2.39953%; clear: none; width: 22.4678%; min-width: 0px; position: relative; top: 0px; left: 0px; padding: 0px; background-color: rgb(239, 248, 173); }
+#box81 { float: left; height: 100px; margin: 35px 0px 0px 1.19742%; clear: both; width: 22.4678%; min-width: 0px; position: relative; top: 0px; left: 0px; padding: 0px; background-color: rgb(239, 248, 173); }
+#box83 { float: left; height: 100px; margin: 35px 0px 0px 2.40004%; clear: none; width: 55.8219%; min-width: 0px; position: relative; top: 0px; left: 0px; padding: 0px; background-color: rgb(239, 248, 173); }
+#box85 { float: left; height: 100px; margin: 35px 0px 0px 2.4%; clear: none; width: 14.3621%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(239, 248, 173); padding: 0px; }
+#box87 { float: left; height: 100px; margin: 35px 0px 0px 1.19742%; clear: both; width: 55.9339%; min-width: 0px; position: relative; top: 0px; left: 0px; padding: 0px; background-color: rgb(239, 248, 173); }
+#box89 { float: left; height: 100px; margin: 35px 0px 0px 2.40004%; clear: none; width: 39.1169%; min-width: 0px; position: relative; top: 0px; left: 0px; padding: 0px; background-color: rgb(239, 248, 173); }
+#box91 { float: left; height: 100px; margin: 34px 0px 0px 1.19898%; clear: both; width: 14.3621%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(239, 248, 173); }
+#box93 { float: left; height: 100px; margin: 36px 0px 0px 2.40004%; clear: none; width: 47.5061%; min-width: 0px; position: relative; top: 0px; left: 0px; padding: 0px; background-color: rgb(239, 248, 173); }
+#box95 { float: left; height: 100px; margin: 34px 0px 0px 2.4%; clear: none; width: 30.686%; min-width: 0px; position: relative; top: 0px; left: 0px; padding: 0px; background-color: rgb(239, 248, 173); }
+#text3 { float: none; font-size: 1.3em; width: 94.9999%; height: auto; text-align: center; font-weight: 400; line-height: 1.4em; margin-left: 2.51017%; margin-top: 6.5px; clear: none; min-height: 0px; color: rgb(67, 67, 67); margin-bottom: 0px; position: relative; top: 0px; left: 0px; display: block; }
+#text5 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box8 { float: left; height: auto; margin-left: 2.49924%; margin-top: 13px; clear: none; width: 94.999%; }
+#box10 { float: none; height: auto; margin-left: auto; margin-top: 13px; clear: none; width: 94.999%; margin-right: auto; }
+#text6 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text7 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan1 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box12 { float: none; height: auto; margin-left: auto; margin-top: 13px; clear: none; width: 94.999%; margin-right: auto; }
+#text8 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text9 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan2 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box14 { float: none; height: auto; margin-left: auto; margin-top: 13px; clear: none; width: 95%; margin-right: auto; }
+#text10 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text11 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan3 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box16 { float: none; height: auto; margin-left: auto; margin-top: 13px; clear: none; width: 94.999%; margin-right: auto; }
+#text12 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text13 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan4 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box18 { float: left; height: auto; margin-left: 2.5522%; margin-top: 13px; clear: none; width: 94.999%; margin-right: 0%; }
+#text14 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text15 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan5 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box20 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text16 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text17 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan6 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box22 { float: none; height: auto; margin-left: auto; margin-top: 13px; clear: none; width: 95%; margin-right: auto; }
+#text18 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text19 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan7 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box24 { float: none; height: auto; margin-left: auto; margin-top: 13px; clear: none; width: 95%; margin-right: auto; }
+#text20 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text21 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan8 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box26 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text22 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text23 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan9 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box28 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text24 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text25 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan10 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box30 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text26 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text27 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan11 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box32 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text28 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text29 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan12 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box34 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text30 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text31 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan13 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box36 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text32 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text33 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan14 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box38 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text34 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text35 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan15 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box40 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text36 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text37 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan16 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box42 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text38 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text39 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan17 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box44 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text40 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text41 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan18 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box46 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text42 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text43 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan19 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box48 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text44 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text45 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan20 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box50 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text46 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text47 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan21 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box52 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text48 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text49 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan22 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box54 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text50 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text51 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan23 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box56 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text52 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text53 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan24 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box58 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text54 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text55 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan25 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box62 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text59 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text60 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan27 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box64 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text61 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text62 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan28 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box66 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text63 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text64 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan29 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box68 { float: none; height: auto; margin: 13.5px auto 0px; clear: none; width: 95%; min-width: 0px; }
+#text65 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text66 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan30 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box72 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text69 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text70 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan32 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box70 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text67 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text68 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan31 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box74 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 96.643%; }
+#text71 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text72 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan33 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box76 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text73 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text74 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan34 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box78 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text75 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text76 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan35 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box80 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text77 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text78 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan36 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box82 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text79 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text80 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan37 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box84 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text81 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text82 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan38 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box86 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text83 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text84 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan39 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box88 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text85 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text86 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan40 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box90 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text87 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text88 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan41 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box92 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text89 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text90 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan42 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box94 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text91 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text92 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan43 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box96 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text93 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text94 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan44 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#text56 { float: left; font-size: 1.6em; width: auto; height: auto; text-align: left; font-weight: normal; line-height: 1em; margin: 50px 0px 35px 1.19976%; clear: both; min-height: 0px; }
+#text1 { float: left; font-size: 1.6em; width: auto; height: auto; text-align: left; font-weight: normal; line-height: 1em; margin-left: 1.2%; margin-top: 177px; clear: none; min-height: 0px; }
+#box59 { float: left; height: 100px; margin: 0px 0px 0px 1.19976%; clear: both; width: 97.6%; min-width: 0px; position: relative; top: 0px; left: 0px; background-color: rgb(239, 248, 173); }
+#box60 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text57 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text58 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan26 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box97 { float: left; height: 100px; margin: 34px 0px 0px 1.19976%; clear: both; width: 64.2505%; min-width: 0px; position: relative; top: 0px; left: 0px; padding: 0px; background-color: rgb(239, 248, 173); }
+#box98 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text95 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text96 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan45 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box99 { float: left; height: 100px; margin: 35px 0px 0px 2.4%; clear: none; width: 30.686%; min-width: 0px; position: relative; top: 0px; left: 0px; padding: 0px; background-color: rgb(239, 248, 173); }
+#box100 { float: none; height: auto; margin: 13px auto 0px; clear: none; width: 95%; }
+#text97 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 0px auto; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#text98 { float: none; font-size: 1.6em; width: 100.001%; height: auto; text-align: center; font-weight: 600; line-height: 1.4em; margin: 5px auto 0px; clear: none; min-height: 0px; color: rgb(67, 67, 67); position: relative; top: 0px; left: 0px; }
+#textspan46 { float: none; font-size: 0.8em; line-height: 1em; font-weight: 400; }
+#box { float: left; height: 50px; clear: none; width: 100%; position: fixed; min-width: 0px; background-color: rgb(51, 51, 51); z-index: 50; }
+#box1 { float: left; height: 50px; clear: none; width: 50%; position: fixed; z-index: 55; padding-top: 0px; }
+@media only screen and (max-width: 1200px) {
+	#box5 { display: block; margin: 0px 0px 0px 1.2%; float: left; clear: none; width: 100%; height: 50px; padding-top: 8px; }
+	#box4 { display: none; }
+	#box2 { margin-top: 0px; margin-left: 0%; clear: none; display: none; }
+	#box3 { margin-top: 0px; margin-left: 0%; clear: none; display: none; }
+	#box7 { margin-top: 35px; margin-left: 1.1875%; clear: both; }
+	#box9 { margin-top: 35px; margin-left: 2.40425%; clear: none; }
+	#box11 { margin-top: 35px; margin-left: 2.40945%; clear: none; }
+	#box13 { margin-top: 35px; margin-left: 1.19661%; clear: both; }
+	#box15 { margin-top: 35px; margin-left: 2.40685%; clear: none; }
+	#box17 { margin-top: 35px; margin-left: 1.1862%; clear: both; }
+	#box19 { margin-top: 35px; margin-left: 2.40295%; clear: none; }
+	#box21 { margin-top: 38px; margin-left: 1.19661%; clear: both; }
+	#box23 { margin-top: 38px; margin-left: 2.40034%; clear: none; }
+	#box25 { margin-top: 35px; margin-left: 1.19661%; clear: both; }
+	#box27 { margin-top: 35px; margin-left: 2.40034%; clear: none; }
+	#box29 { margin-top: 35px; margin-left: 2.40034%; clear: none; }
+	#box31 { margin-top: 35px; margin-left: 2.40034%; clear: none; }
+	#box33 { margin-top: 35px; margin-left: 1.19661%; clear: both; }
+	#box35 { margin-top: 35px; margin-left: 2.40034%; clear: none; }
+	#box41 { margin-top: 35px; margin-left: 1.19661%; clear: both; }
+	#box43 { margin-top: 35px; margin-left: 2.40034%; clear: none; }
+	#box45 { margin-top: 35px; margin-left: 2.40034%; clear: none; }
+	#box47 { margin-top: 35px; margin-left: 1.19792%; clear: both; }
+	#box49 { margin-top: 35px; margin-left: 2.40164%; clear: none; }
+	#box51 { margin-top: 35px; margin-left: 2.40034%; clear: none; }
+	#box53 { margin-top: 35px; margin-left: 1.19792%; clear: both; }
+	#box55 { margin-top: 35px; margin-left: 2.40295%; clear: none; }
+	#box57 { margin-top: 35px; margin-left: 2.40164%; clear: none; }
+	#Layout_3 { height: auto; margin-left: auto; margin-right: auto; text-align: left; }
+	#box61 { clear: both; }
+	#box63 { clear: none; }
+	#box65 { margin-top: 35px; margin-left: 1.19661%; clear: both; }
+	#box37 { clear: none; }
+	#box69 { margin-top: 35px; margin-left: 1.19792%; clear: both; }
+	#box75 { margin-top: 35px; margin-left: 1.19792%; clear: both; }
+	#box91 { margin-top: 35px; margin-left: 1.19792%; clear: both; }
+	#text3 { display: none; }
+	#text5 { display: none; }
+	#text7 { display: none; }
+	#text9 { display: none; }
+	#text11 { display: none; }
+	#text13 { display: none; }
+	#text15 { display: none; }
+	#text17 { display: none; }
+	#text19 { display: none; }
+	#text21 { display: none; }
+	#text23 { display: none; }
+	#text25 { display: none; }
+	#text27 { display: none; }
+	#text29 { display: none; }
+	#text31 { display: none; }
+	#text33 { display: none; }
+	#text35 { display: none; }
+	#text37 { display: none; }
+	#text39 { display: none; }
+	#text41 { display: none; }
+	#text43 { display: none; }
+	#text45 { display: none; }
+	#text47 { display: none; }
+	#text49 { display: none; }
+	#text51 { display: none; }
+	#text53 { display: none; }
+	#text55 { display: none; }
+	#text60 { display: none; }
+	#text62 { display: none; }
+	#text64 { display: none; }
+	#text66 { display: none; }
+	#text70 { display: none; }
+	#text68 { display: none; }
+	#text72 { display: none; }
+	#text74 { display: none; }
+	#text76 { display: none; }
+	#text78 { display: none; }
+	#text80 { display: none; }
+	#text82 { display: none; }
+	#text84 { display: none; }
+	#text86 { display: none; }
+	#text88 { display: none; }
+	#text90 { display: none; }
+	#text92 { display: none; }
+	#text94 { display: none; }
+	#box6 { margin: 35px 0px 0px 1.2%; clear: both; }
+	#text56 { margin-top: 50px; margin-left: 1.19922%; clear: both; }
+	#box81 { margin-top: 35px; margin-left: 1.19661%; clear: both; }
+	#box87 { margin-top: 35px; margin-left: 1.19661%; clear: both; }
+	#box59 { margin-top: 0px; margin-left: 1.19792%; clear: both; }
+	#text58 { display: none; }
+	#box97 { margin-top: 35px; margin-left: 1.19661%; clear: both; }
+	#text96 { display: none; }
+	#text98 { display: none; }
+}
+@media only screen and (max-width: 996px) {
+	#box11 { clear: both; width: 97.6%; margin-left: 1.19854%; margin-top: 35px; }
+	#box7 { width: 47.6%; margin-top: 35px; margin-left: 1.18756%; clear: both; }
+	#box9 { width: 47.6%; }
+	#box15 { clear: both; width: 97.6%; margin-left: 1.19854%; margin-top: 35px; }
+	#box13 { width: 97.6%; margin-top: 35px; margin-left: 1.19541%; clear: both; }
+	#box5 { display: none; }
+	#Layout2 { display: block; position: relative; top: 0px; left: 0px; width: 100%; height: auto; margin-left: auto; margin-right: auto; text-align: left; padding-top: 7px; }
+	#box2 { display: block; margin: 8px auto 0px; float: none; clear: none; width: 100%; }
+	#box17 { margin-top: 35px; margin-left: 1.2%; clear: both; width: 97.6%; }
+	#box21 { margin-top: 38px; margin-left: 1.19541%; clear: both; }
+	#box25 { margin-top: 35px; margin-left: 1.19541%; clear: both; width: 47.6%; }
+	#box33 { margin-top: 35px; margin-left: 1.19541%; clear: both; width: 97.6%; }
+	#box41 { margin-top: 35px; margin-left: 1.19541%; clear: both; width: 97.6%; }
+	#box47 { margin-top: 35px; margin-left: 1.19697%; clear: both; width: 47.6%; }
+	#box49 { margin-top: 35px; margin-left: 2.4018%; clear: none; width: 47.6%; }
+	#box53 { margin-top: 35px; margin-left: 1.19697%; clear: both; }
+	#box55 { margin-top: 35px; margin-left: 2.40336%; clear: none; width: 47.6%; }
+	#box57 { margin-top: 35px; margin-left: 1.2%; clear: both; width: 97.6%; }
+	#box61 { clear: both; }
+	#box39 { clear: both; margin-left: 1.2%; width: 97.6%; }
+	#box69 { margin-top: 35px; margin-left: 1.19697%; clear: both; }
+	#box75 { margin-top: 35px; margin-left: 1.19697%; clear: both; }
+	#box91 { margin-top: 35px; margin-left: 1.19697%; clear: both; }
+	#box19 { clear: both; width: 97.6%; margin-left: 1.2%; }
+	#box29 { clear: both; margin-left: 1.2%; width: 47.6%; }
+	#box27 { width: 47.6%; }
+	#box31 { width: 47.6%; }
+	#box35 { clear: both; margin-left: 1.2%; width: 97.6%; }
+	#box37 { width: 97.6%; }
+	#box43 { clear: both; margin-left: 1.2%; width: 97.6%; }
+	#box45 { clear: both; margin-left: 1.2%; width: 97.6%; }
+	#box51 { clear: both; width: 97.6%; margin-left: 1.2%; }
+	#box59 { margin-top: 0px; margin-left: 1.19697%; clear: both; }
+}
+@media only screen and (max-width: 600px) {
+	#box2 { display: none; }
+	#box3 { display: block; margin: 8px auto 0px; float: none; clear: none; width: 100%; position: relative; top: 0px; left: 0px; }
+	#box7 { margin-top: 35px; margin-left: 1.19599%; clear: both; width: 97.6%; }
+	#box11 { margin-top: 35px; margin-left: 1.19599%; clear: both; }
+	#box13 { margin-top: 35px; margin-left: 1.18634%; clear: both; }
+	#box15 { margin-top: 35px; margin-left: 1.19599%; clear: both; }
+	#box17 { margin-top: 35px; margin-left: 1.1767%; clear: both; }
+	#box21 { margin-top: 38px; margin-left: 1.18634%; clear: both; width: 97.6%; }
+	#box25 { margin-top: 35px; margin-left: 1.18634%; clear: both; width: 97.6%; }
+	#box33 { margin-top: 35px; margin-left: 1.18634%; clear: both; }
+	#box41 { margin-top: 35px; margin-left: 1.18634%; clear: both; }
+	#box47 { margin-top: 35px; margin-left: 1.18634%; clear: both; width: 97.6%; }
+	#box53 { margin-top: 35px; margin-left: 1.18634%; clear: both; width: 97.6%; }
+	#Layout1 { height: auto; margin-left: auto; text-align: left; margin-top: 0px; clear: none; margin-right: auto; width: 100%; }
+	#box61 { clear: both; }
+	#box39 { margin-top: 35px; margin-left: 1.19599%; clear: both; }
+	#box69 { margin-top: 35px; margin-left: 1.18634%; clear: both; }
+	#box75 { margin-top: 35px; margin-left: 1.18634%; clear: both; }
+	#box91 { margin-top: 35px; margin-left: 1.18634%; clear: both; }
+	#box9 { clear: both; width: 97.6%; margin-left: 1.19599%; margin-top: 35px; }
+	#box23 { clear: both; margin-left: 1.19599%; width: 97.6%; margin-top: 38px; }
+	#box27 { clear: both; width: 97.6%; margin-left: 1.19599%; margin-top: 35px; }
+	#box29 { width: 97.6%; margin-top: 35px; margin-left: 1.19599%; clear: both; }
+	#box31 { margin-left: 1.2%; width: 97.6%; }
+	#box49 { clear: both; width: 97.6%; margin-left: 1.19599%; margin-top: 35px; }
+	#box55 { clear: both; width: 97.6%; margin-left: 1.19599%; margin-top: 35px; }
+	#box6 { margin-top: 29px; margin-left: 1.19599%; clear: none; }
+	#box19 { margin-top: 35px; margin-left: 1.19599%; clear: both; }
+	#box35 { margin-top: 35px; margin-left: 1.19599%; clear: both; }
+	#box43 { margin-top: 35px; margin-left: 1.19599%; clear: both; }
+	#box45 { margin-top: 35px; margin-left: 1.19599%; clear: both; }
+	#box51 { margin-top: 35px; margin-left: 1.19599%; clear: both; }
+	#box57 { margin-top: 35px; margin-left: 1.19599%; clear: both; }
+	#text56 { margin-top: 50px; margin-left: 1.19599%; clear: both; }
+	#box63 { clear: none; }
+	#box65 { margin-top: 35px; margin-left: 1.19599%; clear: both; }
+	#box71 { margin-top: 35px; margin-left: 2.40162%; clear: none; }
+	#box73 { margin-top: 35px; margin-left: 2.40162%; clear: none; }
+	#box77 { margin-top: 35px; margin-left: 2.40162%; clear: none; }
+	#box79 { margin-top: 33px; margin-left: 2.40162%; clear: none; }
+	#box81 { margin-top: 35px; margin-left: 1.19599%; clear: both; }
+	#box87 { margin-top: 35px; margin-left: 1.19599%; clear: both; }
+	#box93 { margin-top: 36px; margin-left: 2.40162%; clear: none; }
+	#box95 { margin-top: 34px; margin-left: 2.40162%; clear: none; }
+	#box59 { margin-top: 0px; margin-left: 1.18634%; clear: both; }
+	#box97 { margin-top: 35px; margin-left: 1.19599%; clear: both; }
+	#box99 { margin-top: 34px; margin-left: 2.40162%; clear: none; }
+}
