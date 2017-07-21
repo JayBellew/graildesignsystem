@@ -266,11 +266,38 @@ display: none !important;
 		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_folder.png) !important;
 		background-repeat: no-repeat !important;
 		background-position: 0px 0px !important;
-    	background-size: 20px auto !important;
-
-
-
+    	background-size: auto 20px !important;
 		}
+
+		a#lnkHelp.link.color-s1
+		{
+
+		position: relative !important;
+		padding-left: 28px !important;
+		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_help_white.png) !important;
+		background-repeat: no-repeat !important;
+		background-position: 0px 0px !important;
+    	background-size: auto 20px !important;
+		}
+
+		a#lnkSignIn.link.color-s1
+		{
+
+		position: relative !important;
+		padding-left: 28px !important;
+		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_sign_in_white.png) !important;
+		background-repeat: no-repeat !important;
+		background-position: 0px 0px !important;
+    	background-size: 20px auto !important;
+		}
+		
+
+
+
+
+
+
+
 /**	
 		fieldset.find-field-controls
 		{
