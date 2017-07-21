@@ -1,0 +1,536 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+@namespace url(http://www.w3.org/1999/xhtml);
+@font-face {
+  font-family: 'opendyslexic';
+	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Regular.otf');
+	font-style: normal;
+	font-weight: normal;
+} 
+
+@font-face {
+	font-family: 'opendyslexic';
+	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Italic.ttf');
+	font-style: italic;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'opendyslexic';
+	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Bold.ttf');
+	font-weight: bold;
+	font-style: normal;
+} 
+
+@font-face {
+	font-family: 'opendyslexic';
+	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-BoldItalic.ttf');
+	font-weight: bold;
+	font-style: italic;
+} 
+
+@font-face {
+	font-family: eulexia;
+	src: url('http://dyslexicfonts.com/fonts/eulexia.ttf');
+} 
+
+
+div#apvideo.rhi-loaded
+
+{
+width: auto !important;
+
+}
+
+
+
+
+@media (max-width: 996px) {
+
+
+		body
+		{
+		/** font-family:opendyslexic !important;  **/
+		/** font-size:150%; **/
+		min-width: auto !important;
+		}
+
+		.result-list-li {
+
+			border-top: none !important;
+
+
+		}
+
+
+		#citationFields>dt
+
+		{
+			text-align: left !important;
+		}
+
+		#citationFields .citation-title {
+		width: 100% !important;
+		margin: 0 0 20px !important;
+		padding: 0 0 5px !important;
+		font-size: 1.9em !important;
+		line-height: 1.25 !important;
+		min-height: 0 !important;
+		font-family: Helvetica, Arial, sans-serif !important;
+		border-bottom: 0px !important;
+
+		}
+		
+		
+
+		div#content
+
+		{
+		padding: 10px 20px
+		}
+
+		div#column2
+
+		{ visibility: hidden !important;
+		
+		}
+
+
+		
+
+		.column1-open #content {
+		margin-left: 5px !important;
+		margin-right: 5px !important;
+		/** font-size: 120% !important;**/
+
+		}
+
+		.column2-open #content {
+		margin-left: 5px !important;
+		/** font-size: 120% !important;**/
+
+		}
+
+		.column1-open #column1
+		{
+		margin-left: 5px !important;
+		font-size: 120% !important;
+		display: none !important;
+		}
+
+
+		.column2-open #column2
+		{
+		margin-left: 5px !important;
+		font-size: 120% !important;
+		display: none !important;
+		}
+			
+
+		.column2-open .extra1
+		{
+		display: none !important;
+		}
+
+		.column1-open .extra1
+		{
+display: none !important;
+		}
+
+/**
+    #header, .landing #header {
+    position: relative !important;
+    margin: 0 auto !important;
+    padding: 10px 0px 5px 20px !important;
+    min-height: 74px !important;
+    background: #fff url(../../layout2/bg_header.png) 0 bottom repeat-x !important;
+	border-bottom: 2px solid #E7E7E7 !important;
+
+	}
+**/
+
+}
+
+
+@media (max-width: 830px) {
+
+.searching {
+		   
+			display: none !important;
+		   
+		}
+
+
+.component, .auto-complete, .textbox, .ui-autocomplete-input, .ltr-text
+
+
+
+	* {
+	max-width: 90% !important;
+	min-width:20% !important;
+	width: auto !important;
+
+}
+
+#header, .landing #header
+
+{
+	 padding: 10px 20px 5px 20px !important;
+
+}
+
+
+
+
+
+
+
+
+		.customerLogo
+		{
+		display:none;
+		}
+
+.clear-button{
+	display: none !important;
+
+}
+
+ .find-field-inputs .dd+.textbox, .dd+.textbox, .dd+.text-container .textbox
+
+ {
+
+
+ }
+
+
+
+		
+		
+}	
+
+@media (max-width: 620px) 
+{
+	a#helpLink
+		{
+		display: none !important;
+		}
+
+		#findFieldLinks
+		{
+		display: none !important;
+		}
+
+		#header {
+		position: relative !important;
+		margin: 0 auto !important;
+		padding: 10px 0px 10px 20px !important;
+		min-height: auto !important;
+		background: #fff url(../../layout2/bg_header.png) 0 bottom repeat-x !important;
+		border-bottom: 2px solid #E7E7E7 !important;
+		z-index: 20000 !important;
+		}
+
+
+		#toolbarControl {
+		
+		
+		height: 50px !important;
+		width: 100% !important;
+		display: inline-block !important;
+	
+		}
+
+		.toolbar-navigation {	
+    	display: none !important;
+		}
+
+		.toolbar-tools .link {
+		font-size: 16px !important;
+		font-weight: normal !important;
+		}
+
+		.toolbar-tools {
+		padding-top: 10px !important;
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+		float: left !important;
+
+		}
+
+		#toolbarFolder .link {
+		position: relative !important;
+		padding-left: 27px !important;
+		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon-close-gray-bg.png) !important;
+		background-repeat: no-repeat !important;
+		background-position: 0px 0px !important;
+    	background-size: auto 20px !important;
+
+
+
+		}
+/**	
+		fieldset.find-field-controls
+		{
+		width: 70%;
+		}
+
+        ul#findFieldLinks		
+
+		{
+		display: none !important;
+		}
+		h2.searching
+
+		{
+		display: none !important;
+		}
+
+
+		.find-field-controls {
+		position: relative;
+		display: block;
+		padding: 0px 0 0 0px !important;
+}
+
+**/
+		.logo-img {
+			display: none !important;
+	
+		}
+
+		.find-field-controls {
+
+		padding: 0px 0px 0px 0px !important;
+		}
+	
+ /** 
+#header, .landing #header {
+  position: relative !important;
+    margin: 0 auto !important;
+    padding: 14px 0px 5px 20px !important;
+	min-height: 45px !important;
+	max-height: auto !important;
+    background: #fff url(../../layout2/bg_header.png) 0 bottom repeat-x !important;
+	border-bottom: 2px solid #E7E7E7 !important;
+
+
+	}**/
+
+
+/**
+
+		input[type=text].textbox
+		{
+		width: auto !important;
+		width: 100% !important;
+		max-width: 600px !important; 
+		min-width: 75px !important;
+		margin: 2px 0px 0px 0px !important;
+		padding: 0px 12px 0px 12px !important;
+		height: 35px !important;
+		font-size: 16px !important;
+		line-height: 1 !important;
+		background-color: #FFF !important;
+		border: 1px solid #ccc !important;
+		border-radius: 3px !important;
+
+
+
+
+		}
+
+			.find-field-submit {
+			padding-left: 30px !important;}
+
+
+		.clear-button, .clear-button:link {
+			position: relative !important;
+			float: right !important;
+			right: -16px !important;
+			left: auto !important;
+			top: -25px !important;
+			border: none !important;
+			width: 14px !important;
+			height: 14px !important;
+			background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon-close-gray-bg.png) !important;
+			background-position: 50% 50% !important;
+			background-size: cover !important;
+			background-repeat: no-repeat !important;
+		}
+		**/
+/**
+
+		.color-s3, .styled-button-c3
+		{
+			height: 37px !important;
+			font-size: 16px !important;
+			padding: 0px 12px 0px 12px !important;
+			font-weight: normal !important;
+		}
+
+		body
+		{
+	
+		font-size:150% !important;
+		min-width: 300px !important;
+		}
+**/
+		.record-index {
+		display: none;
+		
+		}
+
+		.preview-hover {
+		display: none !important;
+	
+		}
+
+		.content-header .page-title {
+		display: none;
+		}
+		#optionsControls {
+			position: relative;
+			z-index: 2;
+			float: left !important;
+		}
+		.results .content-header {
+			margin-left: -15px !important;
+		}
+		
+		.record-icon {
+		position: relative !important;
+		float: right !important;
+		width: 80px !important;
+		margin-right: 5px !important;
+		text-align: center !important;
+		margin-left: 10px !important;
+		margin-bottom: 25px !important;
+		}
+		
+		.has-icons .display-info {
+
+		padding: 0 !important;
+}
+
+        .add-to-folder{
+			position:relative !important;
+			margin: 0px 0px 5px 0px !important;
+			padding: 0px 0px 5px 0px !important;
+
+		}
+
+		.title-link {
+		display: block;
+		padding: 0 0px 20px 0 !important;
+		font-size: 1.5em !important;
+		line-height: 1.4 !important;
+		}
+/**
+		.find-field-inputs {
+		margin-left: 15px;
+		}
+**/
+		.record-additional {
+		margin-top: 7px !important;
+		margin-bottom: 7px!important;
+	}
+
+	.record-formats-wrapper .mr-ft
+
+	{
+	margin-top: 7px !important;
+	margin-bottom: 7px !important;
+
+	}
+
+	#sortOptionsWrapper {
+   
+	right: auto !important;
+	top: auto !important;
+	width: 300px !important;
+	margin-top: 0px !important;
+	}
+
+	#pageOptionsWrapper {
+   
+	right: -125% !important;
+	top: auto !important;
+	width: 275px !important;
+	margin-top: 0px !important;
+	}
+
+	#alertSaveShareWrapper {
+    right: 0 !important;
+	left: auto !important;
+	top: auto !important;
+	width: 300px !important;
+	margin-top: 0px !important;
+	}
+
+	.button.icon-btn {
+		padding: 5px 20px 6px 10px !important;
+		font-size: 1em !important;
+		font-weight: normal !important;
+		border-color:#999 !important;
+		background: #fff !important;
+		border-color:#999 !important;
+		background: #fff !important;
+	}
+
+	.button:hover
+	{
+	background: #ccc !important;
+
+	}
+	.button:focus
+	{
+	background: #666 !important;
+
+	}
+
+	.icon-btn.dd-menu .arrow {
+		top: 6px !important;
+	}
+
+	
+
+	.result-list-li {
+    padding: 25px 5px 20px 5px !important;
+    color: #222 !important;
+    border-bottom: solid 1px #eee !important;
+	}
+
+	 #content .abstract, #content .subjectResults
+
+	 {
+		 padding-top: 15px !important;
+	 }
+
+	 .content-footer {
+    position: relative;
+    margin-top: 30px !important;
+    padding-top: 10px !important;
+	border-top: solid 1px #fff !important;
+	font-size: 125% !important;
+}
+#citationFields .citation-image-box {
+			float: none !important;
+			
+
+		}
+
+
+		#apvideo .rhi-carousel-head-label
+
+		{
+			display: block !important;
+
+		}
+
+		#apvideo ul{
+
+			clear: both !important;
+		}
+}
