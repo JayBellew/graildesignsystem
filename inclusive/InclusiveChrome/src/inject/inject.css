@@ -92,7 +92,14 @@ width: auto !important;
 **/
 
 
+#citationFields>dt, .short-citation dt, .cd-content dt 
+{
+    
 
+    text-align: left !important;
+
+
+}
 
 
 
@@ -279,6 +286,15 @@ width: auto !important;
 
 }
 
+
+.full-text-content .rif_container
+
+{
+
+float:none !important;
+
+}
+
 		.multi-column4 {
 		width: 50% !important;}
 
@@ -409,10 +425,34 @@ input#CreateAlertButton.button.styled-button-c3.rs_preserve
 }
 
 
+.guided-find-fields li
+
+{
+	display:none !important;
+}
+
+.guided-find-fields li:first-child {
+    display: block !important;
+}
+
+.guided-add-row {
+	display:none !important;}
+	
+	a#helpLink
+		{
+		display: none !important;
+		}
+input#ClearButton.button.styled-button-c3.rs_preserve
+	{
+		display: none !important;
+		}
 
 
 
-
+	#header{
+   			 padding-right: 0px !important;
+			}
+		
 
 
 
@@ -426,6 +466,17 @@ input#CreateAlertButton.button.styled-button-c3.rs_preserve
 
 
 @media (max-width: 830px) {
+
+
+	.logo-img {
+			display: none !important;
+	
+		}
+
+
+
+
+
 
 .searching {
 		   
@@ -452,13 +503,14 @@ input#CreateAlertButton.button.styled-button-c3.rs_preserve
 
 }
 
+/**
 #header, .landing #header
 
 {
 	 padding: 10px 20px 5px 20px !important;
 
 }
-
+**/
 
 
 
@@ -472,25 +524,16 @@ input#CreateAlertButton.button.styled-button-c3.rs_preserve
 
 }
 
- .find-field-inputs .dd+.textbox, .dd+.textbox, .dd+.text-container .textbox
-
- {
-
-
- }
 
 
 
-		
+
 		
 }	
 
 @media (max-width: 620px) 
 {
-	a#helpLink
-		{
-		display: none !important;
-		}
+	
 
 		#findFieldLinks
 		{
@@ -640,10 +683,7 @@ span#showLessChooseDatabases.showLessChooseDatabases
 }
 
 **/
-		.logo-img {
-			display: none !important;
 	
-		}
 
 		.basic .branding-Beside .logo-img, .basic .branding-Beside .logo {
 		display: table-cell;
@@ -864,4 +904,14 @@ span#showLessChooseDatabases.showLessChooseDatabases
 
 			clear: both !important;
 		}
+
+
+		.textbox+.dd .dd-active {
+			width: 10px !important}
+			
+			
+		
+	
+}
+		
 }
