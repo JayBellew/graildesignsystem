@@ -40,13 +40,194 @@ div#apvideo.rhi-loaded
 
 {
 width: auto !important;
+min-width: auto !important;
+
+}
+
+#footerControl {
+    position: relative !important;
+	
+	/**
+	this is the style that was cause all the layouts to scroll left and right
+
+	min-width: 960px;
+
+	**/
+	min-width: auto !important;
+    margin: 0 auto !important;
+    min-height: 120px !important;
+    font-size: .92em !important;
+    line-height: 1.25em !important;
+    background: none !important;
+    clear: both !important;
+}
+
+
+
+
+@media (max-width: 1200px) {
+
+
+
+		#header {
+
+		border-bottom: 2px solid #E7E7E7 !important;
+
+		}
+
+
+		.column2-open #column2
+		{
+		margin-left: 5px !important;
+		font-size: 120% !important;
+		display: none !important;
+		}
+	/**
+	this is the div that just has the left and right col borders
+	**/
+		.column2-open .extra1
+		{
+		display: none !important;
+		}
+
+
+		.column2-open #content {
+			margin-right: auto !important;
+		}
+
+
+
+
+
+	.result-list-li {
+    padding-bottom: 20px !important;
+	border-bottom: none !important;
+	border-top: none !important;
+	}
+
+
+		.record-icon {
+
+		margin-top: 5px !important;
+		}
+
+
+	.title-link
+
+		{
+		padding-bottom: 15px !important;
+
+		}
+
+
+		.clear-button, .clear-button:link {
+		
+		border: none !important;
 
 }
 
 
 
 
-@media (max-width: 996px) {
+/**
+		.toolbar-navigation {	
+    	display: none !important;
+		}
+**/
+
+/**
+		.toolbar-tools {
+		padding-top: 10px !important;
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+		float: left !important;
+
+		}**/
+
+
+		#toolbarFolder .link {
+		position: relative !important;
+		padding-left: 18px !important;
+		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_folder.png) !important;
+		background-repeat: no-repeat !important;
+		background-position: 0px 0px !important;
+    	background-size: auto 12px !important;
+		}
+
+
+	#toolbarFolder .folder-control {
+		position: relative !important;
+		padding-left: 18px !important;
+		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_help_white.png) !important;
+		background-repeat: no-repeat !important;
+		background-position: 0px 0px !important;
+    	background-size: auto 12px !important;
+		}
+
+
+
+		a#lnkHelp.link.color-s1
+		{
+
+		position: relative !important;
+		padding-left: 18px !important;
+		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_help_white.png) !important;
+		background-repeat: no-repeat !important;
+		background-position: 0px 0px !important;
+    	background-size: auto 12px !important;
+		}
+
+		a#lnkSignIn.link.color-s1
+		{
+
+		position: relative !important;
+		padding-left: 18px !important;
+		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_sign_in_white.png) !important;
+		background-repeat: no-repeat !important;
+		background-position: 0px 0px !important;
+    	background-size: auto 12px !important;
+		}
+		
+
+		a#prefs.link.color-s1
+		{
+
+		position: relative !important;
+		padding-left: 18px !important;
+		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_settings_white.png) !important;
+		background-repeat: no-repeat !important;
+		background-position: 0px 0px !important;
+    	background-size: auto 12px !important;
+		}
+		
+
+	.button.icon-btn {
+		padding: 5px 20px 6px 10px !important;
+		font-size: 1em !important;
+		font-weight: normal !important;
+		border-color:#999 !important;
+		background: #fff !important;
+
+	}
+
+	.button:hover
+	{
+	background: #ccc !important;
+
+	}
+	.button:focus
+	{
+	background: #666 !important;
+
+	}
+
+	.icon-btn.dd-menu .arrow {
+		top: 6px !important;
+	}
+
+
+
+@media (max-width: 1024px) {
 
 
 		body
@@ -61,6 +242,11 @@ width: auto !important;
 			border-top: none !important;
 
 
+		}
+
+		.customerLogo
+		{
+		display:none !important;
 		}
 
 		.record-index {
@@ -98,8 +284,11 @@ width: auto !important;
 		border-bottom: 0px !important;
 
 		}
+
+		.content-header {
+   		 border-bottom: none !important;
 		
-		
+		}
 
 		div#content
 
@@ -167,6 +356,23 @@ display: none !important;
 	}
 **/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -203,10 +409,7 @@ display: none !important;
 
 
 
-		.customerLogo
-		{
-		display:none;
-		}
+	
 
 .clear-button{
 	display: none !important;
@@ -527,30 +730,7 @@ display: none !important;
 	margin-top: 0px !important;
 	}
 
-	.button.icon-btn {
-		padding: 5px 20px 6px 10px !important;
-		font-size: 1em !important;
-		font-weight: normal !important;
-		border-color:#999 !important;
-		background: #fff !important;
-		border-color:#999 !important;
-		background: #fff !important;
-	}
 
-	.button:hover
-	{
-	background: #ccc !important;
-
-	}
-	.button:focus
-	{
-	background: #666 !important;
-
-	}
-
-	.icon-btn.dd-menu .arrow {
-		top: 6px !important;
-	}
 
 	
 
