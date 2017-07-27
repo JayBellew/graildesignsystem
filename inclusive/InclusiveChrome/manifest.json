@@ -1,8 +1,8 @@
 {
-  "name": "EBSCO UX Lab",
+  "name": "EBSCO UX Labs",
   "version": "1.1",
   "manifest_version": 2,
-  "description": "EBSCO UX Lab",
+  "description": "Inclusive Design Experiments",
   "homepage_url": "http://graildesignsystem.com",
   "icons": {
     "16": "icons/icon16.png",
@@ -28,12 +28,10 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.google.com/*",
         "https://ebsco.com/*",
         "http://web.b.ebscohost.com/*",
         "http://web.a.ebscohost.com/*",
          "http://eds.a.ebscohost.com/*",
-         "https://google.com/*",
         "http://eds.b.ebscohost.com/*",
         "<all_urls>"],
 

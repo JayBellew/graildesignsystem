@@ -36,6 +36,296 @@
 } 
 
 
+	body
+		{
+		/** font-family:opendyslexic !important;  **/
+		font-size: 135% !important;
+		line-height: 1.5 !important;
+		min-width: auto !important;
+		}
+
+.content-header .page-title
+
+{
+	font-weight: normal !important;
+}
+
+/** Default System Button Styingint like search options **/
+
+button#ResetButton.rs_preserve
+{
+	height: 40px;
+	background:#eee;
+	border: 1px solid #ccc !important;
+	border-radius: 3px !important;
+	font-size: 1.167em !important;
+	color: #424242 !important;
+	font-weight: bold !important;
+	padding: 5px 20px 5px 20px !important;
+}
+
+input#ctl00_ctl00_MainContentArea_MainContentArea_ctrlLimiters_btnSearch.rs_preserve
+
+{
+	height: 40px;
+	background:#f9ce5a;
+	border: 1px solid #f9ce5a !important;
+	border-radius: 3px !important;
+	font-size: 1.167em !important;
+	color: #424242 !important;
+	font-weight: bold !important;
+	padding: 5px 20px 5px 20px !important;
+}
+
+
+
+
+
+/**  Sign In Page **/
+
+.pers-login-wrapper .two-column .sign-in-message {
+    width: 33% !important;
+	min-width: 300px !important;
+
+}
+
+.sign-in-message {
+    padding: 25px !important;
+    
+}
+
+
+
+
+/** search box **/
+
+input[type=text].textbox {
+    
+	padding: 6px 6px 6px 15px !important;
+	margin: 2px 4px 2px 0px !important;
+    font-size: 1.4em !important;
+    background-color: #f2f2f2 !important;
+    border: 1px solid #a3a3a3 !important;
+    height: 28px !important;
+}
+
+/**
+.dd {
+    position: relative;
+    display: inline-table;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-right: 5px;
+    vertical-align: top;
+    border-collapse: separate;
+    box-sizing: border-box;
+
+}
+
+**/
+
+
+.dd .dd-active {
+    
+    margin: 2px 0px 2px 0px !important;
+    padding: 0 18px 0 6px !important;
+    height: 42px !important;
+    background: #fff !important;
+    border: 1px solid #a3a3a3 !important;
+    border-radius: 3px !important;
+
+}
+
+.dd .dd-active.open ~ .dd-list, .dd .transport {
+
+	top: 21px !important;
+}
+
+.dd .dd-list {
+
+	top: auto !important;
+
+}
+
+
+
+.find-field-inputs .dd+.textbox, .dd+.textbox, .dd+.text-container .textbox {
+
+    border-top-left-radius: auto !important;
+	border-bottom-left-radius: auto !important;
+}
+
+
+
+.find-field-inputs .dd+.textbox, .dd+.textbox, .dd+.text-container .textbox
+{
+margin-left: 0px !important;
+
+}
+
+
+		.clear-button, .clear-button:link {
+		
+		display: none !important;
+
+}
+
+
+.button, .button:link {
+    padding: 5px 20px !important;
+    height: 42px !important;
+
+}
+
+.color-s3, .styled-button-c3 {
+
+	font-size: 1.5em !important;
+	font-weight: normal !important;
+}
+
+
+input#ClearButton.button.styled-button-c3.rs_preserve
+
+
+{
+
+display: none !important;
+
+}
+
+
+
+ a#expandCollapseTrigger2.button.icon-btn.collapse-toggle.dd-menu
+ .button, .button:link
+ {
+height: auto !important;
+
+
+ }
+
+
+
+
+
+
+	
+	a#helpLink
+		{
+		display: none !important;
+		}
+
+.landing.basic .find-field-outer
+
+{
+	margin: 0 auto 20px !important;
+}
+
+.basic .branding-Beside .logo-img, .basic .branding-Beside .logo {
+    display: table !important;
+    max-width: 170px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;}
+
+
+/**  this is for the classic ic interface landing pages **/
+
+.two-column .module-col {
+	width: 45% !important;
+}
+
+/** top nav **/
+
+	#toolbarControl {
+		
+		
+		height: 50px !important;
+		width: 100% !important;
+		display: inline-block !important;
+		border-bottom: none !important;
+		
+		}
+
+.toolbar-navigation {
+
+    margin-left: 10px !important;
+}
+
+
+
+	.toolbar-navigation .link {
+    font-size: 16px !important;
+    font-weight: normal !important;
+}
+
+#toolbarControl .nav-item {
+    padding: 1.4em 1px 1.3em !important;
+    line-height: 1.0 !important;
+}
+
+.nav-item .link {
+	padding: 0 10px !important;
+	font-size: 14px !important;
+}
+
+.toolbar-tools {
+    margin-right: 10px !important;
+}
+
+#toolbarControl .presentation {
+
+    height: 50px !important;
+}
+
+.submenu {
+
+    margin-top: 17px !important;
+}
+
+/** detail page  **/
+
+
+.vis-hidden {
+	font-size: 0 !important;
+	
+}
+
+.format-control {
+    padding-top: 0px !important;
+}
+
+		#citationFields>dt
+
+		{
+			text-align: left !important;
+		}
+
+		#citationFields .citation-title {
+		width: 100% !important;
+		margin: 0 0 20px !important;
+		padding: 0 0 5px !important;
+		font-size: 1.9em !important;
+		line-height: 1.25 !important;
+		min-height: 0 !important;
+		font-family: Helvetica, Arial, sans-serif !important;
+		border-bottom: 0px !important;
+
+		}
+
+
+		.content-header {
+   		 border-bottom: none !important;
+		
+		}
+
+		.content-footer {
+
+			border-top: none !important;
+		}
+
+.format-item, .custom-link-item {
+
+    border-bottom: none !important;
+}
 
 div#apvideo.rhi-loaded
 
@@ -45,17 +335,106 @@ min-width: auto !important;
 
 }
 
-.branding-container
+
+
+
+/** Results **/
+
+
+#content {
+
+    padding: 10px 40px 10px 40px !important;
+}
+
+.result-list-li {
+
+    padding-top: 30px !important;
+  
+}
+
+.refine-heading
 
 {
-display: none: !important;
 
+	display: none !important;
 }
- 
+.results-count
+{
+	display: none !important;
+}
+
+#breadboxTrigger .icon
+{
+	display: none !important;
+}
+
+#breadboxContent {
+
+    background-color: #f5f5f5 !important;
+	border: solid 1px #f5f5f5 !important;
+	border-radius: 3px !important;
+}
+
+		.record-index {
+		display: none;
+		
+		}
+
+
+#column1 .rl-lim-heading {
+  
+
+    color: #000 !important;
+    font-size: 1.167em !important;
+    font-weight: normal !important;
+    border-top: solid 2px #f2f2f0 !important;
+}
+
+div.toggle-box.module
+{
+	width: 100% !important;
+}
+
+
 
 .module {
 	margin-right: 20px !important;
 }
+
+
+.folderItems-header {
+
+    color: #000 !important;
+	background-color: #fff !important;
+	border: solid 1px #fff !important;
+	border-radius: 3px !important;
+    font-size: 1.167em !important;
+	font-weight: normal !important;
+	padding: 0 !important;
+
+
+}
+
+.folderItems-content {
+    border-left: none !important;
+    border-right: none !important;
+
+}
+
+.gotoFolder {
+    border: none !important;
+}
+
+
+.related-info-area .collapse-toggle, #integratedSearchPanel.collapse-toggle {
+    color: #000 !important;
+    font-size: 1.167em !important;
+    font-weight: normal !important;
+	border-top: solid 2px #f2f2f0 !important;
+	padding: 10px 0 0 0 !important;
+}
+
+
 
 
 
@@ -77,19 +456,6 @@ display: none: !important;
     clear: both !important;
 }
 
-/**
-@media screen and (-webkit-min-device-pixel-ratio: 0)
-{
-input#Searchbox1.component.auto-complete.textbox.ui-autocomplete-input
- {
-	width: auto !important;
-	min-width: 20%;
-	max-width: 30%;
-	display: inline;
-	overflow: hidden;
-
-}
-**/
 
 .basic #limiterExpanderControl {
    
@@ -173,6 +539,20 @@ div.module-header.bg-p1
 	border-top: none !important;
 }
 
+
+.module-content .image {
+
+    border: none !important;
+
+}
+
+
+.carousel-container .image {
+    height: 180px !important;
+    max-width: 136px !important;
+    border: none !important;
+
+}
 
 
 
@@ -336,48 +716,33 @@ h2.module-heading.color-s1
 		}
 
 
-		.clear-button, .clear-button:link {
-		
-		border: none !important;
-
-}
 
 
 
 
-/**
-		.toolbar-navigation {	
-    	display: none !important;
-		}
-**/
 
-/**
-		.toolbar-tools {
-		padding-top: 10px !important;
-		padding-left: 10px !important;
-		padding-right: 10px !important;
-		float: left !important;
 
-		}**/
 
 
 		#toolbarFolder .link {
 		position: relative !important;
-		padding-left: 18px !important;
+		padding-left: 20px !important;
 		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_folder.png) !important;
 		background-repeat: no-repeat !important;
 		background-position: 0px 0px !important;
-    	background-size: auto 12px !important;
+		background-size: auto 14px !important;
+		margin-left: 8px !important;
 		}
 
 
 	#toolbarFolder .folder-control {
 		position: relative !important;
-		padding-left: 18px !important;
+		padding-left: 20px !important;
 		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_folder_on.png) !important;
 		background-repeat: no-repeat !important;
 		background-position: 0px 0px !important;
-    	background-size: auto 12px !important;
+		background-size: auto 14px !important;
+		margin-left: 8px !important;
 		}
 
 
@@ -386,22 +751,24 @@ h2.module-heading.color-s1
 		{
 
 		position: relative !important;
-		padding-left: 18px !important;
+		padding-left: 20px !important;
 		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_help_white.png) !important;
 		background-repeat: no-repeat !important;
 		background-position: 0px 0px !important;
-    	background-size: auto 12px !important;
+		background-size: auto 14px !important;
+		margin-left: 8px !important;
 		}
 
 		a#lnkSignIn.link.color-s1
 		{
 
 		position: relative !important;
-		padding-left: 18px !important;
+		padding-left: 20px !important;
 		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_sign_in_white.png) !important;
 		background-repeat: no-repeat !important;
 		background-position: 0px 0px !important;
-    	background-size: auto 12px !important;
+		background-size: auto 14px !important;
+		margin-left: 8px !important;
 		}
 		
 
@@ -409,11 +776,12 @@ h2.module-heading.color-s1
 		{
 
 		position: relative !important;
-		padding-left: 18px !important;
+		padding-left: 20px !important;
 		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_settings_white.png) !important;
 		background-repeat: no-repeat !important;
 		background-position: 0px 0px !important;
-    	background-size: auto 12px !important;
+		background-size: auto 14px !important;
+		margin-left: 8px !important;
 		}
 		
 
@@ -469,18 +837,27 @@ h2.module-heading.color-s1
 
 
 @media (max-width: 1024px) {
+.dd {
 
-
-		body
-		{
-		/** font-family:opendyslexic !important;  **/
-		/** font-size:150%; **/
-		min-width: auto !important;
-		}
+    display: none !important;
+  
+}
 
 	
 
-		
+	.branding-container
+
+{
+display: none !important;
+
+}
+
+		.toolbar-navigation
+
+{
+
+	display: none !important;
+}
 
 		
 
@@ -529,10 +906,7 @@ float:none !important;
 		display:none !important;
 		}
 
-		.record-index {
-		display: none;
-		
-		}
+
 
 		.title-link
 
@@ -545,29 +919,6 @@ float:none !important;
 		margin-left: -90px !important;
 		padding-right: 5px !important;
 		margin-top: 2px !important;
-		}
-
-		#citationFields>dt
-
-		{
-			text-align: left !important;
-		}
-
-		#citationFields .citation-title {
-		width: 100% !important;
-		margin: 0 0 20px !important;
-		padding: 0 0 5px !important;
-		font-size: 1.9em !important;
-		line-height: 1.25 !important;
-		min-height: 0 !important;
-		font-family: Helvetica, Arial, sans-serif !important;
-		border-bottom: 0px !important;
-
-		}
-
-		.content-header {
-   		 border-bottom: none !important;
-		
 		}
 
 		div#content
@@ -624,17 +975,7 @@ float:none !important;
 display: none !important;
 		}
 
-/**
-    #header, .landing #header {
-    position: relative !important;
-    margin: 0 auto !important;
-    padding: 10px 0px 5px 20px !important;
-    min-height: 74px !important;
-    background: #fff url(../../layout2/bg_header.png) 0 bottom repeat-x !important;
-	border-bottom: 2px solid #E7E7E7 !important;
 
-	}
-**/
 
 
 input#CreateAlertButton.button.styled-button-c3.rs_preserve
@@ -656,11 +997,7 @@ input#CreateAlertButton.button.styled-button-c3.rs_preserve
 
 .guided-add-row {
 	display:none !important;}
-	
-	a#helpLink
-		{
-		display: none !important;
-		}
+
 input#ClearButton.button.styled-button-c3.rs_preserve
 	{
 		display: none !important;
@@ -674,7 +1011,9 @@ input#ClearButton.button.styled-button-c3.rs_preserve
 		
 
 
-
+.toolbar-tools {
+    margin-left: 10px;
+}
 
 
 
@@ -686,14 +1025,15 @@ input#ClearButton.button.styled-button-c3.rs_preserve
 
 @media (max-width: 830px) {
 
+
+
 /**
-	.logo-img {
-			display: none !important;
-	
+.find-field-controls {
+
+		padding: 0px 0px 0px 0px !important;
 		}
+	
 **/
-
-
 
 
 
@@ -722,14 +1062,6 @@ input#ClearButton.button.styled-button-c3.rs_preserve
 
 }
 
-/**
-#header, .landing #header
-
-{
-	 padding: 10px 20px 5px 20px !important;
-
-}
-**/
 
 
 
@@ -752,6 +1084,22 @@ input#ClearButton.button.styled-button-c3.rs_preserve
 
 @media (max-width: 620px) 
 {
+	
+	
+	
+	
+	
+.find-field-controls {
+
+    padding: 5px 0 0 10px !important;
+}
+	
+	
+	
+	
+	
+	
+	
 	.branding-Beside .logo {
     
 	display: none !important;
@@ -791,84 +1139,12 @@ span#showLessChooseDatabases.showLessChooseDatabases
 		}
 
 
-		#toolbarControl {
-		
-		
-		height: 50px !important;
-		width: 100% !important;
-		display: inline-block !important;
+
+
 	
-		}
 
-		.toolbar-navigation {	
-    	display: none !important;
-		}
 
-		.toolbar-tools .link {
-		font-size: 15px !important;
-		font-weight: normal !important;
-		margin-left: 4px !important;
-		}
 
-		.toolbar-tools {
-		padding-top: 10px !important;
-		padding-left: 10px !important;
-		padding-right: 10px !important;
-		float: left !important;
-
-		}
-
-		#toolbarFolder .link {
-		position: relative !important;
-		padding-left: 24px !important;
-		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_folder.png) !important;
-		background-repeat: no-repeat !important;
-		background-position: 0px 0px !important;
-    	background-size: auto 16px !important;
-		}
-
-		#toolbarFolder .folder-control {
-		position: relative !important;
-		padding-left: 24px !important;
-		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_folder_on.png) !important;
-		background-repeat: no-repeat !important;
-		background-position: 0px 0px !important;
-    	background-size: auto 16px !important;
-		}
-
-		a#lnkHelp.link.color-s1
-		{
-
-		position: relative !important;
-		padding-left: 24px !important;
-		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_help_white.png) !important;
-		background-repeat: no-repeat !important;
-		background-position: 0px 0px !important;
-    	background-size: auto 16px !important;
-		}
-
-		a#lnkSignIn.link.color-s1
-		{
-
-		position: relative !important;
-		padding-left: 24px !important;
-		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_sign_in_white.png) !important;
-		background-repeat: no-repeat !important;
-		background-position: 0px 0px !important;
-    	background-size: auto 16px !important;
-		}
-		
-
-		a#prefs.link.color-s1
-		{
-
-		position: relative !important;
-		padding-left: 24px !important;
-		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_settings_white.png) !important;
-		background-repeat: no-repeat !important;
-		background-position: 0px 0px !important;
-    	background-size: auto 16px !important;
-		}
 		
 	li#itemLanguages.nav-item.submenu-trigger
 		{
@@ -882,31 +1158,7 @@ span#showLessChooseDatabases.showLessChooseDatabases
 
 
 
-/**	
-		fieldset.find-field-controls
-		{
-		width: 70%;
-		}
 
-        ul#findFieldLinks		
-
-		{
-		display: none !important;
-		}
-		h2.searching
-
-		{
-		display: none !important;
-		}
-
-
-		.find-field-controls {
-		position: relative;
-		display: block;
-		padding: 0px 0 0 0px !important;
-}
-
-**/
 	
 
 		.basic .branding-Beside .logo-img, .basic .branding-Beside .logo {
@@ -921,83 +1173,7 @@ span#showLessChooseDatabases.showLessChooseDatabases
 
 		
 
-		.find-field-controls {
 
-		padding: 0px 0px 0px 0px !important;
-		}
-	
- /** 
-#header, .landing #header {
-  position: relative !important;
-    margin: 0 auto !important;
-    padding: 14px 0px 5px 20px !important;
-	min-height: 45px !important;
-	max-height: auto !important;
-    background: #fff url(../../layout2/bg_header.png) 0 bottom repeat-x !important;
-	border-bottom: 2px solid #E7E7E7 !important;
-
-
-	}**/
-
-
-/**
-
-		input[type=text].textbox
-		{
-		width: auto !important;
-		width: 100% !important;
-		max-width: 600px !important; 
-		min-width: 75px !important;
-		margin: 2px 0px 0px 0px !important;
-		padding: 0px 12px 0px 12px !important;
-		height: 35px !important;
-		font-size: 16px !important;
-		line-height: 1 !important;
-		background-color: #FFF !important;
-		border: 1px solid #ccc !important;
-		border-radius: 3px !important;
-
-
-
-
-		}
-
-			.find-field-submit {
-			padding-left: 30px !important;}
-
-
-		.clear-button, .clear-button:link {
-			position: relative !important;
-			float: right !important;
-			right: -16px !important;
-			left: auto !important;
-			top: -25px !important;
-			border: none !important;
-			width: 14px !important;
-			height: 14px !important;
-			background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon-close-gray-bg.png) !important;
-			background-position: 50% 50% !important;
-			background-size: cover !important;
-			background-repeat: no-repeat !important;
-		}
-		**/
-/**
-
-		.color-s3, .styled-button-c3
-		{
-			height: 37px !important;
-			font-size: 16px !important;
-			padding: 0px 12px 0px 12px !important;
-			font-weight: normal !important;
-		}
-
-		body
-		{
-	
-		font-size:150% !important;
-		min-width: 300px !important;
-		}
-**/
 		
 
 		.preview-hover {
@@ -1009,10 +1185,17 @@ span#showLessChooseDatabases.showLessChooseDatabases
 		display: none;
 		}
 		#optionsControls {
-			position: relative;
-			z-index: 2;
+		
 			float: left !important;
 		}
+
+
+.options-controls-li {
+
+	margin-left: 15px !important;
+	margin-bottom: 10px !important;
+}
+
 		.results .content-header {
 			margin-left: -15px !important;
 		}
