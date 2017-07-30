@@ -44,6 +44,9 @@
 		min-width: auto !important;
 		}
 
+
+
+
 .content-header .page-title
 
 {
@@ -52,9 +55,9 @@
 
 /** Default System Button Styingint like search options **/
 
-button#ResetButton.rs_preserve
+button#ResetButton
 {
-	height: 40px;
+	height: 42px;
 	background:#eee;
 	border: 1px solid #ccc !important;
 	border-radius: 3px !important;
@@ -64,11 +67,16 @@ button#ResetButton.rs_preserve
 	padding: 5px 20px 5px 20px !important;
 }
 
-input#ctl00_ctl00_MainContentArea_MainContentArea_ctrlLimiters_btnSearch.rs_preserve
+
+
+input#ctrlLimiters_SubmitButtonTop, input#ctrlLimiters_btnSearch, input#ctl00_ctl00_MainContentArea_MainContentArea_ctrlLimiters_btnSearch.rs_preserve
+
+
+
 
 {
-	height: 40px;
-	background:#f9ce5a;
+	background:#f9ce5a!important;
+	height: 42px!important;
 	border: 1px solid #f9ce5a !important;
 	border-radius: 3px !important;
 	font-size: 1.167em !important;
@@ -77,15 +85,58 @@ input#ctl00_ctl00_MainContentArea_MainContentArea_ctrlLimiters_btnSearch.rs_pres
 	padding: 5px 20px 5px 20px !important;
 }
 
+/** Folder **/
+
+.folder-items-nav-top {
+  
+	display: none !important;}
+	
+
+.folder-counts {
+  
+	display: none !important;}
+	
+.folder-items-move-copy {
+   
+    border-bottom: none !important;
+    background: #efefef !important;
+}
+
+.rtac-table {
+
+    background: #fff !important;
+}
 
 
+
+	.folder-list-header  {
+		width: 100% !important;
+		margin: 0 0 20px !important;
+		padding: 0 0 5px !important;
+		font-size: 1.4em !important;
+		line-height: 1.25 !important;
+		font-weight: normal !important;
+		min-height: 0 !important;
+		font-family: Helvetica, Arial, sans-serif !important;
+		border: 0px !important;
+		background: none !important;
+
+		
+
+		}
+.folder-list-item, .folder-list-item-selected {
+
+    padding: 20px 0 30px !important;
+
+	border-top: none !important;
+}
 
 
 /**  Sign In Page **/
 
 .pers-login-wrapper .two-column .sign-in-message {
     width: 33% !important;
-	min-width: 300px !important;
+	min-width: 250px !important;
 
 }
 
@@ -94,8 +145,21 @@ input#ctl00_ctl00_MainContentArea_MainContentArea_ctrlLimiters_btnSearch.rs_pres
     
 }
 
+input#ctl00_ctl00_FindField_FindField_BubbleTop_logo_logoLink.logo-image
 
+{
+	display: none !important;
+}
 
+.sign-in-message .checklist li {
+    width: auto !important;
+
+}
+
+.login-inputs .button {
+    vertical-align: top !important;
+    margin: 10px 10px 0px 0px !important;
+}
 
 /** search box **/
 
@@ -148,6 +212,11 @@ input[type=text].textbox {
 }
 
 
+.ltr-text
+
+{
+	color:#222 !important;
+}
 
 .find-field-inputs .dd+.textbox, .dd+.textbox, .dd+.text-container .textbox {
 
@@ -281,6 +350,19 @@ height: auto !important;
     margin-top: 17px !important;
 }
 
+
+.subnav-item>.submenu {
+
+    margin-top: 0px !important;
+}
+
+
+.submenu {
+
+    box-shadow: none !important;
+}
+
+
 /** detail page  **/
 
 
@@ -288,6 +370,12 @@ height: auto !important;
 	font-size: 0 !important;
 	
 }
+
+
+
+
+
+
 
 .format-control {
     padding-top: 0px !important;
@@ -299,17 +387,82 @@ height: auto !important;
 			text-align: left !important;
 		}
 
-		#citationFields .citation-title {
+		#citationFields .citation-title, .ft-title, .marcInfoHeader {
 		width: 100% !important;
 		margin: 0 0 20px !important;
 		padding: 0 0 5px !important;
-		font-size: 1.9em !important;
+		font-size: 2.2em !important;
 		line-height: 1.25 !important;
 		min-height: 0 !important;
 		font-family: Helvetica, Arial, sans-serif !important;
-		border-bottom: 0px !important;
+		border: 0px !important;
+		background: none !important;
+
+		
 
 		}
+
+
+		.ft-title, .marcInfoHeader {
+		color: #222 !important;
+		padding-left: 12px !important;
+		border-left: 5px solid lightblue !important;
+  		padding-top: 5px !important;
+		font-size: 2.2em !important;
+		}
+
+
+/* images and content to the left of html full text pages **/
+.media-left {
+
+    margin: 10px 30px 20px 0 !important;
+    max-width: 200px;
+    overflow: hidden !important;
+}
+
+/* images and content to the right of html full text pages **/
+.media-right {
+
+    margin: 10px 0px 20px 30px !important;
+    max-width: 200px;
+    overflow: hidden !important;
+}
+
+/* remove the left gray pipe on the html full text detail page back link **/
+.sep li {
+    padding: 0 !important;
+    border-left: none !important;
+}
+
+/* adjust the content padding and the line height for the html full text page **/
+.full-text-container .full-text-content {
+    margin: 30px 0px 20px 0px !important;
+    line-height: 1.6 !important;
+}
+
+.short-citation
+{
+	
+	background-color: rgb(246, 246, 239) !important;
+    margin: 20px 0px 30px 0px !important;
+	padding: 20px !important;
+	border-radius: 3px !important;
+}
+
+#textToSpeechPlaceholder {
+
+    margin-bottom: 20px !important;
+}
+
+#content p {
+    padding: 0em 0 1.9em !important;
+}
+
+.ft-translation {
+
+    margin-bottom: 20px !important;
+}
+
 
 
 		.content-header {
@@ -341,6 +494,22 @@ min-width: auto !important;
 /** Results **/
 
 
+
+.collapsible-toggle:after {
+   content: "Refine: " !important;
+
+}
+
+
+.add-to-folder{
+	
+			top: 21px !important;
+		}
+
+.preview-hover{
+	top: 29px !important;
+}		
+
 #content {
 
     padding: 10px 40px 10px 40px !important;
@@ -368,6 +537,7 @@ min-width: auto !important;
 	display: none !important;
 }
 
+/** Breadbox **/
 #breadboxContent {
 
     background-color: #f5f5f5 !important;
@@ -375,11 +545,60 @@ min-width: auto !important;
 	border-radius: 3px !important;
 }
 
+.selected-limiters .remove {
+
+    background: #999 !important;
+
+}
+
+/** left limiter **/
+.rl-limiters input[type=checkbox] {
+    top: 6px !important;
+    
+}
+
+/** result numbers **/
 		.record-index {
 		display: none;
 		
 		}
 
+/**  message popup on basic search **/
+
+div.dialog-top-arrow.border-p1.eppopup-arrow-elem
+ {
+    top: 134px !important;
+    
+}
+
+
+/** Result Placard **/
+.placard-container {
+
+    margin-top: 10px !important;
+
+}
+		.placard-body {
+
+
+	padding: 10px 10px 5px 20px !important;
+}
+
+.placard-img-placeholder img, .placard-img img {
+
+    padding-top: 15px !important;
+    padding-left: 15px !important;
+
+}
+
+.placard-img-placeholder {
+
+    max-width: 150px !important;
+}
+
+#content .placard p{
+	padding-bottom: 5px !important;
+}
 
 #column1 .rl-lim-heading {
   
@@ -396,6 +615,13 @@ div.toggle-box.module
 }
 
 
+p.subjectResults
+{
+
+margin-top: 10px !important;
+
+
+}
 
 .module {
 	margin-right: 20px !important;
@@ -430,10 +656,27 @@ div.toggle-box.module
     color: #000 !important;
     font-size: 1.167em !important;
     font-weight: normal !important;
-	border-top: solid 2px #f2f2f0 !important;
-	padding: 10px 0 0 0 !important;
+	padding: 10px 0 10px 0 !important;
 }
 
+
+
+/** results right panel **/
+.related-info-shadow {
+    background: none !important;
+
+}
+
+.related-info-thumbnails .thumbnail {
+
+    border: none !important;
+}
+
+.record-icon img, #bookJacket img {
+
+    border: none !important;
+
+}
 
 
 
@@ -843,6 +1086,10 @@ h2.module-heading.color-s1
   
 }
 
+#content {
+
+    padding: 10px 10px 10px 10px !important;
+}
 	
 
 	.branding-container
@@ -1086,7 +1333,10 @@ input#ClearButton.button.styled-button-c3.rs_preserve
 {
 	
 	
-	
+.placard-body {
+    display: inline-block !important;
+	width: auto !important;
+}	
 	
 	
 .find-field-controls {
@@ -1219,7 +1469,7 @@ span#showLessChooseDatabases.showLessChooseDatabases
 			position:relative !important;
 			margin: 0px 0px 5px 0px !important;
 			padding: 0px 0px 5px 0px !important;
-
+			top: 7px !important;
 		}
 
 		.title-link {
