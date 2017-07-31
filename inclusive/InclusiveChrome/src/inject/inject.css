@@ -814,7 +814,16 @@ width: auto !important;
 /** styling the landing pages**/
 
 
+div.module-header.bg-p2, 
+ {
+    padding-left: 10px !important;
+}
 
+.button-link {
+
+    border-radius: 3px !important;
+    font-size: 16px !important;
+}
 
 
 .l-two-block-left .l-block:first-child
