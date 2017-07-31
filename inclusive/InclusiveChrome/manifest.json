@@ -32,8 +32,7 @@
         "http://web.b.ebscohost.com/*",
         "http://web.a.ebscohost.com/*",
          "http://eds.a.ebscohost.com/*",
-        "http://eds.b.ebscohost.com/*",
-        "<all_urls>"],
+        "http://eds.b.ebscohost.com/*"],
 
       "all_frames": true,
 

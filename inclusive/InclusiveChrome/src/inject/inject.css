@@ -35,6 +35,35 @@
 	src: url('http://dyslexicfonts.com/fonts/eulexia.ttf');
 } 
 
+/** cited references **/
+.cited-fields-wrapper {
+
+    width: 720px !important;
+}
+
+/** Pref Modal **/
+
+#preferencesDialog ul {
+    background: none !important;
+}
+
+.pref-list-wrapper {
+    background: none !important;
+}
+
+
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.pref-dialog.modal-wide.epmodal
+ {
+    
+    top: 25px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+
+
+
+
 
 	body
 		{
@@ -86,6 +115,22 @@ input#ctrlLimiters_SubmitButtonTop, input#ctrlLimiters_btnSearch, input#ctl00_ct
 }
 
 /** Folder **/
+
+#folderTitleDiv {
+	width: 70% !important;
+	margin-left: 10px !important;
+}
+
+div#ctl00_ctl00_FindField_FindField_ctl00_backBtnContainer.folder-back-sign-in
+{
+	margin-bottom: 10px !important;
+}
+
+.folder-item .display-info {
+
+	padding-right: 50px !important;
+}
+
 
 .folder-items-nav-top {
   
@@ -494,11 +539,15 @@ min-width: auto !important;
 /** Results **/
 
 
+/** adding refine text to panel toggle 
 
 .collapsible-toggle:after {
    content: "Refine: " !important;
 
 }
+**/
+
+
 
 
 .add-to-folder{
@@ -1332,6 +1381,28 @@ input#ClearButton.button.styled-button-c3.rs_preserve
 @media (max-width: 620px) 
 {
 	
+/** button becomes just a magnifying glass icon **/
+
+input#SearchButton.button.styled-button-c3.rs_preserve
+
+{
+
+	width: 50px !important;
+	text-transform: capitalize !important;
+	text-indent: -9000px !important;
+	background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon-search-white.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 12px 8px !important;
+	background-size: auto 24px !important;
+
+
+ 
+
+
+	
+}
+
+
 	
 .placard-body {
     display: inline-block !important;
@@ -1381,7 +1452,7 @@ span#showLessChooseDatabases.showLessChooseDatabases
 		#header {
 		position: relative !important;
 		margin: 0 auto !important;
-		padding: 10px 0px 10px 20px !important;
+		padding: 0px 0px 10px 10px !important;
 		min-height: auto !important;
 		background: #fff url(../../layout2/bg_header.png) 0 bottom repeat-x !important;
 		border-bottom: 2px solid #E7E7E7 !important;
@@ -1390,10 +1461,19 @@ span#showLessChooseDatabases.showLessChooseDatabases
 
 
 
+/** Folder  **/
 
+.folder-item .display-info {
+
+	padding: 0px 0px 0px 0px !important;
+}
 	
 
 
+div#folderLogoDiv.logo-wrapper
+{
+	display: none !important;
+}
 
 		
 	li#itemLanguages.nav-item.submenu-trigger
@@ -1439,11 +1519,14 @@ span#showLessChooseDatabases.showLessChooseDatabases
 			float: left !important;
 		}
 
+#optionsControls>ul {
+	margin-left: 15px !important;
+}
 
 .options-controls-li {
 
-	margin-left: 15px !important;
-	margin-bottom: 10px !important;
+	margin-left: 4px !important;
+	margin-bottom: 2px !important;
 }
 
 		.results .content-header {
