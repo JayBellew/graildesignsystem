@@ -35,6 +35,75 @@
 	src: url('http://dyslexicfonts.com/fonts/eulexia.ttf');
 } 
 
+
+/** Search History Panel **/
+
+.shContent .shaded {
+    background-color: #fff !important;
+}
+
+.shContent {
+
+    border: none !important;
+
+}
+
+
+.sh-actions {
+    border: none !important;
+    background: #eee !important;
+}
+
+
+.shContent td, .shContent th, .shContent tr {
+
+    border-bottom: 1px solid #eee !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+
+
+/**  Tools Panel **/
+
+
+
+#ToolPanelContent .wrapper {
+
+    background: #f5f5f5 !important;
+    border: 1px solid #f5f5f5 !important;
+    border-radius: 3px !important;
+}
+
+#ToolPanelContent .close-panel {
+
+   
+    border-radius: 2px !important;
+    background-color: #000 !important;
+    opacity: 1.0 !important;
+    filter: alpha(opacity=100);
+}
+
+
+/** PDF viewer **/
+
+#ViewerArea {
+    top: 50px !important;
+}
+/**
+
+#column1 {
+
+    top: 50px !important;
+}
+
+#column2 {
+
+    top: 50px !important;
+}
+**/
+
 /** cited references **/
 .cited-fields-wrapper {
 
@@ -267,6 +336,7 @@ input[type=text].textbox {
 
     border-top-left-radius: auto !important;
 	border-bottom-left-radius: auto !important;
+	
 }
 
 
@@ -275,6 +345,14 @@ input[type=text].textbox {
 {
 margin-left: 0px !important;
 
+}
+
+
+.text-container .ltr-text.textbox, .text-container .ltr-text.textbox
+
+{
+
+	font-size: 16px !important;
 }
 
 
@@ -411,14 +489,69 @@ height: auto !important;
 /** detail page  **/
 
 
-.vis-hidden {
-	font-size: 0 !important;
-	
+#relatedInfoLinks, .related-items {
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+#similarArticleControl {
+    margin: 20px 0 !important;
+   
+}
+
+h3.related-info-header.color-p1.border-p1
+{
+	color: #333 !important;
+	border-bottom: 0 !important;
+}
+
+
+.al-link .icon {
+
+    top: 4px !important;
+
 }
 
 
 
 
+.vis-hidden {
+	font-size: 0 !important;
+	
+}
+
+.sep li {
+
+    margin: 5px 0 5px 15px !important;
+
+}
+
+#citationFields img {
+    max-width: 600px;
+    min-width: 100px !important;
+    width: 100% !important;
+}
+
+.article-tool.active {
+    background: #eee !important;
+}
+
+#citeDialog .panel-footer {
+
+    width: 100% !important;
+}
+
+#content .panel-content .informational-note {
+    margin: 8px 0px 0px 40px !important;
+    width: 90% !important;
+    padding: 5px 65px 5px 5px !important;
+    display: inline-block !important;
+    background: #f2faff !important;
+}
+
+.detail #ToolPanelContent, .companyinfo #ToolPanelContent {
+    margin-left: 0px !important;
+}
 
 
 
@@ -538,6 +671,14 @@ min-width: auto !important;
 
 /** Results **/
 
+a#Result_1.title-link.color-p4
+{
+
+	
+}
+
+
+
 
 /** adding refine text to panel toggle 
 
@@ -547,7 +688,11 @@ min-width: auto !important;
 }
 **/
 
+/**  RTAC Block **/
+.tog-style4 {
 
+    border: none !important;
+}
 
 
 .add-to-folder{
@@ -814,10 +959,13 @@ width: auto !important;
 /** styling the landing pages**/
 
 
-div.module-header.bg-p2, 
+div.module-header.bg-p2, div.module-header.bg-p3
+
  {
     padding-left: 10px !important;
 }
+
+
 
 .button-link {
 
@@ -1138,7 +1286,27 @@ h2.module-heading.color-s1
 
 
 @media (max-width: 1024px) {
-.dd {
+
+
+/** PDF viewer **/
+
+#ViewerColumn {
+ 
+    right: 0px !important;
+    left: 0px !important;
+
+}
+
+div.resultList
+{
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+
+
+
+	.dd {
 
     display: none !important;
   
