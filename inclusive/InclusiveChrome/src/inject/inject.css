@@ -669,15 +669,35 @@ min-width: auto !important;
 
 
 
-/** Results **/
+/** Results 
 
-a#Result_1.title-link.color-p4
+#pubDateRange .ui-slider-handle {
+
+    border-radius: 100% !important;
+    width: 21px !important;
+    height: 21px !important;
+
+}**/
+
+
+
+
+
+#pubDateRange.ui-slider-horizontal .ui-slider-handle
 {
 
-	
+	background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_slider_handle.png)!important;
+	background: #51a7f9 !important;
+	display: block !important;
 }
 
+.ui-slider-handle.ui-state-default.ui-corner-all
+{
 
+	background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_slider_handle.png)!important;
+	background: #51a7f9 !important;
+	display: block !important;
+}
 
 
 /** adding refine text to panel toggle 
