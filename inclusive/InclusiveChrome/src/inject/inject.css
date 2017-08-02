@@ -913,7 +913,14 @@ display: none !important;
 .refine-heading {
 
 	font-size: 1.1em !important;
-	border-left: 3px solid !important;
+	position: relative !important;
+	padding-left: 20px !important;
+	background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_refine_blue.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 0px 0px !important;
+	background-size: auto 16px !important;
+	margin-left: 16px !important;
+
 
 }
 
@@ -1340,7 +1347,7 @@ h2.module-heading.color-s1
 
 
 
-
+	
 
 
 
