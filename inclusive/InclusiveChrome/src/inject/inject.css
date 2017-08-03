@@ -50,12 +50,12 @@ div#ctl00_ctl00_MainContentArea_MainContentArea_basicSearch.basic-search.basic-f
 	.column1-open #column1
 		{
 		background: #fff !important;
-		border-left: 1px solid #f1f1f1;
+		background: #f1f1f1 !important;
 		height: 100% !important;
 		color: #000 !important;
 		float: right !important;
 		z-index: 6 !important;
-		min-height: 800px;
+		min-height: 1200px;
 
 		}
 
@@ -66,18 +66,29 @@ div#ctl00_ctl00_MainContentArea_MainContentArea_basicSearch.basic-search.basic-f
 }
 
 .column2-open #column2 {
-    width: 15% !important;
+    width: 17% !important;
 	padding-left: 21px !important;
 	padding-right: 21px !important;
-    margin-left: -460px !important;
+    margin-left: 0px !important;
     float: left !important;
-	border-left: 1px solid #eee !important;
-	
-	margin-top: 0px !important;
+	border-left: none !important;
+	margin-right: auto !important;
+	margin-top: 60px !important;
     padding-top: 16px !important;
 	min-height: 800px;
 	min-width: 205px !important;
+	display: none !important;
 }
+
+
+ 
+
+ 
+    
+  
+  
+ 
+
 
 /**  Hiding the page option control **/
 
@@ -105,9 +116,9 @@ img.logo-img
 
 div.resultList
 {
-	width: 90% !important;
+	width: 77% !important;
 	float: left !important;
-    max-width: 650px !important;
+    max-width: 900px !important;
 	margin-top: 10px !important;
 	margin-left: auto !important;
 	margin-right: auto !important;
@@ -898,28 +909,36 @@ display: none !important;
 
 #relatedInfoControl .main-section-header {
 
-	
+	/**
     position: relative !important;
     text-indent: 0em !important;
     padding: 8px 10px 6px !important;
     margin-bottom: 12px !important;
     line-height: 1.2 !important;
-    font-size: 1.1em !important;
-    background: #f5f5f5 !important;
+	font-size: 1.1em !important;
+	**/
+    /** background: #f5f5f5 !important; 
 	height: auto !important;
 	border-left: 3px solid !important;
+	**/
+	display: none !important;
 }
 
 .refine-heading {
 
 	font-size: 1.1em !important;
 	position: relative !important;
-	padding-left: 20px !important;
 	background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_refine_blue.png) !important;
 	background-repeat: no-repeat !important;
-	background-position: 0px 0px !important;
+	background-position: 3px 9px !important;
 	background-size: auto 16px !important;
-	margin-left: 16px !important;
+	margin-left: 0px !important;
+
+    padding: 6px 4px 6px 33px !important;
+    margin-bottom: 5px !important;
+    margin-top: 10px !important;
+    line-height: 1.6 !important;
+	background-color: inherit !important;
 
 
 }
@@ -948,14 +967,18 @@ div.dialog-top-arrow.border-p1.eppopup-arrow-elem
 
 /** Result Placard **/
 .placard-container {
-
-    margin-top: 10px !important;
-
+ border-radius: 2px;
+margin-top: 20px !important;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
+
+
+
+
 		.placard-body {
-
-
-	padding: 10px 10px 5px 20px !important;
+    
+	padding: 15px 10px 12px 10px !important;
 }
 
 .placard-img-placeholder img, .placard-img img {
@@ -1442,15 +1465,15 @@ h2.module-heading.color-s1
 @media (max-width: 1200px) {
 
 
+
 		.column2-open #column2
 		{
 		margin-left: 5px !important;
 		
 		display: none !important;
 		}
-
-		
 	
+
 
 /**
 		.column2-open #content {
@@ -1501,10 +1524,17 @@ h2.module-heading.color-s1
 
 /** result block **/
 
+	.column1-open #column1{
+	min-height: 50px !important;
+    height: 50px !important;
+    overflow: hidden !important;
+    background: none !important;
+}
+
 div.resultList
 {
-	width: 65% !important;
-	float: left !important;
+	width: 95% !important;
+	float: none !important;
     max-width: 940px !important;
 	margin-left: auto !important;
 	margin-right: auto !important;
@@ -1794,12 +1824,19 @@ input#ClearButton.button.styled-button-c3.rs_preserve
 @media (max-width: 620px) 
 {
 
-	/** remove the options on mobile **/
+	/** hiding the sort on mobile **/
 
-	#optionsControls {
-    
+.options-controls-li:first-child
+{
+	display: none !important;
+}
+.options-controls-li:last-child
+{
+	margin-left: 10px !important;
+}
+
+.record-icon {
     display: none !important;
-    
 }
 	
 /** button becomes just a magnifying glass icon **/
@@ -1949,31 +1986,23 @@ div#folderLogoDiv.logo-wrapper
 			margin-left: -15px !important;
 		}
 		
-		.record-icon {
-		position: relative !important;
-		float: right !important;
-		width: 80px !important;
-		margin-right: 5px !important;
-		text-align: center !important;
-		margin-left: 10px !important;
-		margin-bottom: 25px !important;
-		}
+	
 		
 		.has-icons .display-info {
 
 		padding: 0 !important;
 }
-
+/**
         .add-to-folder{
 			position:relative !important;
 			margin: 0px 0px 5px 0px !important;
 			padding: 0px 0px 5px 0px !important;
 			top: 7px !important;
-		}
+		} **/
 
 		.title-link {
 		display: block;
-		padding: 0 0px 20px 0 !important;
+		padding: 0 50px 20px 0 !important;
 		font-size: 1.5em !important;
 		line-height: 1.4 !important;
 		}
@@ -2019,14 +2048,17 @@ div#folderLogoDiv.logo-wrapper
 	margin-top: 0px !important;
 	}
 
+.rtac-table th, .rtac-table td {
 
+    border-bottom: none !important;
+}
 
 	
 
 	.result-list-li {
     padding: 25px 5px 20px 5px !important;
     color: #222 !important;
-    border-bottom: solid 1px #eee !important;
+    border-bottom: solid 1px #ccc !important;
 	}
 
 	 #content .abstract, #content .subjectResults
