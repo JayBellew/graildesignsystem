@@ -44,6 +44,14 @@ div#ctl00_ctl00_MainContentArea_MainContentArea_basicSearch.basic-search.basic-f
 	overflow: hidden !important;
 }
 
+/** rtac table **/
+
+.rtac-table {
+
+	background: #fff !important;
+	margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
 
 /** Results **/
 
@@ -55,7 +63,8 @@ div#ctl00_ctl00_MainContentArea_MainContentArea_basicSearch.basic-search.basic-f
 		color: #000 !important;
 		float: right !important;
 		z-index: 6 !important;
-		min-height: 1200px;
+		min-height: 5000px;
+
 
 		}
 
@@ -66,18 +75,18 @@ div#ctl00_ctl00_MainContentArea_MainContentArea_basicSearch.basic-search.basic-f
 }
 
 .column2-open #column2 {
-    width: 17% !important;
-	padding-left: 21px !important;
-	padding-right: 21px !important;
-    margin-left: 0px !important;
-    float: left !important;
-	border-left: none !important;
-	margin-right: auto !important;
-	margin-top: 60px !important;
-    padding-top: 16px !important;
-	min-height: 800px;
-	min-width: 205px !important;
-	display: none !important;
+background: #fff !important;
+background: #f1f1f1 !important;
+position: relative;
+color: #000 !important;
+float: right !important;
+z-index: 7 !important;
+width: 235px !important;
+margin-left: inherit !important; 
+
+max-height: 31% !important;
+right: 0 !important;
+overflow: auto !important;
 }
 
 
@@ -342,7 +351,9 @@ div#ctl00_ctl00_FindField_FindField_ctl00_backBtnContainer.folder-back-sign-in
 
 .rtac-table {
 
-    background: #fff !important;
+	background: #fff !important;
+	margin-top: 15px !important;
+    margin-bottom: 15px !important;
 }
 
 

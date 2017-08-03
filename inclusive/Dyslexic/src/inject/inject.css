@@ -1,0 +1,47 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+@namespace url(http://www.w3.org/1999/xhtml);
+@font-face {
+  font-family: 'opendyslexic';
+	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Regular.otf');
+	font-style: normal;
+	font-weight: normal;
+} 
+
+@font-face {
+	font-family: 'opendyslexic';
+	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Italic.ttf');
+	font-style: italic;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'opendyslexic';
+	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Bold.ttf');
+	font-weight: bold;
+	font-style: normal;
+} 
+
+@font-face {
+	font-family: 'opendyslexic';
+	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-BoldItalic.ttf');
+	font-weight: bold;
+	font-style: italic;
+} 
+
+@font-face {
+	font-family: eulexia;
+	src: url('http://dyslexicfonts.com/fonts/eulexia.ttf');
+} 
+
+body
+		{
+		font-family:opendyslexic !important;  
+		
+		}
+
+#toolbarControl {
+
+    font-family: inherit !important;
+}

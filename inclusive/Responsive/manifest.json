@@ -1,8 +1,8 @@
 {
-  "name": "EBSCO UX Labs",
-  "version": "1.2",
+  "name": "EBSCO UX Prototype Engine",
+  "version": "2.5",
   "manifest_version": 2,
-  "description": "Inclusive Design Experiments",
+  "description": "Make EBSCO Responsive",
   "homepage_url": "http://graildesignsystem.com",
   "icons": {
     "16": "icons/icon16.png",

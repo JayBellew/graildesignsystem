@@ -1,42 +1,46 @@
 {
-  "name": "EBSCO Inclusive",
-  "version": "1.1",
+  "name": "EBSCO UX Prototype Engine",
+  "version": "1.9",
   "manifest_version": 2,
-  "description": "Ehost Made Easy",
-  "homepage_url": "http://ebsco.com",
+  "description": "EBSCO Redesign Concept",
+  "homepage_url": "http://graildesignsystem.com",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
   "default_locale": "en",
+   "browser_action": {
+        "default_icon": "icons/icon128.png",
+        "default_popup": "src/page_action/page_action.html",
+        "default_title": "EBSCO UX Lab"
+    },
   "background": {
-    "page": "src/bg/background.html",
-    "persistent": false
+    "page": "src/bg/background.html"
+   // "persistent": false
   },
-  "page_action": {
-    "default_icon": "icons/icon19.png",
-    "default_title": "page action demo",
-    "default_popup": "src/page_action/page_action.html"
-  },
+  
   "permissions": [
     "contentSettings",
-    "tabs"
+    "tabs",
+    "activeTab"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://www.google.com/*",
         "https://ebsco.com/*",
         "http://web.b.ebscohost.com/*",
         "http://web.a.ebscohost.com/*",
          "http://eds.a.ebscohost.com/*",
         "http://eds.b.ebscohost.com/*"],
+
       "all_frames": true,
+
       "css": [
         "src/inject/inject.css"],
       "js": [
-        "src/inject/inject.js"
+        "src/inject/inject.js",
+        "src/contentscripts/content.js"
       ]
     }
   ]

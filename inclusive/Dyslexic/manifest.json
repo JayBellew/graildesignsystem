@@ -1,8 +1,8 @@
 {
-  "name": "EBSCO UX Labs",
-  "version": "1.1",
+  "name": "EBSCO UX Prototype Engine",
+  "version": "1.5",
   "manifest_version": 2,
-  "description": "Inclusive Design Experiments",
+  "description": "Dyslexia Friendly View",
   "homepage_url": "http://graildesignsystem.com",
   "icons": {
     "16": "icons/icon16.png",
@@ -23,7 +23,12 @@
   "permissions": [
     "contentSettings",
     "tabs",
-    "activeTab"
+    "activeTab",
+    "https://ebsco.com/*",
+    "http://web.b.ebscohost.com/*",
+    "http://web.a.ebscohost.com/*",
+    "http://eds.a.ebscohost.com/*",
+    "http://eds.b.ebscohost.com/*"
   ],
   "content_scripts": [
     {
