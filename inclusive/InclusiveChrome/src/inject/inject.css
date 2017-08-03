@@ -83,9 +83,20 @@ div#ctl00_ctl00_MainContentArea_MainContentArea_basicSearch.basic-search.basic-f
 
  
 
- 
+ /** detail page **/
+ .content-header .nav-list
+ {
+
+	padding: 11px 0 0 !important;
+    background: #fff !important;
+    z-index: 9 !important;
+
+ }
     
-  
+  .format-control .active {
+
+    background: none !important;
+}
   
  
 
@@ -123,6 +134,12 @@ div.resultList
 	margin-left: auto !important;
 	margin-right: auto !important;
 }
+
+
+
+
+
+
 
 
 /** Search History Panel **/
@@ -318,7 +335,9 @@ div#ctl00_ctl00_FindField_FindField_ctl00_backBtnContainer.folder-back-sign-in
 .folder-items-move-copy {
    
     border-bottom: none !important;
-    background: #efefef !important;
+	background: #efefef !important;
+	background: #fbedb7 !important;
+}
 }
 
 .rtac-table {
@@ -330,7 +349,7 @@ div#ctl00_ctl00_FindField_FindField_ctl00_backBtnContainer.folder-back-sign-in
 
 	.folder-list-header  {
 		width: 100% !important;
-		margin: 0 0 20px !important;
+		margin: 15px 0px 0px 0px !important;
 		padding: 0 0 5px !important;
 		font-size: 1.4em !important;
 		line-height: 1.25 !important;
@@ -611,14 +630,39 @@ div.citation-wrapping-div
     width: 77% !important;
 }
 .full-text-container {
-    text-align: justify;
+    text-align: inherit !important;
     width: 77% !important;
     max-width: 900px !important;
 }
 
+.short-citation {
+ text-align: inherit !important;
+    width: 77% !important;
+    max-width: 900px !important;
+}
+
+.custom-widget
+
+{
+	max-width: 900px !important;
+    width: 77% !important;
+}
+
+div#folder-content
+
+{
+	
+	width: 85% !important;
+	max-width: 900px !important;
+}
+
+
 #relatedInfoLinks, .related-items {
     padding: 0 !important;
-    border: 0 !important;
+	border: 0 !important;
+    background-color: inherit !important;
+    border: none !important;
+
 }
 
 #similarArticleControl {
@@ -1539,22 +1583,52 @@ h2.module-heading.color-s1
 
 @media (max-width: 1024px) {
 
+/** Folder **/
+
+.folder #optionsControls
+
+{
+
+	display: none !important;
+}
+
+
 /**  Detail Page **/
 
 div.citation-wrapping-div
 {
 	max-width: 940px !important;
-	width: 85% !important;
-	margin-left: 20px !important;
+	width: 95% !important;
+	
 }
 .full-text-container {
    max-width: 940px !important;
-	width: 85% !important;
-	margin-left: 20px !important;
+	width: 95% !important;
+	
+}
+
+.short-citation
+{
+   max-width: 940px !important;
+	width: 95% !important;
+	
+}
+
+.custom-widget
+{
+   max-width: 940px !important;
+	width: 95% !important;
+	
 }
 
 
-
+/** Folder **/
+div#folder-content
+{
+   max-width: 940px !important;
+	width: 95% !important;
+	
+}
 
 /** result block **/
 
@@ -1611,7 +1685,7 @@ div.resultList
 
 #content {
 
-    padding: 10px 10px 10px 10px !important;
+    padding: 10px 10px 25px !important;
 }
 	
 
@@ -1707,14 +1781,14 @@ float:none !important;
 		
 
 		.column1-open #content {
-		margin-left: 5px !important;
-		margin-right: 5px !important;
+		margin-left: 20px !important;
+		margin-right: 20px !important;
 		/** font-size: 120% !important;**/
 
 		}
 
 		.column2-open #content {
-		margin-left: 5px !important;
+		margin-left: 20px !important;
 		/** font-size: 120% !important;**/
 
 		}
@@ -1858,6 +1932,13 @@ input#ClearButton.button.styled-button-c3.rs_preserve
 @media (max-width: 620px) 
 {
 
+
+#content {
+
+    padding: 10px 0px 10px 0px !important;
+}
+
+
 	/** hiding the sort on mobile **/
 
 .options-controls-li:first-child
@@ -1983,13 +2064,14 @@ a#ctl00_ctl00_MainContentArea_MainContentArea_topNavControl_linkRefine.refine-li
 {
 	display:none !important;
 }
+/**
 .content-header {
 
     padding: 14px 10px 10px 0px !important;
 
 }
 
-	
+	**/
 
 		.basic .branding-Beside .logo-img, .basic .branding-Beside .logo {
 		display: table-cell;
