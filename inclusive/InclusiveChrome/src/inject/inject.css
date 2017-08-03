@@ -598,6 +598,23 @@ height: auto !important;
 
 /** detail page  **/
 
+.nav-list .page-count
+{
+
+	padding-top: 10px !important;
+}
+
+
+div.citation-wrapping-div
+{
+	max-width: 900px !important;
+    width: 77% !important;
+}
+.full-text-container {
+    text-align: justify;
+    width: 77% !important;
+    max-width: 900px !important;
+}
 
 #relatedInfoLinks, .related-items {
     padding: 0 !important;
@@ -928,7 +945,7 @@ display: none !important;
 
 	font-size: 1.1em !important;
 	position: relative !important;
-	background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_refine_blue.png) !important;
+	background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_refine_blue3.png) !important;
 	background-repeat: no-repeat !important;
 	background-position: 3px 9px !important;
 	background-size: auto 16px !important;
@@ -1522,6 +1539,23 @@ h2.module-heading.color-s1
 
 @media (max-width: 1024px) {
 
+/**  Detail Page **/
+
+div.citation-wrapping-div
+{
+	max-width: 940px !important;
+	width: 85% !important;
+	margin-left: 20px !important;
+}
+.full-text-container {
+   max-width: 940px !important;
+	width: 85% !important;
+	margin-left: 20px !important;
+}
+
+
+
+
 /** result block **/
 
 	.column1-open #column1{
@@ -1936,11 +1970,24 @@ div#folderLogoDiv.logo-wrapper
 		}
 		
 
+/** Detail Page **/
 
+.nav-list .page-count
+{
+	display:none !important;
+	padding-top: 10px !important;
+}
 
+a#ctl00_ctl00_MainContentArea_MainContentArea_topNavControl_linkRefine.refine-link
 
+{
+	display:none !important;
+}
+.content-header {
 
+    padding: 14px 10px 10px 0px !important;
 
+}
 
 	
 
