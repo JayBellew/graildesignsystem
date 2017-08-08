@@ -2,7 +2,7 @@
   "name": "EBSCO UX Prototype Engine",
   "version": "1.4",
   "manifest_version": 2,
-  "description": "High Contrast: Night Display",
+  "description": "High Contrast: Grayscale Display",
   "homepage_url": "http://graildesignsystem.com",
   "icons": {
     "16": "icons/icon16.png",
