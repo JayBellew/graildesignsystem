@@ -943,7 +943,7 @@ div.dialog-top-arrow.border-p1.eppopup-arrow-elem
 .placard-container {
 
 	margin-top: 10px !important;
-	border-top: 4px solid darkred !important;
+	border: none !important; 
 
 }
 		.placard-body {
