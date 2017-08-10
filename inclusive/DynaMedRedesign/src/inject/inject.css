@@ -8,14 +8,34 @@
 body
 {
 		
-font-size: 140% !important;
+font-size: 160% !important;
 line-height: 1.5 !important;
 min-width: auto !important;
+font-family: Helvetica,Arial,sans-serif !important;
+background: #f5f5f5 !important;
 }
 
+.submenu {
+
+    line-height: 2.4em !important;
+    margin-top: 26px !important;
+}
+
+#toolbarControl .submenu-trigger .link {
+
+    padding-right: 15px !important;
+}
 .basic #content {
     margin: 0 4% !important;
 }
+
+.customerLogo {
+
+    font-weight: normal !important;
+    padding: 20px 20px 0px 0px !important;
+    mix-blend-mode: multiply;
+}
+
 
 
 #footerControl {
@@ -35,8 +55,10 @@ div#ctl00_ctl00_MainContentArea_MainContentArea_basicSearch.basic-search
     border-bottom: none !important;
     font-family: Helvetics, Arial,Sans-Serif !important;
     background: none !important;
-    font-size: 1.2em !important;
+    font-size: 1.1em !important;
     font-weight: normal !important;
+    padding-right: 20px !important;
+
   
 
 }
@@ -77,16 +99,21 @@ div.start-splash-container
 .browse-alpha-links li {
 
     padding: 21px 10px !important;
-    font-size: 1.2em !important;
+    font-size: 1.1em !important;
     color: #333 !important;
  
 }
 
-
+.browse-alpha-links {
+  
+  
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
 
 .start-splash-container .spotlight_container {
  
-    width: 47% !important;
+    width: 66% !important;
     background: #fff !important;
 	border: none !important;
 	border-radius: 0px !important;
@@ -96,10 +123,20 @@ div.start-splash-container
   border-top: 4px solid orange !important;
 }
 
+
+.spotlight_container ul {
+    padding-left: 30px !important;
+    list-style: disc none outside;
+    padding-bottom: 10px !important;
+    padding-right: 10px !important;
+    line-height: 2em !important;
+}
+
+
 .services_container {
     position: relative;
     margin-left: 4% !important;
-    width: 47% !important;
+    width: 33% !important;
     padding: 20px !important;
     border: none !important;
     overflow: hidden;
@@ -110,6 +147,46 @@ div.start-splash-container
   border-top: 4px solid orange !important;
 }
 
+
+
+.services_container ul {
+
+    display: grid !important;
+    padding-top: 21px !important;
+    padding-bottom: 21px !important;
+}
+
+.services_container ul li {
+    width: 90% !important;
+    padding: 10px 0px 10px 0px !important;
+    border-bottom: 1px Solid #eee !important;}
+
+    .spot-image {
+    float: left;
+    width: 40% !important;
+}
+    .spot-image img {
+    max-width: 84px !important;
+    padding-top: 5px !important;
+    padding-right: 20px !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.search_other_services_link span
+ {
+    font-size: 1.1em !important;
+    color: #666 !important;
+    padding-top: 12px !important;
+    padding-top: 12px !important;
+    padding-left: 10px !important;
+}
+.spot-image {
+ 
+    text-align: -webkit-center !important;
+}
+
+
 .browse-alpha {
 
     margin-top: 30px !important;
@@ -117,31 +194,38 @@ div.start-splash-container
 
 .toolbar-navigation {
     position: absolute !important;
-   
+    display: -webkit-box !important;
+    margin-left: 10px !important;
+    
 }
+   
+
 .toolbar-tools {
    
     background: #027591 !important;
+    margin-right: -20px !important;
+
+ 
 }
 
 
 div.browse-alpha
 {
 
-    max-width: unset !important;
+    max-width: 96.5% !important;
     background: #fff !important;
 	padding: 20px !important;
 
     margin-top: 100px !important;
    margin-left: -10px !important;
     margin-right: 0px !important;
-    width: 100% !important;
+    width: 96.5% !important;
 
 
 }
 
 .feature_caption {
-    font-size: 1.6em !important;
+    font-size: 1.5em !important;
     padding: 0px 10px !important;
     background: unset !important;
     color: #333 !important;
@@ -193,12 +277,13 @@ div.find-field-controls
 div.find-field-controls
 {
 	clear: both !important;
-	    overflow: hidden !important;
+	
 }
 
 div#ctl00_ctl00_MainContentArea_MainContentArea_basicSearch.basic-search
 {
-	    max-width: 1200px !important;
+        max-width: 1200px !important;
+            width: 90% !important;
 }
 
 div.find-field-inner.find-field-simple
@@ -281,7 +366,7 @@ input#ctl00_ctl00_MainContentArea_MainContentArea_findField_SearchTerm1.textbox.
     font-family: Helvetica,Arial,Sans-Serif !important;
     background-image: unset !important;
     background-position: 0 -32px!important;
-    font-size: 1.4em !important;
+    font-size: 1.3em !important;
     background: #fff !important;
 
 }
@@ -298,9 +383,9 @@ input#ctl00_ctl00_MainContentArea_MainContentArea_findField_SearchTerm1.textbox.
 }
 
 .button.styled-button-c3 {
-    padding: 4px 19px !important;
+    padding: 4px 13px !important;
     margin: 0px 4px !important;
-    font-size: 1.5em !important;
+    font-size: 1.4em !important;
     font-family: Helvetica,Arial,sans-serif !important;
     font-weight: normal !important;
     height: 43px !important;
@@ -317,6 +402,32 @@ input#ctl00_ctl00_MainContentArea_MainContentArea_findField_SearchTerm1.textbox.
 
 @media (max-width: 1024px) 
 {
+
+    div#ctl00_ctl00_MainContentArea_MainContentArea_basicSearch.basic-search
+{
+      
+            width: 90% !important;
+}
+
+div.start-splash-container
+{
+        display: block !important;
+            margin-right: 1% !important;
+}
+
+.start-splash-container .spotlight_container {
+ 
+    width: 94% !important;
+    margin-bottom: 30px !important;
+}
+
+.services_container {
+   width: 94% !important;
+   margin-left: 0px !important;
+   
+}
+
+
 
 	.find-field-inputs {
     position: relative !important;
@@ -344,6 +455,19 @@ a#ctl00_ctl00_MainContentArea_MainContentArea_findField_lnkHelpSearch
 {
 	display:none !important;
 }
+
+div.browse-alpha
+{
+
+    max-width: 93.5% !important;
+    width: 93.5% !important;
+
+
+}
+
+
+
+
 }
 
 @media (max-width: 599px) 
@@ -354,5 +478,35 @@ a#ctl00_ctl00_MainContentArea_MainContentArea_findField_lnkHelpSearch
 	width: 100% !important; 
   
 }
+
+div.browse-alpha
+{
+
+    margin-left: 0px !important;
+    padding-left: 20px !important;
+}
+
+.browse-alpha-links {
+  
+  line-height: 2.5 !important;
+}
+
+    span.find-field-submit
+ {
+    background-color: orange !important;
+    text-indent: -9000px;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon-search-white.png);
+    background-size: auto 24px;
+    background-repeat: no-repeat !important;
+    border-radius: 2px !important;
+    background-position: center !important;
+    width: 20% !important;
+
+}
+
+.textbox {
+    width: 75% !important;
+}
+
 
 }
