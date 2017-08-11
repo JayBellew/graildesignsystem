@@ -268,8 +268,27 @@ div.browse-alpha
     background: #f5f5f5 !important;
 }
 .dynamed .find-field-controls {
-    padding: 25px 0 0 0px !important;
+
+   
+padding-top: 0px !important;
+    padding-bottom: 35px !important;
+    width: 70% !important;
+    clear: none !important;
+    float: left !important;
+
 }
+
+input#ctl00_ctl00_FindField_FindField_ctl00_Logo1_logoLink.logo-image
+{
+width:100% !important;
+max-width: 165px !important;
+margin-left: 0px !important;
+margin-right: 0px !important;
+
+
+}
+
+
 div.find-field-controls
 {
 	padding-left: 0px !important;
@@ -330,7 +349,7 @@ div.find-field-inner.find-field-simple
 }
 .find-field-inputs {
     position: relative !important;
-	width: 60% !important; 
+	width:60% !important; 
     margin-left: auto !important;
     margin-right: auto !important;
 }
@@ -416,7 +435,17 @@ input#ctl00_ctl00_MainContentArea_MainContentArea_findField_SearchTerm1.textbox.
     display: none !important;
    
 }
+div#ctl00_ctl00_FindField_FindField_ctl00_Logo1_logoWrapper.logo-wrapper
+{
+    width: 20% !important;
+   float: left !important;
+}
 
+div#ctl00_ctl00_FindField_FindField_ctl00_findFieldOuter.find-field-outer div.browse-alpha
+
+{
+    display: none !important;
+}
 
 
 #innerContainer {
@@ -543,7 +572,17 @@ div.main-section-header.bar2.bg-p1.border-p1.content-header
 #innerContainer {
     
     background: #f5f5f5 !important;
+
 }
+
+/**
+{
+    width: 90% !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+**/
 
 #footerControl {
     
@@ -579,10 +618,21 @@ div.main-section-header.bar2.bg-p1.border-p1.content-header
 @media (max-width: 1024px) 
 {
 
+input#ctl00_ctl00_FindField_FindField_ctl00_Logo1_logoLink.logo-image
+{
+display: none !important;
+}
+
+
     div#ctl00_ctl00_MainContentArea_MainContentArea_basicSearch.basic-search
 {
       
             width: 90% !important;
+}
+
+a#ctl00_ctl00_FindField_FindField_ctl00_lnkHelpSearch
+{
+    display: none !important;
 }
 
 div.start-splash-container
@@ -610,6 +660,7 @@ div.start-splash-container
 	width: 80% !important; 
     margin-left: auto !important;
     margin-right: auto !important;
+    
 }
 
 .textbox {
@@ -635,8 +686,12 @@ a#ctl00_ctl00_MainContentArea_MainContentArea_findField_lnkHelpSearch
 div.browse-alpha
 {
 
-    max-width: 93.5% !important;
+   
     width: 93.5% !important;
+  
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 
 
 }
