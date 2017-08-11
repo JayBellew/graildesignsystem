@@ -18,6 +18,9 @@ background: #f5f5f5 !important;
 
 /**  Detail Page  **/
 
+
+
+
 .detail .search-within {
     
      display: none !important;
@@ -94,12 +97,67 @@ ul.delivery-control
 
 }
 
+.delivery-control #alert {
+    background-position: unset !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_alert_black.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 7px 0px !important;
+    background-size: auto 19px !important;
+}
+
+a#ctl00_ctl00_Column2_Column2_topDeliveryControl_deliveryButtonControl_lnkPrint.print-link
+{background-position: unset !important;
+background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_print_black.png) !important;
+background-repeat: no-repeat !important;
+background-position: 4px 0px !important;
+background-size: auto 19px !important;
+}
+
+
+
+
+a#ctl00_ctl00_Column2_Column2_topDeliveryControl_deliveryButtonControl_lnkEmail.email-link
+
+{
+    background-position: unset !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_mail_black.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 2px 1px !important;
+    background-size: auto 14px !important;
+    margin-right: -9px !important;
+}
+
+a#permaLink.permalink-link
+
+{
+    background-position: unset !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_link_black.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 6px 0px !important;
+    background-size: auto 17px !important;
+}
+
+#toplink_container .icon {
+   
+    width: unset !important;
+
+    display: unset !important;
+
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_cme_blue.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 0px 0px !important;
+    background-size: auto 17px !important;
+    padding-right: 20px !important;
+    margin-right: 5px !important;
+
+}
+
 .column2-closed #column2 .collapsible-content h2
 {display: none !important}
 
 .column2-closed .delivery-control a {
 
-    padding-right: 20px !important;
+    padding-right: 24px !important;
     margin-right: 5px !important;
     padding-left: 30px !important;
   
@@ -117,6 +175,9 @@ ul.delivery-control
 .article-tool {
     padding: 0 !important;
 }
+
+
+
 
 .detail .ui-resizable-handle {
 
