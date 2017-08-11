@@ -15,6 +15,247 @@ font-family: Helvetica,Arial,sans-serif !important;
 background: #f5f5f5 !important;
 }
 
+
+/**  Detail Page  **/
+
+.detail .search-within {
+    
+     display: none !important;
+ }
+
+ .detail .font_select {
+    right: 20px !important;
+}
+
+.detail #column1 {
+    background-image: none !important;
+    background-color: white !important;
+    margin-top: 13px !important;
+    border: none !important;
+
+}
+
+.column1-open #column1 {
+    width: 20% !important;
+    padding: 25px !important;
+}
+
+#column1 {
+
+    margin: 0 150px 0 70% !important;
+
+    z-index: 40 !important;
+}
+
+
+.detail #content {
+    background: none !important;
+    left: 0 !important;
+    width: 62% !important;
+    max-width: 900px !important;
+    margin-top: 13px !important
+ 
+}
+
+#toc_container {
+
+    border: none !important;
+}
+
+#result_toc {
+
+    padding: 10px 0px !important;
+
+}
+
+.column2-closed #column2 {
+    margin-right: 2% !important;
+    background: none !important;
+    padding: 0px !important;
+    width: 83% !important;
+    margin-left: 4% !important;
+    margin-top: 40px !important;
+}
+
+#column2 {
+
+    z-index: 40000 !important;
+    position: fixed !important;
+
+}
+
+
+.column2-closed .delivery-control a {
+    text-indent: unset !important;
+}
+ul.delivery-control
+{
+        display: -webkit-inline-box;
+
+}
+
+.column2-closed #column2 .collapsible-content h2
+{display: none !important}
+
+.column2-closed .delivery-control a {
+
+    padding-right: 20px !important;
+    margin-right: 5px !important;
+    padding-left: 30px !important;
+  
+}
+
+.delivery-control a, .delivery-control a :visited {
+
+    margin: 0px 0 0 !important;
+    padding: 0px 0 0px 28px !important;
+    border-bottom: none !important;
+    font-size: 1em !important;
+    font-weight: normal !important;
+    color: #222 !important;
+}
+.article-tool {
+    padding: 0 !important;
+}
+
+.detail .ui-resizable-handle {
+
+    display: none !important;
+}
+
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.uidialog
+{
+    z-index: 80000 !important;
+}
+
+#headerUl .nav-list li {
+  
+    display: none !important;
+}
+
+.citation-title {
+  
+    padding: 35px 20px 25px 25px !important;
+    font-size: 1.9em !important;
+    border-bottom: 3px solid #eee !important;
+    color: #3781A6 !important;
+    font-weight: normal !important;
+}
+.collapsible-list .icon {
+ 
+    top: 9px !important;
+    
+}
+
+
+
+#theFirstUpdate {
+   
+    margin: 26px 20px 26px -15px !important;
+    background: #f5f5f5 !important;
+    padding: 20px 20px 20px 20px !important;
+    border-left: 4px solid orange !important;
+}
+
+.citation-content ul {
+    
+    padding: 0 0 0 1em !important;
+    margin: 0 0 0 0 !important;
+}
+
+.citation-content {
+    padding: 15px 30px !important;
+
+}
+
+
+DIV.detail .sectionHeader, DIV.detail section.hd, h4 {
+
+    margin-bottom: .7em !important;
+    margin-top: 1.2em !important;
+}
+
+.citation-content li {
+    font-size: .75em !important;
+    line-height: 1.6 !important ;
+    padding: 5px 0 !important;
+}
+
+#column1 li a:link
+{
+    color: #333 !important;
+    padding: 5px 0px 5px 5px !important;
+}
+#column1 li a:hover
+{
+    color: #3781A6 !important;
+    
+}
+#column1 li a:active
+{
+    color: #3781A6 !important;
+    
+}
+
+
+#column1 li a:visited
+{
+    color: #8829c7 !important;
+    
+}
+
+#toc_container .sos-perc {
+    padding: 10px 0px !important;
+    border: none !important;
+}
+
+div#sublink_container
+{
+    margin-bottom: 20px !important;
+}
+
+
+    .table-border-no-indent table, .table-border-no-indent td {
+        
+        margin-left: 2px !important;
+        padding-left: 20px !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    
+    width: 97% !important;
+}
+
+.citation-content .collapse-toggle.active, .citation-content .collapse-toggle {
+    line-height: 1.6em !important;
+    padding: 8px 0 8px 40px !important;
+    font-size: 1.2em !important;
+    color: #027591 !important;
+}
+
+.citation-content .collapse-toggle.active .arrow, .citation-content .collapse-toggle .arrow {
+
+    top: 13px !important;
+
+}
+div#sublink_container
+{
+position: sticky !important;
+bottom: 0 !important;
+padding-bottom: 20px !important;
+background: white !important;
+}
+
+/** End Detail Page **/
+
+
+
+
+
+
+a#ctl00_ctl00_FindField_FindField_findField_lnkSearchOtherServices
+{
+    display: none !important;
+}
 .submenu {
 
     line-height: 2.4em !important;
@@ -245,6 +486,8 @@ div.browse-alpha
 #mainContentArea {
 
     background: #f5f5f5 !important;
+    position: absolute !important;
+   
 }	
 
 #outerContainer {
@@ -272,9 +515,10 @@ div.browse-alpha
    
 padding-top: 0px !important;
     padding-bottom: 35px !important;
-    width: 70% !important;
+    width: 100% !important;
     clear: none !important;
     float: left !important;
+    
 
 }
 
@@ -313,7 +557,8 @@ div#ctl00_ctl00_MainContentArea_MainContentArea_basicSearch.basic-search
 
 div.find-field-inner.find-field-simple
 {
-	width: 100% !important;
+    width: 100% !important;
+    max-width: 1200px !important;
 	margin-left: auto !important;
 	margin-right: auto !important;
 }
@@ -386,6 +631,14 @@ input#ctl00_ctl00_MainContentArea_MainContentArea_findField_SearchButton.button.
 	background-color: orange !important;
 }
 
+input#ctl00_ctl00_FindField_FindField_findField_SearchButton.button.styled-button-c3
+{
+    border-color: orange !important;
+	background-color: orange !important;
+}
+
+
+
 input#ctl00_ctl00_MainContentArea_MainContentArea_findField_SearchTerm1.textbox.border-p3.ui-autocomplete-input
 {
 	border-color: #999 !important;
@@ -437,8 +690,25 @@ input#ctl00_ctl00_MainContentArea_MainContentArea_findField_SearchTerm1.textbox.
 }
 div#ctl00_ctl00_FindField_FindField_ctl00_Logo1_logoWrapper.logo-wrapper
 {
-    width: 20% !important;
-   float: left !important;
+   
+
+ 
+   width: 165px !important;
+   mix-blend-mode: multiply;
+
+   position: fixed !important;
+
+   left: 0 !important;
+
+   padding-top: 20px !important;
+   padding-left: 2% !important;
+
+}
+
+input#ctl00_ctl00_FindField_FindField_ctl00_SearchButton.button.styled-button-c3
+{
+    background-color: orange !important; 
+    border-color: orange !important;
 }
 
 div#ctl00_ctl00_FindField_FindField_ctl00_findFieldOuter.find-field-outer div.browse-alpha
@@ -455,6 +725,7 @@ div#ctl00_ctl00_FindField_FindField_ctl00_findFieldOuter.find-field-outer div.br
 #header {
  
     background: none !important;
+    margin: 0px auto 15px auto !important;
 }
 
 .content-header, #headerUl, #freeModalHeader, .content-footer {
@@ -516,8 +787,7 @@ div#ctl00_ctl00_FindField_FindField_ctl00_findFieldOuter.find-field-outer div.br
 
 .column2-open #column2 {
 
-    position: relative !important;
-    float: right !important;
+
     clear: none !important;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -525,17 +795,21 @@ div#ctl00_ctl00_FindField_FindField_ctl00_findFieldOuter.find-field-outer div.br
     max-width: 300px !important;
     background: #fff !important;
     margin-right: 2% !important;
-    margin-left: 2% !important;
+
     padding: 30px 30px 30px 30px !important;
+    float: left !important;
+    position: absolute !important;
+    margin-left: 65% !important;
 }
 
 .column2-open #content {
  
-    position: absolute !important;
+    position: relative !important;
     left: 0 !important;
     margin-left: 2% !important;
      margin-right: 2% !important;
     width: 60% !important;
+   
 }
 
 .content-header {
@@ -565,8 +839,16 @@ div.main-section-header.bar2.bg-p1.border-p1.content-header
 }
 
 
+div#content.text-normal
+{
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+}
+
+
 #content {
     padding: 0px 0 0 !important;
+
 }
 
 #innerContainer {
@@ -618,6 +900,31 @@ div.main-section-header.bar2.bg-p1.border-p1.content-header
 @media (max-width: 1024px) 
 {
 
+    .column2-closed .delivery-control a {
+        
+           
+            width: 0px !important;
+            overflow: hidden !important;
+            font-size: 0em !important;
+        }
+
+        .column2-closed #column2 {
+      
+            margin-left: 5% !important;
+       
+        }
+        
+   
+    div#ctl00_ctl00_FindField_FindField_ctl00_Logo1_logoWrapper.logo-wrapper
+    {
+       
+
+       padding-left: 4% !important;
+    
+    }
+
+
+
 input#ctl00_ctl00_FindField_FindField_ctl00_Logo1_logoLink.logo-image
 {
 display: none !important;
@@ -631,6 +938,11 @@ display: none !important;
 }
 
 a#ctl00_ctl00_FindField_FindField_ctl00_lnkHelpSearch
+{
+    display: none !important;
+}
+
+a#ctl00_ctl00_FindField_FindField_findField_lnkHelpSearch
 {
     display: none !important;
 }
@@ -690,7 +1002,7 @@ div.browse-alpha
     width: 93.5% !important;
   
     max-width: 1200px !important;
-    margin-left: auto !important;
+    margin-left: -11px !important;
     margin-right: auto !important;
 
 
@@ -701,8 +1013,84 @@ div.browse-alpha
 
 }
 
-@media (max-width: 599px) 
+
+@media (max-width: 900px) 
 {
+
+    .detail #column1
+
+    {
+        display: none !important;
+    }
+
+    .detail #content
+    {
+        width: 90% !important;
+    }
+   
+
+    .column2-open #content {
+        
+           
+           width: 90% !important;
+           margin-left: 4% !important;
+           margin-right: 4% !important;
+          
+       }
+
+   
+
+
+
+       .column2-open #column2 {
+        
+        
+            display: none !important;
+        }
+
+ }
+
+@media (max-width: 600px) 
+{
+
+
+    .citation-title {
+   
+        padding: 5px 10px 18px 13px !important;
+        font-size: 1.3em !important;
+    }
+
+    .content-header, #headerUl, #freeModalHeader, .content-footer {
+       
+        padding: 0px 0px 0px 0px !important;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+    .detail #content {
+       
+        margin-top: 0px !important;
+        
+    }
+    
+    .detail #header {
+
+        padding-bottom: 10px !important;
+   
+    }
+
+    .column2-closed #column2 {
+        display: none !important;
+    }
+  
+        
+        #hover_column {
+         
+            display: none !important;
+        }
+
+
 
 	.find-field-inputs {
    
