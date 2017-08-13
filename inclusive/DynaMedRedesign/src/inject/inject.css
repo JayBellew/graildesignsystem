@@ -16,6 +16,13 @@ background: #f5f5f5 !important;
 }
 
 
+
+
+#hover_column
+{
+    width: 40% !important;
+}
+
 /**  Detail Page  **/
 
 
@@ -173,21 +180,31 @@ a.record-info
     background-repeat: no-repeat !important;
     background-position: 0px 0px !important;
     background-size: auto 17px !important;
-    padding-right: 20px !important;
+ 
     margin-right: 5px !important;
+    margin-left: 25px !important;
 }
 
 li.result-list-li.active-result div.result-list-record a.record-info
 
 {
 background: none !important;
-background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_arrow_right_circle_orange_on.png) !important;
+background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_arrow_right_circle_orange_on1.png) !important;
 background-repeat: no-repeat !important;
 background-position: 0px 0px !important;
 background-size: auto 17px !important;
-padding-right: 20px !important;
+
 margin-right: 5px !important;
+margin-left: 25px !important;
 }
+
+
+.result-list {
+  
+    width: 60% !important;
+
+}
+
 
 a.column-close
 {
@@ -249,7 +266,9 @@ div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.uidialog
 
 .citation-title {
   
-    padding: 20px 20px 25px 25px !important;
+    padding: 0px 20px 14px 25px !important;
+    
+    padding-bottom: 14px !important;
     font-size: 1.9em !important;
     border-bottom: 3px solid #eee !important;
     color: #3781A6 !important;
@@ -346,6 +365,22 @@ div#sublink_container
     font-size: 1.2em !important;
     color: #027591 !important;
 }
+
+.hover-title {
+    
+    margin-right: 50px !important;
+    color: #027591 !important;
+    padding: 0px 40px !important;
+    font-size: 1.2em !important;
+    font-weight: normal !important;
+}
+
+#hover_content {
+    overflow: unset !important;
+    padding: 0 40px 10px !important;
+
+}
+
 
 .citation-content .collapse-toggle.active .arrow, .citation-content .collapse-toggle .arrow {
 
@@ -815,7 +850,7 @@ div#ctl00_ctl00_FindField_FindField_ctl00_Logo1_logoWrapper.logo-wrapper
 {
    width: 165px !important;
   
-   position: fixed !important;
+   position: absolute !important;
    left: 0 !important;
    padding-top: 20px !important;
    padding-left: 2% !important;
