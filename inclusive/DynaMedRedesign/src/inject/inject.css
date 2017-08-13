@@ -177,7 +177,8 @@ a.record-info
     margin-right: 5px !important;
 }
 
-a.active-result .record-info
+li.result-list-li.active-result div.result-list-record a.record-info
+
 {
 background: none !important;
 background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_arrow_right_circle_orange_on.png) !important;
