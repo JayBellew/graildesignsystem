@@ -166,6 +166,28 @@ width: unset !important;
 
 }
 
+a.record-info
+{
+    background: none !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_arrow_right_circle_orange.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 0px 0px !important;
+    background-size: auto 17px !important;
+    padding-right: 20px !important;
+    margin-right: 5px !important;
+}
+
+a.active-result .record-info
+{
+background: none !important;
+background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_arrow_right_circle_orange_on.png) !important;
+background-repeat: no-repeat !important;
+background-position: 0px 0px !important;
+background-size: auto 17px !important;
+padding-right: 20px !important;
+margin-right: 5px !important;
+}
+
 a.column-close
 {
     display: none !important;
