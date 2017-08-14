@@ -14,8 +14,39 @@ min-width: auto !important;
 font-family: Helvetica,Arial,sans-serif !important;
 background: #f5f5f5 !important;
 }
+.result-list-li .title-link {
+   
+    font-size: 1.2em !important;
+    
+}
+.perm_link {
+    position: relative !important;
+    right: unset !important;
+    padding-top: 6px !important;
+    border-left: 1px solid #eee !important;
+    padding-left: 13px !important;
+    margin-left: 10px !important;
+}
+
+.results-count {
 
 
+    font-size: 1.3em !important;
+}
+.dialog-left-arrow, .dialog-rt-arrow, .dialog-top-arrow, .dialog-bot-arrow {
+
+    display: none !important;
+}
+
+.uidialog {
+  
+    border: none !important;
+    box-shadow: 2px 2px 5px 1px #999 !important;
+    -moz-box-shadow: 2px 2px 5px #ccc !important;
+    border-radius: 2px !important;
+    background: #ffff;
+    padding: 10px !important;
+}
 
 
 #hover_column
@@ -127,6 +158,16 @@ ul.delivery-control
     background-position: 7px 0px !important;
     background-size: auto 19px !important;
 }
+
+.detail #searchwithinbutton
+{
+    background-position: unset !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_search_teal.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 4px 1px !important;
+    background-size: auto 19px !important;
+}
+
 
 a#ctl00_ctl00_Column2_Column2_topDeliveryControl_deliveryButtonControl_lnkPrint.print-link
 {background-position: unset !important;
@@ -939,9 +980,10 @@ div.option-controls
     
 }
 
+/**
 .results-count {
     display: none !important;
-}
+}**/
 
 
 #headerUl .nav-list li {
@@ -970,9 +1012,31 @@ div.option-controls
 
     border-top: none !important;
 }
+
+
 .icon_perm_link {
-    display: none !important;
     
+    background-position: unset !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_link_black.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 6px 0px !important;
+    background-size: auto 17px !important;
+    width: 24px !important;
+    height: 24px !important;
+    border: none !important;
+}
+
+.icon_perm_link:after {
+    
+    content: "Permalink";
+   
+}
+
+a#permaLink.icon_perm_link::after
+{
+    
+    content: "Permalink";
+   
 }
 
 .font_select {
@@ -1221,7 +1285,7 @@ div.browse-alpha
 
     .detail #content
     {
-        width: 90% !important;
+        width: 95% !important;
     }
    
 
@@ -1249,6 +1313,27 @@ div.browse-alpha
 @media (max-width: 600px) 
 {
 
+    .dynamed .content-wrapper {
+        overflow-y: auto !important;
+       
+    }
+
+    .detail #column2 {
+      
+        max-width: unset !important;
+    }
+
+    .detail .search-within {
+   
+        right: 42px !important;
+        top: 19px !important;
+    }
+
+    .detail #searchwithin {
+    
+        top: 2px !important;
+   
+    }
 
     .citation-title {
    
@@ -1292,7 +1377,7 @@ div.browse-alpha
         right: 0 !important;
         top: unset !important;
         background: #fff !important;
-        padding: 0px 20px 20px 20px !important;
+        padding: 0px 20px 10px 20px !important;
         z-index: 44 !important;
         width: 100% !important;
         margin: 0 !important;
