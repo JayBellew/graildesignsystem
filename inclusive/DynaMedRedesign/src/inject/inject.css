@@ -233,10 +233,10 @@ width: unset !important;
 a.record-info
 {
     background: none !important;
-    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_small_gray_menu.png) !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_arrow_circle_right_gray.png) !important;
     background-repeat: no-repeat !important;
     background-position: 0px 0px !important;
-    background-size: auto 14px !important;
+    background-size: auto 17px !important;
  
     margin-right: 5px !important;
     margin-left: 25px !important;
@@ -251,8 +251,8 @@ background-repeat: no-repeat !important;
 background-position: 0px 0px !important;
 background-size: auto 17px !important;
 
-margin-right: 5px !important;
-margin-left: 25px !important;
+margin-right: 0px !important;
+margin-left: 30px !important;
 }
 
 
