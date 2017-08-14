@@ -131,10 +131,12 @@ a#downloadLink.link.color-s1
 
     
         background-position: unset !important;
-        background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_alert_black.png) !important;
+        background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon-download-blue.png) !important;
         background-repeat: no-repeat !important;
-        background-position: 7px 0px !important;
+        background-position: 7px 12px !important;
         background-size: auto 19px !important;
+        padding-left: 33px !important;
+        margin-left: 15px !important;
     
 }
 
@@ -1381,7 +1383,8 @@ div#content.text-normal
           width:100% !important;
       
       }
-
+      #viewport {
+        overflow-y: overlay !important;}
  
 
       #ViewerWrap #column1 .collapsible-content
@@ -1544,6 +1547,18 @@ div.browse-alpha
 
 @media (max-width: 600px) 
 {
+
+
+    span#ctl00_ctl00_MainContentArea_MainContentArea_topResultCounts.results-count.medium-bold
+    {
+        display: block !important;
+        margin-left: 20px !important;
+
+    }
+    .result-list {
+        
+        width: 100% !important;}
+
 
     .dynamed .content-wrapper {
         overflow-y: auto !important;
