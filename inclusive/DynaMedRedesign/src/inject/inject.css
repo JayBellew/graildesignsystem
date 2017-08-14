@@ -25,13 +25,28 @@ background: #f5f5f5 !important;
 
 /**  Detail Page  **/
 
+.column1-closed.detail #column1 {
 
+    display: none !important;
+}
 
-
+/**
 .detail .search-within {
     
      display: none !important;
  }
+ **/
+
+ .detail .search-within {
+
+    right: 17px !important;
+    top: 3px !important;
+    padding-right: 6px!important;
+    padding-top: 2px !important;}
+
+    .detail #ToolPanelContent .close-panel {
+        top: 26px !important;
+    }
 
  .detail .font_select {
     right: 20px !important;
@@ -85,6 +100,7 @@ background: #f5f5f5 !important;
     width: 50% !important;
     margin-left: 4% !important;
     margin-top: 18px !important;
+    max-width: 400px !important;
 }
 
 #column2 {
@@ -1260,10 +1276,31 @@ div.browse-alpha
    
     }
 
-    .column2-closed #column2 {
-        display: none !important;
+    ul#headerUl.nav-tabs.bar2.bg-p1.border-p1
+    {
+    
+        height: 39px !important;
+        padding-top: 15px !important;
     }
   
+    .column2-closed #column2 {
+
+        display: block !important;
+        position: fixed !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        top: unset !important;
+        background: #fff !important;
+        padding: 0px 20px 20px 20px !important;
+        z-index: 44 !important;
+        width: 100% !important;
+        margin: 0 !important;
+    
+        -webkit-box-shadow: 0px -6px 3px -6px rgba(0,0,0,0.37) !important;
+        -moz-box-shadow: 0px -6px 3px -6px rgba(0,0,0,0.37) !important;
+        box-shadow: 0px -6px 3px -6px rgba(0,0,0,0.37) !important;
+    }
         
         #hover_column {
          
