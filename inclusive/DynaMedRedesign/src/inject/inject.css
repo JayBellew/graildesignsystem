@@ -14,10 +14,221 @@ min-width: auto !important;
 font-family: Helvetica,Arial,sans-serif !important;
 background: #f5f5f5 !important;
 }
+
+.related-info-area {
+    margin: 0 0 15px !important;
+    padding: 0 0 25px !important;
+    border-bottom: none !important;
+  
+}
+
+
+
+.related-info-container .find-more {
+  
+    margin-left: 14px !important;
+    font-weight: bold !important;
+}
+
+/**  Viewer **/
+
+#ViewerArea {
+   
+    top: 50px !important;
+    background: #fff !important;
+  
+}
+
+#ViewerColumn {
+  
+    right: 30% !important;
+    bottom: 0px !important;
+    left: 0px !important;
+    width: 70% !important;
+
+}
+
+#column1 .collapsible-toggle {
+  
+    display: none !important;
+}
+
+#ViewerWrap #column2 {
+
+    display: none !important;
+}
+
+.format-active .source {
+    padding: 30px 0px !important;
+    color: #222 !important;
+    font-size: 1.1em !important;
+    font-weight: normal !important;
+    line-height: 1.5 !important;
+
+}
+
+.format-active {
+  
+    border: none !important;
+   
+}
+
+#ViewerArea #column1.collapsible{
+
+display: none !important;
+}
+
+#ViewerArea #column1 .collapsible-content {
+  
+    margin-left: 5% !important;
+    margin-right: -8% !important;
+    position: fixed !important;
+    right: 0 !important;
+    
+    width: 100% !important
+}
+
+.contentItems>li {
+
+    padding: 5px 5px 5px 5px !important;
+    font-weight: normal !important;
+    line-height: 1.5 !important;
+    border-bottom: none !important;
+}
+
+ul.format-control
+{
+    padding-left: 20px !important;
+}
+
+a#downloadLink.link.color-s1, a#ctl00_ToolbarArea_returnLink.resultListLink.link.color-s1
+
+{
+
+    color: #222 !important;
+    font-weight: normal !important;
+}
+
+ul#ctl00_ToolbarArea_toolbarNav_menuList.toolbar-tools.border-p1
+{
+    display: none !important;
+}
+#titleBar {
+
+    display: none !important;
+}
+
+
+#viewport {
+  
+    top: -28px !important;
+
+}
+
+
+a#downloadLink.link.color-s1
+{
+
+    
+        background-position: unset !important;
+        background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_alert_black.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: 7px 0px !important;
+        background-size: auto 19px !important;
+    
+}
+
+
+#TOC {
+    max-height: unset !important;
+
+}
+/**
+.panel_toggle_active, .panel_toggle, .collapse-toggle {
+
+    padding: 15px 0 10px 5px !important;
+    line-height: 1.4em !important;
+
+}
+**/
+.pdf-collapsible-section .collapse-toggle .icon
+
+{display: none !important;}
+
+
+
+.pdf-inside-this-work {
+    padding: 11px 4px !important;
+    font-size: 1.2em !important;
+    font-weight: normal !important;
+}
+
+/**  Viewer  End **/
+
+
+.result-list-li {
+
+    padding-top: 10px !important;
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+  
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+   
+}
+
 .result-list-li .title-link {
    
     font-size: 1.2em !important;
     
+}
+
+.collapsible-list .collapse-toggle {
+
+    margin-top: 2px !important;
+}
+
+.collapsible-list li {
+
+    line-height: 1.5em !important;
+}
+
+#hover_content ul li a {
+  
+    line-height: 1.5em !important;
+    padding-left: 5px !important;
+}
+
+.title-link-wrapper {
+ 
+    line-height: 1.9em !important;
+
+}
+
+/**
+.collapsible-list .icon
+
+    {background-position: unset !important;
+        background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_plus_open.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: 0px 0px !important;
+        background-size: 12px 12px !important;
+        }
+**/
+
+
+
+.collapsible-list .icon {
+    
+       top: 9px !important;
+       
+   }
+
+
+
+
+#hover_content ul li a {
+    color: #222 !important;
 }
 .perm_link {
     position: relative !important;
@@ -52,6 +263,8 @@ background: #f5f5f5 !important;
 #hover_column
 {
     width: 40% !important;
+    margin-top: 10px !important;
+    overflow: -webkit-paged-x !important;
 }
 
 /**  Detail Page  **/
@@ -240,19 +453,22 @@ a.record-info
  
     margin-right: 5px !important;
     margin-left: 25px !important;
+    margin-top: 5px !important;
 }
+
+
 
 li.result-list-li.active-result div.result-list-record a.record-info
 
 {
 background: none !important;
-background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_arrow_right_circle_orange_on1.png) !important;
+background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_orange_on.png) !important;
 background-repeat: no-repeat !important;
 background-position: 0px 0px !important;
 background-size: auto 17px !important;
 
-margin-right: 0px !important;
-margin-left: 30px !important;
+margin-right: 5px !important;
+margin-left: 25px !important;
 }
 
 
@@ -332,11 +548,7 @@ div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.uidialog
     font-weight: normal !important;
     line-height: 1.3 !important;
 }
-.collapsible-list .icon {
- 
-    top: 9px !important;
-    
-}
+
 
 
 
@@ -1159,6 +1371,26 @@ div#content.text-normal
 
 @media (max-width: 1024px) 
 {
+
+
+    #ViewerColumn {
+        
+          right: 0px !important;
+          bottom: 0px !important;
+          left: 0px !important;
+          width:100% !important;
+      
+      }
+
+ 
+
+      #ViewerWrap #column1 .collapsible-content
+
+      {
+        
+          display: none !important;
+          
+      }
 
     .column2-closed .delivery-control a {
         
