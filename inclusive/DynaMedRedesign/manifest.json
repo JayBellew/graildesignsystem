@@ -1,19 +1,19 @@
 {
-  "name": "Redesign DynaMed",
+  "name": "EBSCO UX: Redesign DynaMed",
   "version": "2.5",
   "manifest_version": 2,
-  "description": "Redesign DynaMed",
+  "description": "EBSCO UX: Redesign DynaMed",
   "homepage_url": "http://graildesignsystem.com",
   "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
+    "16": "icons/icon128.png",
+    "48": "icons/icon128.png",
     "128": "icons/icon128.png"
   },
   "default_locale": "en",
    "browser_action": {
         "default_icon": "icons/icon128.png",
         "default_popup": "src/page_action/page_action.html",
-        "default_title": "Redesign DynaMed"
+        "default_title": "EBSCO UX: Redesign DynaMed"
     },
   "background": {
     "page": "src/bg/background.html"

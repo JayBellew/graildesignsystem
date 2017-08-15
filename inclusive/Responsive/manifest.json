@@ -1,19 +1,19 @@
 {
-  "name": "EBSCO UX Prototype Engine",
+  "name": "EBSCO UX: Responsive UI",
   "version": "2.5",
   "manifest_version": 2,
-  "description": "Make EBSCO Responsive",
+  "description": "EBSCO UX: Responsive UI",
   "homepage_url": "http://graildesignsystem.com",
   "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
+    "16": "icons/icon128.png",
+    "48": "icons/icon128.png",
     "128": "icons/icon128.png"
   },
   "default_locale": "en",
    "browser_action": {
         "default_icon": "icons/icon128.png",
         "default_popup": "src/page_action/page_action.html",
-        "default_title": "EBSCO UX Lab"
+        "default_title": "EBSCO UX: Responsive UI"
     },
   "background": {
     "page": "src/bg/background.html"
