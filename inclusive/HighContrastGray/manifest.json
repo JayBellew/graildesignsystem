@@ -1,8 +1,8 @@
 {
-  "name": "EBSCO UX: Night Time View",
+  "name": "EBSCO UX: High Contrast",
   "version": "1.4",
   "manifest_version": 2,
-  "description": "EBSCO UX: Night Time View",
+  "description": "EBSCO UX: High Contrast",
   "homepage_url": "http://graildesignsystem.com",
   "icons": {
     "16": "icons/icon128.png",
@@ -13,7 +13,7 @@
    "browser_action": {
         "default_icon": "icons/icon128.png",
         "default_popup": "src/page_action/page_action.html",
-        "default_title": "EBSCO UX: Night Time View"
+        "default_title": "EBSCO UX: High Contrast"
     },
   "background": {
     "page": "src/bg/background.html"

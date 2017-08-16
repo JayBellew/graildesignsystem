@@ -1,0 +1,230 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+
+body {
+    -webkit-filter: grayscale(100%) brightness(10%) contrast(100%);
+}
+
+/**
+
+
+body {
+
+
+  /** Chrome, Safari **/
+  -webkit-filter: saturate(250%);
+
+
+}
+
+
+
+
+body {
+  /* IE */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(sepia=1);
+
+  /* Chrome, Safari */
+  -webkit-filter: sepia(1);
+
+  /* Firefox */
+  filter: sepia(1);
+}
+
+
+
+
+
+ body {
+  /* IE */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+
+  /* Chrome, Safari */
+  -webkit-filter: grayscale(1);
+
+  /* Firefox */
+  filter: grayscale(1);
+}
+
+ body { -webkit-filter: invert(1); }
+
+
+#outerContainer {
+    
+    background: #000 !important;
+}
+
+body {
+    color: #fff !important;
+}
+
+a:link, a:visited {
+
+    text-decoration: underline !important;
+    color: yellow !important;
+}
+
+div#apvideo.rhi-loaded
+
+{
+
+	background: none !important;
+}
+
+.result-list-li {
+   
+    color: #fff !important;
+
+}
+
+.subjectResults {
+    color: #fff !important;
+}
+
+#breadboxContent {
+   
+    background-color: #333 !important;
+    border: solid 3px #fff !important;
+   
+}
+
+
+.refine-heading {
+
+    background: #000 !important;
+}
+
+.treelist-group {
+
+    background-color: inherit !important;
+
+}
+
+.button.icon-btn {
+    background: #666 !important;
+}
+
+#footerControl {
+
+    background: #000 !important;
+
+}
+
+#content .record-icon .caption {
+    color: #fff !important;
+}
+
+.nav-list>.title, .sep>.title {
+    color: #fff !important;
+  
+}
+.related-info-area .collapse-toggle, #integratedSearchPanel.collapse-toggle {
+
+    color: #fff !important;
+    
+}
+
+#header, .landing #header {
+
+    background: #000 !important;
+
+}
+
+.bg-p1 {
+    background-color: #000 !important;
+}
+
+#toolbarControl .presentation {
+
+    background: #000 !important;
+
+}
+
+.search-terms:link {
+
+    color: yellow !important;
+}
+
+.color-p2 {
+    filter: invert(100%);
+}
+
+.bg-p4 {
+    background-color: yellow;
+}
+
+
+
+
+
+
+.logo-image, .logo-image img, img.logo-img
+ {
+    
+	filter: invert(100%);
+
+}
+
+a.icon.remove.bg-p4
+{
+    background-color: #000;
+}
+
+.bg-p4 {
+    background-color: yellow;
+}
+#apvideo .rhi-carousel-head-label {
+
+    color: yellow !important;
+}
+
+
+#apvideo .rhi-carousel-head-viewall {
+    color: yellow !important;
+}
+
+#apvideo .rhi-carousel-head-itemcount {
+
+    color: #fff !important;
+ 
+}
+
+.footer-wrapper {
+    background-color: #000 !important;
+}
+
+.legend .h3, .legend .h4, .legend {
+
+    background: #000 !important;
+
+} 
+
+ul.ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all.auto-complete-no-wrap
+{
+
+	color: #000 !important;
+}
+
+.format-control .active {
+    background-color: #000 !important;
+
+}
+
+#relatedInfoLinks, .related-items {
+
+    background-color: #000 !important;
+
+}
+
+#similarArticleControl {
+
+    background-color: #000 !important;
+
+}
+
+.color-p1 {
+	color: #fff !important;
+}
+
+**/
