@@ -15,7 +15,17 @@ font-family: Helvetica,Arial,sans-serif !important;
 background: #f5f5f5 !important;
 }
 
-
+.result-list, .lirc .has-icons {
+ 
+    min-height: 1000px !important;
+}
+.content-wrapper {
+   
+    border-width: 0 !important;
+ 
+    margin-left: unset !important;
+    margin-right: unset !important;
+}
 
 
 .related-info-area {
@@ -1667,15 +1677,31 @@ div.browse-alpha
 
     span.find-field-submit
  {
+    
+    width: 20% !important;
+
+}
+
+.toolbar-navigation {
+    position: relative;
+    z-index: 2;
+    float: left;
+    font-weight: bold;
+    clear: left;
+    margin-left: 0px !important;
+}
+
+.button.styled-button-c3
+{
+    width: 100% !important;
+   text-indent: -9000px !important;
+   font-size: 1.1em !important;
     background-color: orange !important;
-    text-indent: -9000px;
-    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon-search-white.png);
-    background-size: auto 24px;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon-search-white.png) !important;
+    background-size: auto 24px !important;
     background-repeat: no-repeat !important;
     border-radius: 2px !important;
     background-position: center !important;
-    width: 20% !important;
-
 }
 
 .textbox {
