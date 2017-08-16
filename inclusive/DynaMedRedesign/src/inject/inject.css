@@ -49,9 +49,15 @@ background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_
 background-repeat: no-repeat !important;
 background-position: 0px 15px !important;
 background-size: auto 14px !important;
-margin-left: 8px !important;
+margin-left: 20px !important;
 padding-left: 34px !important;
 }
+
+.toolbar-tools .link {
+    font-size: .9em !important;
+    
+}
+
 
 .result-list, .lirc .has-icons {
  
@@ -1435,6 +1441,11 @@ div#content.text-normal
 
 @media (max-width: 1024px) 
 {
+    
+    
+
+
+
 
 
     #ViewerColumn {
@@ -1573,6 +1584,47 @@ div.browse-alpha
 
 @media (max-width: 900px) 
 {
+
+
+    a[title="Help"] 
+    
+    {
+    position: relative !important;
+    text-indent: -15000px !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_help_white.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 0px 10px !important;
+    background-size: auto 22px !important;
+    margin-left: 8px !important;
+    }
+    
+    a[title="About"] 
+    
+    {
+    position: relative !important;
+    text-indent: -15000px !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_info_white.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 0px 10px !important;
+    background-size: auto 22px !important;
+    margin-left: 8px !important;
+    
+    }
+    
+    
+    a[title="Send Comment"] 
+    
+    {
+    position: relative !important;
+    text-indent: -15000px !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_message_square_white.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 0px 10px !important;
+    background-size: auto 22px !important;
+    margin-left: 20px !important;
+    padding-left: 34px !important;
+    max-width: 0px !important;
+    }
 
     .detail #column1
 
