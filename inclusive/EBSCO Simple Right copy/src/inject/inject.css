@@ -35,264 +35,19 @@
 	src: url('http://dyslexicfonts.com/fonts/eulexia.ttf');
 } 
 
-/** Detail Page **/
-
-#content .snippet-body {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    padding-top: 10px !important;
-}
-.custom-widget {
-
-    border: none !important;
-	border-radius: 0px !important;
-	
-}
-
-h2.collapse-toggle.active.bg-p1.custom-widget-header
-{
-	font-family: unset !important;
-	padding-left: 40px !important;
-}
-
-h2.collapse-toggle.bg-p1.custom-widget-header
-{
-	font-family: unset !important;
-	padding-left: 40px !important;
-}
-.custom-widget .collapse-toggle {
-    border-radius: 0px !important;
-}
-
-/** Viewer **/
-
-
-div.left-nav-toggle__collapsibleToggle___3Rpsf.left-nav-toggle__expandButton___1mRdE
-{
-    display: none !important;
-}
-
-.evt-viewer-section.open .collapsible-toggle {
-    display: none !important;
-}
-.leftNavPanelCol
-{
-	float: right !important;
-}
-
-/** Result Placard start **/
-
-.placard-content-container {
-	
-		background: #fff !important;
-	}
-	
-	
-	.placard-body {
-	
-	
-		padding: 20px 20px 20px 20px !important;
-	}
-	
-	div.placard-container
-	{
-		margin-top: 20px !important;
-	}
-	
-	.placard-container {
-	
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)!important;
-	
-		border: none !important;
-		float: left !important;
-		position: absolute !important;
-		margin: 0px !important;
-		top: 0 !important;
-		right: 2% !important;
-		width: 34% !important;
-
-		
-	
-	}
-	
-	
-			
-	
-	.placard-img-placeholder img, .placard-img img {
-	
-	
-		max-width: 90%;
-		max-height: 90%;
-		padding: 20px 10px 10px 20px !important;
-	
-	}
-	
-	.placard-img-placeholder {
-	
-		max-width: 150px !important;
-	}
-	
-	#content .placard p{
-		padding-bottom: 5px !important;
-	}
-	/** Result Placard end **/
-	
-	
-
-/** Login Page **/
-
-.login #mainContentArea, .login #footerControl {
-    background: #fff !important;
-    padding: 20px !important;
-    margin-left: 2% !important;
-    width: 90% !important;
-}
-
-
-/** Preferences modal **/
-
-div#preferencesDialog.border{
-	background: #fff !important;
-}
-
 .preview-hover, span.item.add-to-folder, #optionsControls>ul, .content-header .page-title, .basic #findFieldLinks, .basic .searching, .customerLogo, #footerControl, .searching, .find-field-link, ul.imgview-list-content
 ,div.treelist-group.accordion-tabs, div.record-formats-wrapper.externalLinks, input#ClearButton.button.styled-button-c3.rs_preserve
+
+
 
 {
 	display: none !important;
 }
-div#resultListControl.content-wrapper
-{
-	width: 60% !important;
-
-}
-
-#limiterExpanderControl, .edit-search-history-controls, .edit-search-history-terms {
-
-    background: #fff !important;
-}
-
-.legend {
-   background: none !important;
-  
-   
-
-}
-.legend .h3 {
-	position: absolute !important;
-    margin-left: 0px !important;
-	font-size: 1.8em !important;
-	color: #000 !important;
-    border-left: 4px solid #ccc !important;
-	padding-left: 12px !important;
-	padding-top: 0px !important;
-    margin-top: 20px !important;
-    background: none !important;
-}
-
-.legend .h4 {
-    margin-left: -7px !important;
-    background: none !important;
-
-    font-size: 1.6em !important;
- 
-}
-
-
-
-.fieldset .btnset-header, .fieldset .btnset-footer {
-
-    margin-top: 20px !important;
-}
-legend.legend.main-section-header
-{
-	margin-top: 20px !important;
-}
-
-#header, .landing #header {
-	float: left !important;
-	border-bottom: none !important;
-	margin-top: 50px !important;
-}
-.basic .find-field-outer {
- 
-    margin-top: 50px !important;
-}
-
-#header, .landing #header {
-    background: unset !important;
-    border-bottom: unset !important;
-}
-html, body, #aspnetForm {
-    background: #f5f5f5 !important;
-}
-.basic-search .dd+.textbox, .basic-search .dd+.text-container .textbox {
-	width: unset !important;
-	max-width: unset !important;
-}
-
-#citationFields {
-    
-	background: #fff !important;
-	width: 80% !important;
-	margin-top: 20px !important;
-	margin-left: 0px !important;
-	margin-bottom: 30px !important;
-}
-
-.basic .find-field-outer {
-    width: 100% !important;
-    max-width: 1200px !important;
-}
-
-.basic .find-field-controls {
-
-    padding-top: unset !important;
-}
-
-fieldset.find-field-controls
-{
-    padding: 20px 0 0 0px !important;
-}
-.basic .find-field-inner {
-    padding-bottom: unset !important;
-}
-div.find-field-inputs
-{
-	margin-left: auto !important;
-	margin-right: auto !important;
-}
-
-
-
-.basic #header {
-	background: #f5f5f5 !important;
-	margin-top: 50px !important;
-}
-
-
-h2.searching
-{
-    display: none !important;
-}
-
-
-.basic .branding-Beside .logo-img, .basic .branding-Beside .logo, img.logo-img
-{
-    mix-blend-mode: multiply !important;
-}
-img.logo-img{
-margin-right: 30px !important;
-margin-left: 10px !important;}}
 
 .placard-content-container {
 
     background: #fff !important;
 }
-.placard {
-    background: #fff !important;
-}
-
 
 .clear-button, .clear-button:link {
     display: none !important;
@@ -300,36 +55,24 @@ margin-left: 10px !important;}}
 
 
 
+.placard-body {
+
+
+	padding: 20px 20px 20px 20px !important;
+}
+
+
+
+
 .toolbar-tools {
-	background: rgba(0, 0, 0, 0.15) !important;
-	z-index: 2 !important;
-	position: absolute !important;
-	right: 0 !important;
-
+    float: left !important;
 }
-
-ul#SearchNavigationMenubar.toolbar-navigation li {
-	display: none !important;
-}
-
-
-ul#SearchNavigationMenubar.toolbar-navigation li.first-item.nav-item
-{
-	display: block !important;
-}
-
-.footer-wrapper {
-    background-color: #f5f5f5 !important;
-}
-
 
 
 .result-list-li:first-child {
     border-top: solid 1px #fff !important;
 }
 
-li#itemFolder.nav-item
-{display: none !important;}
 
 li#itemLanguages.nav-item.submenu-trigger
 		{
@@ -340,10 +83,7 @@ li#itemLanguages.nav-item.submenu-trigger
 
 #innerContainer {
     position: relative;
-	background: #f5f5f5 !important;
-	max-width: 1280px !important;
-	margin-left: auto !important;
-    margin-right: auto !important;
+    background: #f5f5f5 !important;
 }
 
 .title-link {
@@ -352,7 +92,10 @@ li#itemLanguages.nav-item.submenu-trigger
 
 }
 
-
+#toolbarControl
+{
+	display: none !important;
+}
 /**
 .find-field-link:first-child
 {
@@ -377,9 +120,6 @@ li#itemLanguages.nav-item.submenu-trigger
 
 		.column2-open #content {
 			margin-right: auto !important;
-			background: #fff !important;
-			padding-left: 30px !important;
-			padding-right: 30px !important;
 		}
 
 
@@ -431,7 +171,7 @@ display: none !important;
     margin-left: 30px !important;
 }
 
-/**
+
 
 
 #mainContentArea {
@@ -443,7 +183,7 @@ display: none !important;
 	margin-top: 25px !important;
 	margin-bottom: 25px !important;
 }
-**/
+
 
 .result-list-li {
 
@@ -717,13 +457,9 @@ input[type=text].textbox {
 	padding: 6px 6px 6px 15px !important;
 	margin: 2px 4px 2px 0px !important;
     font-size: 1.4em !important;
-    background-color: #fff !important;
-	height: 28px !important;
-	width: 100% !important;
-	max-width: 90% !important;
-	min-width: 400px !important;
-    border: 1px solid rgba(0,0,0,0.15) !important;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.1) !important;
+    background-color: #f2f2f2 !important;
+    border: 1px solid #a3a3a3 !important;
+    height: 28px !important;
 }
 
 /**
@@ -857,21 +593,17 @@ height: auto !important;
 
 	#toolbarControl {
 		
-		position: fixed !important;
+		
 		height: 50px !important;
 		width: 100% !important;
 		display: inline-block !important;
 		border-bottom: none !important;
-		right: 0px !important;
-		left: 0px !important;
 		
 		}
 
 .toolbar-navigation {
 
-	margin-left: 10px !important;
-    position: absolute !important;
-	
+    margin-left: 10px !important;
 }
 
 
@@ -891,7 +623,9 @@ height: auto !important;
 	font-size: 14px !important;
 }
 
-
+.toolbar-tools {
+    margin-right: 10px !important;
+}
 
 #toolbarControl .presentation {
 
@@ -959,7 +693,7 @@ h3.related-info-header.color-p1.border-p1
 #citationFields img {
     max-width: 600px;
     min-width: 100px !important;
-
+    width: 100% !important;
 }
 
 .article-tool.active {
@@ -1213,24 +947,44 @@ div.dialog-top-arrow.border-p1.eppopup-arrow-elem
 
 
 /** Result Placard **/
+div.placard-container
+{
 
+	margin-top: 20px !important;
+
+   
+
+}
 
 .placard-container {
 
-	margin-top: 10px !important;
-	border: none !important; 
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)!important;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
+	border: none !important;
+	float: right !important;
+    position: absolute !important;
+    margin: 0px !important;
+    top: 0 !important;
+	right: 0 !important;
+	width: 36% !important;
+	margin-left: 3% !important;
 
 }
-		.placard-body {
+
+.placard-container:hover {
+
+box-shadow: 0 7px 14px rgba(0,0,0,0.18), 0 5px 5px rgba(0,0,0,0.22) !important;
 
 
-	padding: 10px 10px 5px 20px !important;
 }
+		
 
 .placard-img-placeholder img, .placard-img img {
 
-    padding-top: 15px !important;
-    padding-left: 15px !important;
+
+	max-width: 90%;
+    max-height: 90%;
+    padding: 20px 10px 10px 20px !important;
 
 }
 
@@ -1579,7 +1333,11 @@ h2.module-heading.color-s1
 		
 
 
-		
+		#header {
+
+		border-bottom: 2px solid #E7E7E7 !important;
+
+		}
 
 		.basic #header {
    		border-bottom: none !important;}
@@ -1701,19 +1459,12 @@ h2.module-heading.color-s1
 
 
 @media (max-width: 1200px) {
+.placard-body {
+    display: inline-block !important;
 
-
-
-		
-		/** Result Placard start **/
-		
-			.placard-body {
-			display: inline-block !important;
-		
-				width: 71% !important;
-		}	
-		
-		/** Result Placard end **/
+	    width: 71% !important;
+}	
+	
 
 
 
@@ -1739,16 +1490,20 @@ h2.module-heading.color-s1
 
 
 
+div#ctl00_ctl00_MainContentArea_MainContentArea_resultList.resultListPanel
+{
+	max-width: 650px !important;
+    width: 60% !important;
+}
 
 
-/**
 
 #mainContentArea {
     float: left;
-    width: 95% !important;
-    max-width: 700px !important;
-	margin-left: 2% !important;}
-**/	
+	margin-left: 2% !important;
+	width: 95% !important;
+    max-width: 1200px !important;
+	}
 
 /** PDF viewer **/
 
@@ -1787,6 +1542,12 @@ display: none !important;
 
 }
 
+		.toolbar-navigation
+
+{
+
+	display: none !important;
+}
 
 		
 
@@ -1922,42 +1683,15 @@ input#CreateAlertButton.button.styled-button-c3.rs_preserve
 
 
 	#header{
-				padding-right: 0px !important;
-				padding-left: 20px !important;
+   			 padding-right: 0px !important;
 			}
 		
 
 
+.toolbar-tools {
+    margin-left: 10px;
+}
 
-			@media (max-width: 1024px) 
-			{
-			/** Result Placard start **/
-			
-			.placard-container {
-			
-			
-				border: none !important;
-				float: left !important;
-				position: relative !important;
-				margin: 0px !important;
-				top: inherit !important;
-				right: inherit !important;
-				width: auto !important;
-				margin-left: auto !important;
-				background: #fff !important;
-				z-index: 33 !important;
-			
-			}
-			div.placard-container
-			{
-			margin-top: 0px !important;
-			margin-bottom: 20px !important;
-			 width: 100% !important;
-			}
-			
-			/** Result Placard end **/
-			
-			}
 
 
 
@@ -1987,7 +1721,9 @@ input#CreateAlertButton.button.styled-button-c3.rs_preserve
 		}
 
 
-		
+		.basic .searching {
+			display: block !important;
+		}
 
 				.multi-column4 {
 		width: 100% !important;}
@@ -2013,14 +1749,47 @@ input#CreateAlertButton.button.styled-button-c3.rs_preserve
 
 
 
-
-
-
-
 		
 }	
 
+@media (max-width: 1024px) 
+{
+.placard-container {
 
+
+	border: none !important;
+	float: left !important;
+    position: relative !important;
+    margin: 0px !important;
+    top: inherit !important;
+	right: inherit !important;
+	width: auto !important;
+	margin-left: auto !important;
+    background: #fff !important;
+	z-index: 33 !important;
+
+
+}
+div.placard-container
+{
+margin-top: 0px !important;
+margin-bottom: 20px !important;
+ width: 100% !important;
+}
+
+
+ul.result-list.has-icons
+ {
+
+	clear: both !important;
+}
+
+
+div#ctl00_ctl00_MainContentArea_MainContentArea_resultList.resultListPanel
+{
+	max-width: 950px !important;
+    width:100% !important;
+}
 
 
 @media (max-width: 620px) 
@@ -2060,11 +1829,7 @@ input#SearchButton.button.styled-button-c3.rs_preserve
 
 
 	
-.placard-body {
-    display: inline-block !important;
-	width: auto !important;
-}	
-	
+
 	
 .find-field-controls {
 
@@ -2110,8 +1875,9 @@ span#showLessChooseDatabases.showLessChooseDatabases
 		margin: 0 auto !important;
 		padding: 0px 0px 10px 10px !important;
 		min-height: auto !important;
+		background: #fff url(../../layout2/bg_header.png) 0 bottom repeat-x !important;
+		border-bottom: 2px solid #E7E7E7 !important;
 		z-index: 20000 !important;
-		margin-top: 50px !important;
 		}
 
 
@@ -2318,26 +2084,9 @@ div#folderLogoDiv.logo-wrapper
     width: 80px !important;
 }
 
-	input[type=text].textbox {
-	
-		min-width: 325px !important;
-		
-	}
-}
-
-
 @media screen and (max-width: 599px)
 
 {
-
-	input[type=text].textbox {
-	
-		min-width: 200px !important;
-		
-	}
-
-
-
 
 	/* ebook viewer making it responsive to a phone **/
 .viewer-footer .cell1 {

@@ -1,6 +1,6 @@
 {
   "name": "EBSCO UX: Redesign DynaMed",
-  "version": "2.7",
+  "version": "2.7.2",
   "manifest_version": 2,
   "description": "EBSCO UX: Redesign DynaMed",
   "homepage_url": "http://graildesignsystem.com",
@@ -18,21 +18,18 @@
     "contentSettings",
     "tabs",
     "activeTab",
-    "https://ebsco.com/*",
-    "http://web.b.ebscohost.com/*",
-    "http://web.a.ebscohost.com/*",
-    "http://eds.a.ebscohost.com/*",
-    "http://eds.b.ebscohost.com/*"
+    "http://web.b.ebscohost.com/dynamed/*",
+    "http://web.a.ebscohost.com/dynamed/*",
+    "http://web.b.ebscohost.com//dynamed/*",
+    "http://web.a.ebscohost.com//dynamed/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://ebsco.com/*",
-        "http://web.b.ebscohost.com/*",
-        "http://web.a.ebscohost.com/*",
-         "http://eds.a.ebscohost.com/*",
-        "http://eds.b.ebscohost.com/*"],
-
+        "http://web.b.ebscohost.com/dynamed/*",
+        "http://web.a.ebscohost.com/dynamed/*",
+        "http://web.b.ebscohost.com//dynamed/*",
+        "http://web.a.ebscohost.com//dynamed/*"],
       "all_frames": true,
 
       "css": [

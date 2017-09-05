@@ -1,6 +1,6 @@
 {
   "name": "EBSCO UX: Simple UI",
-  "version": "1.3",
+  "version": "1.4",
   "manifest_version": 2,
   "description": "EBSCO UX: Simple UI",
   "homepage_url": "http://graildesignsystem.com",
@@ -20,20 +20,18 @@
     "contentSettings",
     "tabs",
     "activeTab",
-    "https://ebsco.com/*",
-    "http://web.b.ebscohost.com/*",
-    "http://web.a.ebscohost.com/*",
-    "http://eds.a.ebscohost.com/*",
-    "http://eds.b.ebscohost.com/*"
+    "http://web.b.ebscohost.com/ehost/*",
+    "http://web.a.ebscohost.com/ehost/*",
+    "http://eds.a.ebscohost.com/eds/*",
+    "http://eds.b.ebscohost.com/eds/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://ebsco.com/*",
-        "http://web.b.ebscohost.com/*",
-        "http://web.a.ebscohost.com/*",
-         "http://eds.a.ebscohost.com/*",
-        "http://eds.b.ebscohost.com/*"],
+        "http://web.b.ebscohost.com/ehost/*",
+        "http://web.a.ebscohost.com/ehost/*",
+        "http://eds.a.ebscohost.com/eds/*",
+        "http://eds.b.ebscohost.com/eds/*"],
 
       "all_frames": true,
 

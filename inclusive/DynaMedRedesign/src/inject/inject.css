@@ -381,7 +381,7 @@ a#downloadLink.link.color-s1
     background: none !important;
     left: 0 !important;
     width: 62% !important;
-    max-width: 900px !important;
+    max-width: 1200px !important;
     margin-top: 13px !important
  
 }
@@ -778,6 +778,9 @@ div#ctl00_ctl00_MainContentArea_MainContentArea_basicSearch.basic-search
     font-size: 1.1em !important;
     font-weight: normal !important;
     padding-right: 20px !important;
+    position: fixed !important;
+    right: 0px !important;
+    left: 0px !important;
 
   
 
@@ -1240,11 +1243,16 @@ ul#headerUl.nav-tabs.bar2.bg-p1.border-p1 li.perm_link
 #innerContainer {
  
     background: #FFF !important;
+    max-width: 1600px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
 }
 #header {
  
     background: none !important;
     margin: 0px auto 15px auto !important;
+    margin-top: 60px !important;
 }
 
 .content-header, #headerUl, #freeModalHeader, .content-footer {
