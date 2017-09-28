@@ -1,8 +1,8 @@
 {
-  "name": "EBSCO UX: Simple: Right Side UI",
+  "name": "EBSCO UX: Original Simple Right Side UI",
   "version": "1.5",
   "manifest_version": 2,
-  "description": "EBSCO UX: Simple: Right Side UI",
+  "description": "EBSCO UX: Simple: Original Right Side UI",
   "homepage_url": "http://graildesignsystem.com",
   "icons": {
     "16": "icons/icon128.png",
@@ -13,7 +13,7 @@
    "browser_action": {
         "default_icon": "icons/icon128.png",
         "default_popup": "src/page_action/page_action.html",
-        "default_title": "EBSCO UX: Simple: Right Side UI"
+        "default_title": "EBSCO UX: Simple: Original Right Side UI"
     },
   "background": {
     "page": "src/bg/background.html"

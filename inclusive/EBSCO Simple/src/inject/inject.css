@@ -155,12 +155,62 @@ div#preferencesDialog.border{
 	background: #fff !important;
 }
 
-.preview-hover, span.item.add-to-folder, #optionsControls>ul, .content-header .page-title, .basic #findFieldLinks, .basic .searching, .customerLogo, #footerControl, .searching, .find-field-link, ul.imgview-list-content
-,div.treelist-group.accordion-tabs, div.record-formats-wrapper.externalLinks, input#ClearButton.button.styled-button-c3.rs_preserve
+#optionsControls>ul, .content-header .page-title, .basic #findFieldLinks, .basic .searching, .customerLogo, #footerControl, .searching, ul.imgview-list-content
+,div.treelist-group.accordion-tabs, input#ClearButton.button.styled-button-c3.rs_preserve
 
 {
+	
 	display: none !important;
 }
+
+div.ep-dialog.border-p1{
+	/**display: block !important;**/
+	position: fixed !important;
+    top: 50px !important;
+	right: 0px !important;
+	left: unset !important;
+	width: 35% !important;
+	min-width: 300px !important;
+	height: 100% !important;
+	margin-right: 0px !important;
+
+}
+
+.ep-dialog-top-left, .ep-dialog-bot-left {
+
+    display: none !important;
+}
+.ep-dialog-main {
+    background: #fff !important;
+	height: 100% !important;
+}
+
+.preview-detail {
+   
+    max-height: unset !important;
+    
+}
+.ep-dialog-main-inner {
+  
+    background: #fff !important;
+}
+/** also hide these 
+
+span.item.add-to-folder, 
+
+.preview-hover, 
+
+.find-field-link
+
+div.record-formats-wrapper.externalLinks 
+
+also hide these **/
+
+
+.folder-toggle {
+    display: none !important;
+}
+
 div#resultListControl.content-wrapper
 {
 	width: 60% !important;
@@ -380,6 +430,7 @@ li#itemLanguages.nav-item.submenu-trigger
 			background: #fff !important;
 			padding-left: 30px !important;
 			padding-right: 30px !important;
+			background-color: unset !important;
 		}
 
 
@@ -1109,8 +1160,43 @@ min-width: auto !important;
 
 }**/
 
+.record-formats-wrapper .pdf-ft, .record-formats-wrapper .html-ft {
+    background-color: #fff !important;
+    padding-left: 37px !important;
+	margin-left: 0px !important;
+	margin-right: 15px !important;
+    padding-top: 11px !important;
+	padding-bottom: 10px !important;
+	border: 1px solid #1b95e0 !important;
+    border-radius: 2px !important;
+	color: #005bc6 !important;
+	font-weight: normal !important;
+}
+
+.record-formats-wrapper .pdf-ft {
+    background-position: 10px -743px !important;
+}
+
+.record-formats-wrapper .html-ft {
+    background-position: 10px -593px !important;
+}
+
+.record-formats-wrapper .pdf-ft:hover{
+	background-color: #e7f9ff !important;
+}
+
+.record-formats-wrapper .html-ft:hover{
+	background-color: #e7f9ff !important;
+}
 
 
+
+
+
+.record-formats-wrapper .filesize {
+
+    display: none !important;
+}
 
 
 #pubDateRange.ui-slider-horizontal .ui-slider-handle
