@@ -1,0 +1,105 @@
+/** Result Placard start **/
+
+.placard-content-container {
+
+    background: #fff !important;
+}
+
+
+.placard-body {
+
+
+	padding: 20px 20px 20px 20px !important;
+}
+
+div.placard-container
+{
+	margin-top: 20px !important;
+}
+
+.placard-container {
+
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)!important;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
+	border: none !important;
+	float: left !important;
+    position: absolute !important;
+    margin: 0px !important;
+    top: 0 !important;
+	right: 0 !important;
+	width: 36% !important;
+	margin-left: 70% !important;
+
+}
+
+.placard-container:hover {
+
+box-shadow: 0 7px 14px rgba(0,0,0,0.18), 0 5px 5px rgba(0,0,0,0.22) !important;
+
+
+}
+		
+
+.placard-img-placeholder img, .placard-img img {
+
+
+	max-width: 90%;
+    max-height: 90%;
+    padding: 20px 10px 10px 20px !important;
+
+}
+
+.placard-img-placeholder {
+
+    max-width: 150px !important;
+}
+
+#content .placard p{
+	padding-bottom: 5px !important;
+}
+/** Result Placard end **/
+
+
+@media (max-width: 1200px) {
+
+/** Result Placard start **/
+
+	.placard-body {
+    display: inline-block !important;
+
+	    width: 71% !important;
+}	
+
+/** Result Placard end **/
+		
+}	
+
+@media (max-width: 1024px) 
+{
+/** Result Placard start **/
+
+.placard-container {
+
+
+	border: none !important;
+	float: left !important;
+    position: relative !important;
+    margin: 0px !important;
+    top: inherit !important;
+	right: inherit !important;
+	width: auto !important;
+	margin-left: auto !important;
+    background: #fff !important;
+	z-index: 33 !important;
+
+}
+div.placard-container
+{
+margin-top: 0px !important;
+margin-bottom: 20px !important;
+ width: 100% !important;
+}
+
+/** Result Placard end **/
+
+}

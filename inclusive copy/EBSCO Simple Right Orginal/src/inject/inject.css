@@ -1,0 +1,2124 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+@namespace url(http://www.w3.org/1999/xhtml);
+@font-face {
+  font-family: 'opendyslexic';
+	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Regular.otf');
+	font-style: normal;
+	font-weight: normal;
+} 
+
+@font-face {
+	font-family: 'opendyslexic';
+	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Italic.ttf');
+	font-style: italic;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'opendyslexic';
+	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Bold.ttf');
+	font-weight: bold;
+	font-style: normal;
+} 
+
+@font-face {
+	font-family: 'opendyslexic';
+	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-BoldItalic.ttf');
+	font-weight: bold;
+	font-style: italic;
+} 
+
+@font-face {
+	font-family: eulexia;
+	src: url('http://dyslexicfonts.com/fonts/eulexia.ttf');
+} 
+
+.preview-hover, span.item.add-to-folder, #optionsControls>ul, .content-header .page-title, .basic #findFieldLinks, .basic .searching, .customerLogo, #footerControl, .searching, .find-field-link, ul.imgview-list-content
+,div.treelist-group.accordion-tabs, div.record-formats-wrapper.externalLinks, input#ClearButton.button.styled-button-c3.rs_preserve
+
+
+
+{
+	display: none !important;
+}
+
+.placard-content-container {
+
+    background: #fff !important;
+}
+
+.clear-button, .clear-button:link {
+    display: none !important;
+}
+
+
+
+.placard-body {
+
+
+	padding: 20px 20px 20px 20px !important;
+}
+
+
+
+
+.toolbar-tools {
+    float: left !important;
+}
+
+
+.result-list-li:first-child {
+    border-top: solid 1px #fff !important;
+}
+
+
+li#itemLanguages.nav-item.submenu-trigger
+		{
+
+		display: none !important;
+		}
+
+
+#innerContainer {
+    position: relative;
+    background: #f5f5f5 !important;
+}
+
+.title-link {
+
+    padding-right: 0px !important;
+
+}
+
+#toolbarControl
+{
+	display: none !important;
+}
+/**
+.find-field-link:first-child
+{
+	display: block !important;
+}
+**/
+
+	.column2-open #column2
+		{
+		margin-left: 5px !important;
+		font-size: 120% !important;
+		display: none !important;
+		}
+	/**
+	this is the div that just has the left and right col borders
+	**/
+		.column2-open .extra1
+		{
+		display: none !important;
+		}
+
+
+		.column2-open #content {
+			margin-right: auto !important;
+		}
+
+
+
+	.column1-open #column1
+		{
+		margin-left: 5px !important;
+		font-size: 120% !important;
+		display: none !important;
+		}
+
+
+		.column1-open .extra1
+		{
+display: none !important;
+		}
+
+			.column1-open #content {
+		margin-left: 5px !important;
+		margin-right: 5px !important;
+		/** font-size: 120% !important;**/
+
+		}
+
+		.column2-open #content {
+		margin-left: 5px !important;
+		/** font-size: 120% !important;**/
+
+		}
+
+
+.record-icon {
+		position: relative !important;
+		float: right !important;
+		width: 80px !important;
+		margin-right: 5px !important;
+		text-align: center !important;
+		margin-left: 10px !important;
+		margin-bottom: 25px !important;
+		}
+		
+		.has-icons .display-info {
+
+		padding: 0 !important;
+}
+
+.record-icon {
+    
+    margin-left: 30px !important;
+}
+
+
+
+
+#mainContentArea {
+    float: left;
+    width: 100% !important;
+    max-width: 900px !important;
+	margin-left: 5% !important;
+	
+	margin-top: 25px !important;
+	margin-bottom: 25px !important;
+}
+
+
+.result-list-li {
+
+    padding: 20px 22px 20px 30px !important ;
+    background: #fff !important;
+	margin-bottom: 20px !important;
+	border-top: solid 1px #fff !important;
+}
+
+
+
+/** Search History Panel **/
+
+.shContent .shaded {
+    background-color: #fff !important;
+}
+
+.shContent {
+
+    border: none !important;
+
+}
+
+
+.sh-actions {
+    border: none !important;
+    background: #eee !important;
+}
+
+
+.shContent td, .shContent th, .shContent tr {
+
+    border-bottom: 1px solid #eee !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+
+
+/**  Tools Panel **/
+
+
+
+#ToolPanelContent .wrapper {
+
+    background: #f5f5f5 !important;
+    border: 1px solid #f5f5f5 !important;
+    border-radius: 3px !important;
+}
+
+#ToolPanelContent .close-panel {
+
+   
+    border-radius: 2px !important;
+    background-color: #000 !important;
+    opacity: 1.0 !important;
+    filter: alpha(opacity=100);
+}
+
+
+/** PDF viewer **/
+
+#ViewerArea {
+    top: 50px !important;
+}
+
+.viewer-link-list {
+	
+    font-size: 14px !important;
+    font-weight: normal !important;
+    padding-top: 6px !important;
+}
+
+ul#1_resultControls.viewer-link-list
+{
+	position: aboslute !important;
+}
+
+
+
+
+/**
+
+#column1 {
+
+    top: 50px !important;
+}
+
+#column2 {
+
+    top: 50px !important;
+}
+**/
+
+/** cited references **/
+.cited-fields-wrapper {
+
+    width: 720px !important;
+}
+
+/** Pref Modal **/
+
+#preferencesDialog ul {
+    background: none !important;
+}
+
+.pref-list-wrapper {
+    background: none !important;
+}
+
+
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.pref-dialog.modal-wide.epmodal
+ {
+    
+    top: 25px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+
+
+
+
+
+	body
+		{
+		/** font-family:opendyslexic !important;  **/
+		font-size: 135% !important;
+		line-height: 1.5 !important;
+		min-width: auto !important;
+		}
+
+
+
+
+.content-header .page-title
+
+{
+	font-weight: normal !important;
+}
+
+/** Default System Button Styingint like search options **/
+
+button#ResetButton
+{
+	height: 42px;
+	background:#eee;
+	border: 1px solid #ccc !important;
+	border-radius: 3px !important;
+	font-size: 1.167em !important;
+	color: #424242 !important;
+	font-weight: bold !important;
+	padding: 5px 20px 5px 20px !important;
+}
+
+
+
+input#ctrlLimiters_SubmitButtonTop, input#ctrlLimiters_btnSearch, input#ctl00_ctl00_MainContentArea_MainContentArea_ctrlLimiters_btnSearch.rs_preserve
+
+
+
+
+{
+	background:#f9ce5a!important;
+	height: 42px!important;
+	border: 1px solid #f9ce5a !important;
+	border-radius: 3px !important;
+	font-size: 1.167em !important;
+	color: #424242 !important;
+	font-weight: bold !important;
+	padding: 5px 20px 5px 20px !important;
+}
+
+/** Folder **/
+
+#folderTitleDiv {
+	width: 70% !important;
+	margin-left: 10px !important;
+}
+
+div#ctl00_ctl00_FindField_FindField_ctl00_backBtnContainer.folder-back-sign-in
+{
+	margin-bottom: 10px !important;
+}
+
+.folder-item .display-info {
+
+	padding-right: 50px !important;
+}
+
+
+.folder-items-nav-top {
+  
+	display: none !important;}
+	
+
+.folder-counts {
+  
+	display: none !important;}
+	
+.folder-items-move-copy {
+   
+    border-bottom: none !important;
+    background: #efefef !important;
+}
+
+.rtac-table {
+
+    background: #fff !important;
+}
+
+
+
+	.folder-list-header  {
+		width: 100% !important;
+		margin: 0 0 20px !important;
+		padding: 0 0 5px !important;
+		font-size: 1.4em !important;
+		line-height: 1.25 !important;
+		font-weight: normal !important;
+		min-height: 0 !important;
+		font-family: Helvetica, Arial, sans-serif !important;
+		border: 0px !important;
+		background: none !important;
+
+		
+
+		}
+.folder-list-item, .folder-list-item-selected {
+
+    padding: 20px 0 30px !important;
+
+	border-top: none !important;
+}
+
+
+/**  Sign In Page **/
+
+.pers-login-wrapper .two-column .sign-in-message {
+    width: 33% !important;
+	min-width: 250px !important;
+
+}
+
+.sign-in-message {
+    padding: 25px !important;
+    
+}
+
+input#ctl00_ctl00_FindField_FindField_BubbleTop_logo_logoLink.logo-image
+
+{
+	display: none !important;
+}
+
+.sign-in-message .checklist li {
+    width: auto !important;
+
+}
+
+.login-inputs .button {
+    vertical-align: top !important;
+    margin: 10px 10px 0px 0px !important;
+}
+
+/** search box **/
+
+input[type=text].textbox {
+    
+	padding: 6px 6px 6px 15px !important;
+	margin: 2px 4px 2px 0px !important;
+    font-size: 1.4em !important;
+    background-color: #f2f2f2 !important;
+    border: 1px solid #a3a3a3 !important;
+    height: 28px !important;
+}
+
+/**
+.dd {
+    position: relative;
+    display: inline-table;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-right: 5px;
+    vertical-align: top;
+    border-collapse: separate;
+    box-sizing: border-box;
+
+}
+
+**/
+
+
+.dd .dd-active {
+    
+    margin: 2px 0px 2px 0px !important;
+    padding: 0 18px 0 6px !important;
+    height: 42px !important;
+    background: #fff !important;
+    border: 1px solid #a3a3a3 !important;
+    border-radius: 3px !important;
+
+}
+
+.dd .dd-active.open ~ .dd-list, .dd .transport {
+
+	top: 21px !important;
+}
+
+.dd .dd-list {
+
+	top: auto !important;
+
+}
+
+
+.ltr-text
+
+{
+	color:#222 !important;
+}
+
+.find-field-inputs .dd+.textbox, .dd+.textbox, .dd+.text-container .textbox {
+
+    border-top-left-radius: auto !important;
+	border-bottom-left-radius: auto !important;
+	
+}
+
+
+
+.find-field-inputs .dd+.textbox, .dd+.textbox, .dd+.text-container .textbox
+{
+margin-left: 0px !important;
+
+}
+
+
+.text-container .ltr-text.textbox, .text-container .ltr-text.textbox
+
+{
+
+	font-size: 16px !important;
+}
+
+
+		
+
+
+.button, .button:link {
+    padding: 5px 20px !important;
+    height: 42px !important;
+
+}
+
+.color-s3, .styled-button-c3 {
+
+	font-size: 1.5em !important;
+	font-weight: normal !important;
+}
+
+
+
+
+
+
+ a#expandCollapseTrigger2.button.icon-btn.collapse-toggle.dd-menu
+ .button, .button:link
+ {
+height: auto !important;
+
+
+ }
+
+
+
+
+
+
+	
+	a#helpLink
+		{
+		display: none !important;
+		}
+
+.landing.basic .find-field-outer
+
+{
+	margin: 0 auto 20px !important;
+}
+
+.basic .branding-Beside .logo-img, .basic .branding-Beside .logo {
+    display: table !important;
+    max-width: 170px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;}
+
+
+/**  this is for the classic ic interface landing pages **/
+
+.two-column .module-col {
+	width: 45% !important;
+}
+
+/** top nav **/
+
+	#toolbarControl {
+		
+		
+		height: 50px !important;
+		width: 100% !important;
+		display: inline-block !important;
+		border-bottom: none !important;
+		
+		}
+
+.toolbar-navigation {
+
+    margin-left: 10px !important;
+}
+
+
+
+	.toolbar-navigation .link {
+    font-size: 16px !important;
+    font-weight: normal !important;
+}
+
+#toolbarControl .nav-item {
+    padding: 1.4em 1px 1.3em !important;
+    line-height: 1.0 !important;
+}
+
+.nav-item .link {
+	padding: 0 10px !important;
+	font-size: 14px !important;
+}
+
+.toolbar-tools {
+    margin-right: 10px !important;
+}
+
+#toolbarControl .presentation {
+
+    height: 50px !important;
+}
+
+.submenu {
+
+    margin-top: 17px !important;
+}
+
+
+.subnav-item>.submenu {
+
+    margin-top: 0px !important;
+}
+
+
+.submenu {
+
+    box-shadow: none !important;
+}
+
+
+/** detail page  **/
+
+
+#relatedInfoLinks, .related-items {
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+#similarArticleControl {
+    margin: 20px 0 !important;
+   
+}
+
+h3.related-info-header.color-p1.border-p1
+{
+	color: #333 !important;
+	border-bottom: 0 !important;
+}
+
+
+.al-link .icon {
+
+    top: 4px !important;
+
+}
+
+
+
+
+.vis-hidden {
+	font-size: 0 !important;
+	
+}
+
+.sep li {
+
+    margin: 5px 0 5px 15px !important;
+
+}
+
+#citationFields img {
+    max-width: 600px;
+    min-width: 100px !important;
+    width: 100% !important;
+}
+
+.article-tool.active {
+    background: #eee !important;
+}
+
+#citeDialog .panel-footer {
+
+    width: 100% !important;
+}
+
+#content .panel-content .informational-note {
+    margin: 8px 0px 0px 40px !important;
+    width: 90% !important;
+    padding: 5px 65px 5px 5px !important;
+    display: inline-block !important;
+    background: #f2faff !important;
+}
+
+.detail #ToolPanelContent, .companyinfo #ToolPanelContent {
+    margin-left: 0px !important;
+}
+
+
+
+.format-control {
+    padding-top: 0px !important;
+}
+
+		#citationFields>dt
+
+		{
+			text-align: left !important;
+		}
+
+		#citationFields .citation-title, .ft-title, .marcInfoHeader {
+		width: 100% !important;
+		margin: 0 0 20px !important;
+		padding: 0 0 5px !important;
+		font-size: 2.2em !important;
+		line-height: 1.25 !important;
+		min-height: 0 !important;
+		font-family: Helvetica, Arial, sans-serif !important;
+		border: 0px !important;
+		background: none !important;
+
+		
+
+		}
+
+
+		.ft-title, .marcInfoHeader {
+		color: #222 !important;
+		padding-left: 12px !important;
+		border-left: 5px solid lightblue !important;
+  		padding-top: 5px !important;
+		font-size: 2.2em !important;
+		}
+
+
+/* images and content to the left of html full text pages **/
+.media-left {
+
+    margin: 10px 30px 20px 0 !important;
+    max-width: 200px;
+    overflow: hidden !important;
+}
+
+/* images and content to the right of html full text pages **/
+.media-right {
+
+    margin: 10px 0px 20px 30px !important;
+    max-width: 200px;
+    overflow: hidden !important;
+}
+
+/* remove the left gray pipe on the html full text detail page back link **/
+.sep li {
+    padding: 0 !important;
+    border-left: none !important;
+}
+
+/* adjust the content padding and the line height for the html full text page **/
+.full-text-container .full-text-content {
+    margin: 30px 0px 20px 0px !important;
+    line-height: 1.6 !important;
+}
+
+.short-citation
+{
+	
+	background-color: rgb(246, 246, 239) !important;
+    margin: 20px 0px 30px 0px !important;
+	padding: 20px !important;
+	border-radius: 3px !important;
+}
+
+#textToSpeechPlaceholder {
+
+    margin-bottom: 20px !important;
+}
+
+#content p {
+    padding: 0em 0 1.9em !important;
+}
+
+.ft-translation {
+
+    margin-bottom: 20px !important;
+}
+
+
+
+		.content-header {
+   		 border-bottom: none !important;
+		
+		}
+
+		.content-footer {
+
+			border-top: none !important;
+		}
+
+.format-item, .custom-link-item {
+
+    border-bottom: none !important;
+}
+
+div#apvideo.rhi-loaded
+
+{
+width: auto !important;
+min-width: auto !important;
+
+}
+
+
+
+
+/** Results 
+
+#pubDateRange .ui-slider-handle {
+
+    border-radius: 100% !important;
+    width: 21px !important;
+    height: 21px !important;
+
+}**/
+
+
+
+
+
+#pubDateRange.ui-slider-horizontal .ui-slider-handle
+{
+
+	background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_slider_handle.png)!important;
+	background: #51a7f9 !important;
+	display: block !important;
+}
+
+.ui-slider-handle.ui-state-default.ui-corner-all
+{
+
+	background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_slider_handle.png)!important;
+	background: #51a7f9 !important;
+	display: block !important;
+}
+
+
+/** adding refine text to panel toggle 
+
+.collapsible-toggle:after {
+   content: "Refine: " !important;
+
+}
+**/
+
+/**  RTAC Block **/
+.tog-style4 {
+
+    border: none !important;
+}
+
+
+.add-to-folder{
+	
+			top: 21px !important;
+		}
+
+.preview-hover{
+	top: 29px !important;
+}		
+
+#content {
+
+    padding: 10px 40px 10px 40px !important;
+}
+
+
+
+.refine-heading
+
+{
+
+	display: none !important;
+}
+.results-count
+{
+	display: none !important;
+}
+
+#breadboxTrigger .icon
+{
+	display: none !important;
+}
+
+/** Breadbox **/
+#breadboxContent {
+
+    background-color: #f5f5f5 !important;
+	border: solid 1px #f5f5f5 !important;
+	border-radius: 3px !important;
+}
+
+.selected-limiters .remove {
+
+    background: #999 !important;
+
+}
+
+/** left limiter **/
+.rl-limiters input[type=checkbox] {
+    top: 6px !important;
+    
+}
+
+/** result numbers **/
+		.record-index {
+		display: none;
+		
+		}
+
+/**  message popup on basic search **/
+
+div.dialog-top-arrow.border-p1.eppopup-arrow-elem
+ {
+    top: 134px !important;
+    
+}
+
+
+/** Result Placard **/
+div.placard-container
+{
+
+	margin-top: 20px !important;
+
+   
+
+}
+
+.placard-container {
+
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)!important;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
+	border: none !important;
+	float: right !important;
+    position: absolute !important;
+    margin: 0px !important;
+    top: 0 !important;
+	right: 0 !important;
+	width: 36% !important;
+	margin-left: 3% !important;
+
+}
+
+.placard-container:hover {
+
+box-shadow: 0 7px 14px rgba(0,0,0,0.18), 0 5px 5px rgba(0,0,0,0.22) !important;
+
+
+}
+		
+
+.placard-img-placeholder img, .placard-img img {
+
+
+	max-width: 90%;
+    max-height: 90%;
+    padding: 20px 10px 10px 20px !important;
+
+}
+
+.placard-img-placeholder {
+
+    max-width: 150px !important;
+}
+
+#content .placard p{
+	padding-bottom: 5px !important;
+}
+
+#column1 .rl-lim-heading {
+  
+
+    color: #000 !important;
+    font-size: 1.167em !important;
+    font-weight: normal !important;
+    border-top: solid 2px #f2f2f0 !important;
+}
+
+div.toggle-box.module
+{
+	width: 100% !important;
+}
+
+
+p.subjectResults
+{
+
+margin-top: 10px !important;
+
+
+}
+
+.module {
+	margin-right: 20px !important;
+}
+
+
+.folderItems-header {
+
+    color: #000 !important;
+	background-color: #fff !important;
+	border: solid 1px #fff !important;
+	border-radius: 3px !important;
+    font-size: 1.167em !important;
+	font-weight: normal !important;
+	padding: 0 !important;
+
+
+}
+
+.folderItems-content {
+    border-left: none !important;
+    border-right: none !important;
+
+}
+
+.gotoFolder {
+    border: none !important;
+}
+
+
+.related-info-area .collapse-toggle, #integratedSearchPanel.collapse-toggle {
+    color: #000 !important;
+    font-size: 1.167em !important;
+    font-weight: normal !important;
+	padding: 10px 0 10px 0 !important;
+}
+
+
+
+/** results right panel **/
+.related-info-shadow {
+    background: none !important;
+
+}
+
+.related-info-thumbnails .thumbnail {
+
+    border: none !important;
+}
+
+.record-icon img, #bookJacket img {
+
+    border: none !important;
+
+}
+
+
+
+
+#footerControl {
+    position: relative !important;
+	
+	/**
+	this is the style that was cause all the layouts to scroll left and right
+
+	min-width: 960px;
+
+	**/
+	min-width: auto !important;
+    margin: 0 auto !important;
+    min-height: 120px !important;
+    font-size: .92em !important;
+    line-height: 1.25em !important;
+    background: none !important;
+    clear: both !important;
+}
+
+
+.basic #limiterExpanderControl {
+   
+    margin-top: 20px !important;}
+
+
+
+.basic #content {
+    margin: 0px 10px 0px 10px !important;
+}
+
+
+.module-hgroup {
+
+    background-color: #fff !important;
+    border: none !important;
+	border-width: 0 0px !important;
+	padding: 10px 15px 0px 0px !important;
+}
+
+.module-header .module-heading {
+    font-size: 1.9em !important;
+    line-height: 1.5 !important;
+    font-family: Helvetica, Arial, sans-serif !important;
+
+}
+
+.module-header .view-more, .module-hgroup .view-more {
+    float: none !important;
+	font-size: 1.4rem !important;
+	font-weight: 500 !important;
+	padding-left: 30px !important;
+	padding-top: 8px !important;
+}
+
+/** ebook landing **/
+
+.id-2003EB .module-content .image {
+    min-height: 180px !important;
+    max-height: 180px !important;
+}
+
+.carousel-container.medium .image, .id-2003EB .carousel-container .image {
+    max-width: 136px !important;
+}
+
+
+.item-image {
+
+    margin-top: -1px !important;
+
+}
+
+/**
+input#Searchbox2.component.auto-complete.textbox.ui-autocomplete-input
+{
+width: auto !important;
+
+}
+
+**/
+
+
+/** styling the landing pages**/
+
+
+div.module-header.bg-p2, div.module-header.bg-p3
+
+ {
+    padding-left: 10px !important;
+}
+
+
+
+.button-link {
+
+    border-radius: 3px !important;
+    font-size: 16px !important;
+}
+
+
+.l-two-block-left .l-block:first-child
+{
+border-right: solid 1px #ebebeb !important;
+width: 225px !important;
+}
+
+
+div.module-header.bg-p1
+
+{
+	background: none !important;
+	border-top: none !important;
+}
+
+
+.module-content .image {
+
+    border: none !important;
+
+}
+
+
+.carousel-container .image {
+    height: 180px !important;
+    max-width: 136px !important;
+    border: none !important;
+
+}
+
+
+
+
+
+
+h2.module-heading.color-s1
+
+{
+	color: #333 !important;
+}
+
+.module-header {
+
+	border: solid 1px #fff !important;
+	
+	/**
+	border-bottom: solid 3px #ebebeb !important;
+	**/
+	padding: 5px 0px !important;
+	display: inline-flex !important;
+	width: 100% !important;
+}
+
+
+.ep-title {
+
+	border-bottom: none !important;
+	font-size: 2.1em !important;
+    line-height: 1.5 !important;
+	
+}
+
+
+.module-content {
+
+	border: none !important;
+	font-size: 1.3em !important;
+	line-height: 1.8 !important;
+	padding-left: 0px !important;
+}
+
+
+.module-hgroup .module-title {
+	padding: 10px 20px 0px 0px !important;
+	font-size: 1.4em !important;
+    line-height: 1.8 !important
+}
+
+
+.page-title {
+    
+    border-bottom: none !important;
+}
+
+
+.carousel-container {
+    margin: 0 !important;
+    overflow: initial !important;
+}
+
+.carousel-container li {
+
+	line-height: 1.3em !important;
+	width: auto !important;
+	max-width: 140px !important;
+	margin: 9px 10px 20px 0px !important;
+
+}
+
+.carousel-container.large .image {
+    height: 180px !important;
+	max-width: 136px !important;
+	border: none !important;
+	
+}
+
+
+.carousel-container .image {
+    
+	box-sizing: none !important;
+}
+/**
+.carousel-container .mask-right {
+	display: none !important;
+}
+
+.carousel-container .mask-left {
+	display: none !important;
+}
+
+**/
+
+.carousel-container .mask-right, .carousel-container .mask-left {
+   
+	display: none !important;
+	width: 35px !important;
+	height: 60px !important;
+	margin-top:85px !important;
+	background: #fff !important;
+}
+
+.moveButton {
+
+	opacity: 1.0 !important;
+	bottom: 55%  !important;
+}
+
+
+
+#citationFields>dt, .short-citation dt, .cd-content dt 
+{
+    
+
+    text-align: left !important;
+
+
+}
+
+
+
+
+		.basic #limiterExpanderControl {
+			max-width: 90% !important;}
+
+		
+
+
+		#header {
+
+		border-bottom: 2px solid #E7E7E7 !important;
+
+		}
+
+		.basic #header {
+   		border-bottom: none !important;}
+
+
+
+
+
+
+	
+
+
+		.record-icon {
+
+		margin-top: 5px !important;
+		}
+
+
+	.title-link
+
+		{
+		padding-bottom: 15px !important;
+
+		}
+
+
+
+
+
+
+
+
+
+
+		#toolbarFolder .link {
+		position: relative !important;
+		padding-left: 20px !important;
+		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_folder.png) !important;
+		background-repeat: no-repeat !important;
+		background-position: 0px 0px !important;
+		background-size: auto 14px !important;
+		margin-left: 8px !important;
+		}
+
+
+	#toolbarFolder .folder-control {
+		position: relative !important;
+		padding-left: 20px !important;
+		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_folder_on.png) !important;
+		background-repeat: no-repeat !important;
+		background-position: 0px 0px !important;
+		background-size: auto 14px !important;
+		margin-left: 8px !important;
+		}
+
+
+
+		a#lnkHelp.link.color-s1
+		{
+
+		position: relative !important;
+		padding-left: 20px !important;
+		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_help_white.png) !important;
+		background-repeat: no-repeat !important;
+		background-position: 0px 0px !important;
+		background-size: auto 14px !important;
+		margin-left: 8px !important;
+		}
+
+		a#lnkSignIn.link.color-s1
+		{
+
+		position: relative !important;
+		padding-left: 20px !important;
+		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_sign_in_white.png) !important;
+		background-repeat: no-repeat !important;
+		background-position: 0px 0px !important;
+		background-size: auto 14px !important;
+		margin-left: 8px !important;
+		}
+		
+
+		a#prefs.link.color-s1
+		{
+
+		position: relative !important;
+		padding-left: 20px !important;
+		background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_settings_white.png) !important;
+		background-repeat: no-repeat !important;
+		background-position: 0px 0px !important;
+		background-size: auto 14px !important;
+		margin-left: 8px !important;
+		}
+		
+
+	.button.icon-btn {
+		padding: 5px 20px 6px 10px !important;
+		font-size: 1em !important;
+		font-weight: normal !important;
+		border-color:#999 !important;
+		background: #fff !important;
+
+	}
+
+	.button:hover
+	{
+	background: #ccc !important;
+
+	}
+	.button:focus
+	{
+	background: #666 !important;
+
+	}
+
+	.icon-btn.dd-menu .arrow {
+		top: 6px !important;
+	}
+
+
+@media (max-width: 1200px) {
+.placard-body {
+    display: inline-block !important;
+
+	    width: 71% !important;
+}	
+	
+
+
+
+		.column2-open #column2
+		{
+		margin-left: 5px !important;
+		font-size: 120% !important;
+		display: none !important;
+		}
+	/**
+	this is the div that just has the left and right col borders
+	**/
+		.column2-open .extra1
+		{
+		display: none !important;
+		}
+
+
+		.column2-open #content {
+			margin-right: auto !important;
+		}
+}
+
+
+
+div#ctl00_ctl00_MainContentArea_MainContentArea_resultList.resultListPanel
+{
+	max-width: 650px !important;
+    width: 60% !important;
+}
+
+
+
+#mainContentArea {
+    float: left;
+	margin-left: 2% !important;
+	width: 95% !important;
+    max-width: 1200px !important;
+	}
+
+/** PDF viewer **/
+
+#ViewerColumn {
+ 
+    right: 0px !important;
+    left: 0px !important;
+
+}
+
+div.resultList
+{
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+
+
+
+	.dd {
+
+    display: none !important;
+  
+}
+
+#content {
+
+    padding: 10px 10px 10px 10px !important;
+}
+	
+
+	.branding-container
+
+{
+display: none !important;
+
+}
+
+		.toolbar-navigation
+
+{
+
+	display: none !important;
+}
+
+		
+
+.l-block .tl-group {
+    float: left !important;
+	width: 50% !important;
+}
+
+.l-two-block-left {
+    padding: 0 0 0 0px !important;
+}
+
+.l-two-block-left .l-block:first-child
+{
+display: none !important;
+}
+
+
+
+.limiter-item {
+    width: 100% !important;
+
+}
+
+
+.full-text-content .rif_container
+
+{
+
+float:none !important;
+
+}
+
+		.multi-column4 {
+		width: 50% !important;}
+
+	
+
+		.customerLogo
+		{
+		display:none !important;
+		}
+
+
+
+		.title-link
+
+		{
+		padding-bottom: 8px !important;
+
+		}
+
+	
+
+		div#content
+
+		{
+		padding: 10px 20px
+		}
+
+		div#column2
+
+		{ visibility: hidden !important;
+		
+		}
+
+
+		
+
+		.column1-open #content {
+		margin-left: 5px !important;
+		margin-right: 5px !important;
+		/** font-size: 120% !important;**/
+
+		}
+
+		.column2-open #content {
+		margin-left: 5px !important;
+		/** font-size: 120% !important;**/
+
+		}
+
+		.column1-open #column1
+		{
+		margin-left: 5px !important;
+		font-size: 120% !important;
+		display: none !important;
+		}
+
+
+		.column2-open #column2
+		{
+		margin-left: 5px !important;
+		font-size: 120% !important;
+		display: none !important;
+		}
+			
+
+		.column2-open .extra1
+		{
+		display: none !important;
+		}
+
+		.column1-open .extra1
+		{
+display: none !important;
+		}
+
+
+
+
+input#CreateAlertButton.button.styled-button-c3.rs_preserve
+
+{
+	display: none !important;
+}
+
+
+.guided-find-fields li
+
+{
+	display:none !important;
+}
+
+.guided-find-fields li:first-child {
+    display: block !important;
+}
+
+.guided-add-row {
+	display:none !important;}
+
+
+
+
+	#header{
+   			 padding-right: 0px !important;
+			}
+		
+
+
+.toolbar-tools {
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 830px) {
+
+
+
+/**
+.find-field-controls {
+
+		padding: 0px 0px 0px 0px !important;
+		}
+	
+**/
+
+
+
+.searching {
+		   
+			display: none !important;
+		   
+		}
+
+
+		.basic .searching {
+			display: block !important;
+		}
+
+				.multi-column4 {
+		width: 100% !important;}
+
+.component, .auto-complete, .textbox, .ui-autocomplete-input, .ltr-text
+
+
+
+	* {
+	max-width: 90% !important;
+	min-width:20% !important;
+	width: auto !important;
+
+}
+
+
+
+
+
+
+
+	
+
+
+
+		
+}	
+
+@media (max-width: 1024px) 
+{
+.placard-container {
+
+
+	border: none !important;
+	float: left !important;
+    position: relative !important;
+    margin: 0px !important;
+    top: inherit !important;
+	right: inherit !important;
+	width: auto !important;
+	margin-left: auto !important;
+    background: #fff !important;
+	z-index: 33 !important;
+
+
+}
+div.placard-container
+{
+margin-top: 0px !important;
+margin-bottom: 20px !important;
+ width: 100% !important;
+}
+
+
+ul.result-list.has-icons
+ {
+
+	clear: both !important;
+}
+
+
+div#ctl00_ctl00_MainContentArea_MainContentArea_resultList.resultListPanel
+{
+	max-width: 950px !important;
+    width:100% !important;
+}
+
+
+@media (max-width: 620px) 
+{
+	
+
+#mainContentArea {
+
+    width: 100% !important;
+    margin-left: inherit !important;
+    margin-top: 10px !important;
+}
+
+
+
+
+/** button becomes just a magnifying glass icon **/
+
+input#SearchButton.button.styled-button-c3.rs_preserve
+
+{
+
+	width: 50px !important;
+	text-transform: capitalize !important;
+	text-indent: -9000px !important;
+	background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon-search-white.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 12px 8px !important;
+	background-size: auto 24px !important;
+
+
+ 
+
+
+	
+}
+
+
+	
+
+	
+.find-field-controls {
+
+    padding: 5px 0 0 10px !important;
+}
+	
+	
+	
+	
+	
+	
+	
+	.branding-Beside .logo {
+    
+	display: none !important;
+	}
+
+		#findFieldLinks
+		{
+		display: none !important;
+		}
+
+		.multi-column4 {
+		width: 100% !important;}
+
+.landing.basic .find-field-outer {
+	margin: 0px auto 35px !important;
+}
+
+
+
+
+span#showLessChooseDatabases.showLessChooseDatabases
+
+{
+
+	display:none !important;
+}
+
+
+		#header {
+		position: relative !important;
+		margin: 0 auto !important;
+		padding: 0px 0px 10px 10px !important;
+		min-height: auto !important;
+		background: #fff url(../../layout2/bg_header.png) 0 bottom repeat-x !important;
+		border-bottom: 2px solid #E7E7E7 !important;
+		z-index: 20000 !important;
+		}
+
+
+
+/** Folder  **/
+
+.folder-item .display-info {
+
+	padding: 0px 0px 0px 0px !important;
+}
+	
+
+
+div#folderLogoDiv.logo-wrapper
+{
+	display: none !important;
+}
+
+		
+	
+		
+
+
+
+
+
+
+
+	
+
+		.basic .branding-Beside .logo-img, .basic .branding-Beside .logo {
+		display: table-cell;
+		max-width: 120px;
+		float: none;
+		vertical-align: top;
+		display: block !important;
+		margin: 0 auto !important;
+	}
+
+
+		
+
+
+		
+
+		.preview-hover {
+		display: none !important;
+	
+		}
+
+		.content-header .page-title {
+		display: none;
+		}
+		#optionsControls {
+		
+			float: left !important;
+		}
+
+#optionsControls>ul {
+	margin-left: 15px !important;
+}
+
+.options-controls-li {
+
+	margin-left: 4px !important;
+	margin-bottom: 2px !important;
+}
+
+		.results .content-header {
+			margin-left: -15px !important;
+		}
+		
+		.record-icon {
+		position: relative !important;
+		float: right !important;
+		width: 80px !important;
+		margin-right: 5px !important;
+		text-align: center !important;
+		margin-left: 10px !important;
+		margin-bottom: 25px !important;
+		}
+		
+		.has-icons .display-info {
+
+		padding: 0 !important;
+}
+
+        .add-to-folder{
+			position:relative !important;
+			margin: 0px 0px 5px 0px !important;
+			padding: 0px 0px 5px 0px !important;
+			top: 7px !important;
+		}
+
+		.title-link {
+		display: block;
+		padding: 0 0px 20px 0 !important;
+		font-size: 1.5em !important;
+		line-height: 1.4 !important;
+		}
+/**
+		.find-field-inputs {
+		margin-left: 15px;
+		}
+**/
+		.record-additional {
+		margin-top: 7px !important;
+		margin-bottom: 7px!important;
+	}
+
+	.record-formats-wrapper .mr-ft
+
+	{
+	margin-top: 7px !important;
+	margin-bottom: 7px !important;
+
+	}
+
+	#sortOptionsWrapper {
+   
+	right: auto !important;
+	top: auto !important;
+	width: 300px !important;
+	margin-top: 0px !important;
+	}
+
+	#pageOptionsWrapper {
+   
+	right: -125% !important;
+	top: auto !important;
+	width: 275px !important;
+	margin-top: 0px !important;
+	}
+
+	#alertSaveShareWrapper {
+    right: 0 !important;
+	left: auto !important;
+	top: auto !important;
+	width: 300px !important;
+	margin-top: 0px !important;
+	}
+
+
+
+	
+
+
+
+	 #content .abstract, #content .subjectResults
+
+	 {
+		 padding-top: 15px !important;
+	 }
+
+	 .content-footer {
+    position: relative;
+    margin-top: 30px !important;
+    padding-top: 10px !important;
+	border-top: solid 1px #fff !important;
+	font-size: 125% !important;
+}
+#citationFields .citation-image-box {
+			float: none !important;
+			
+
+		}
+
+
+		#apvideo .rhi-carousel-head-label
+
+		{
+			display: block !important;
+
+		}
+
+		#apvideo ul{
+
+			clear: both !important;
+		}
+
+
+		.textbox+.dd .dd-active {
+			width: 10px !important}
+			
+			
+	
+}
+
+	/* ebook viewer making it responsive to a phone **/
+
+@media only screen and (max-width: 995px)
+{
+.viewer-header .cell2 {
+    width: auto !important;
+    float: right !important;
+}
+
+.contents-title {
+    display: none !important;
+   
+}
+
+.viewer-header .cell1 {
+    width: 80px !important;
+}
+
+@media screen and (max-width: 599px)
+
+{
+
+	/* ebook viewer making it responsive to a phone **/
+.viewer-footer .cell1 {
+    width: auto !important;
+    min-width: 25% !important;
+    max-width: 100% !important;
+}
+
+.selection-title {
+
+    display: none !important;
+}
+
+.viewer-header {
+
+    min-width: 300px !important;
+
+}
+
+.viewer-link-list li {
+    display: inline-block !important;
+
+}
+
+.single-page-navigation .paging {
+
+    display: none !important;
+}
+
+.viewer-link-list li:first-child {
+    display: none !important;
+
+}
+
+}}

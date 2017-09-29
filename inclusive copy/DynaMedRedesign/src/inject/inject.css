@@ -1,0 +1,1818 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+@namespace url(http://www.w3.org/1999/xhtml);
+
+
+
+body
+{
+		
+font-size: 160% !important;
+line-height: 1.5 !important;
+min-width: auto !important;
+font-family: Helvetica,Arial,sans-serif !important;
+background: #f5f5f5 !important;
+}
+
+a[title="Help"] 
+
+{
+position: relative !important;
+
+background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_help_white.png) !important;
+background-repeat: no-repeat !important;
+background-position: 0px 15px !important;
+background-size: auto 14px !important;
+margin-left: 8px !important;
+}
+
+a[title="About"] 
+
+{
+position: relative !important;
+
+background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_info_white.png) !important;
+background-repeat: no-repeat !important;
+background-position: 0px 15px !important;
+background-size: auto 14px !important;
+margin-left: 8px !important;
+}
+
+
+a[title="Send Comment"] 
+
+{
+position: relative !important;
+
+background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_message_square_white.png) !important;
+background-repeat: no-repeat !important;
+background-position: 0px 15px !important;
+background-size: auto 14px !important;
+margin-left: 20px !important;
+padding-left: 34px !important;
+}
+
+.toolbar-tools .link {
+    font-size: .9em !important;
+    
+}
+
+
+.result-list, .lirc .has-icons {
+ 
+    min-height: 1000px !important;
+}
+.content-wrapper {
+   
+    border-width: 0 !important;
+ 
+    margin-left: unset !important;
+    margin-right: unset !important;
+}
+
+
+.related-info-area {
+    margin: 0 0 15px !important;
+    padding: 0 0 25px !important;
+    border-bottom: none !important;
+  
+}
+
+
+
+.related-info-container .find-more {
+  
+    margin-left: 14px !important;
+    font-weight: bold !important;
+}
+
+/**  Viewer **/
+
+#ViewerArea {
+   
+    top: 50px !important;
+    background: #fff !important;
+  
+}
+
+#ViewerColumn {
+  
+    right: 30% !important;
+    bottom: 0px !important;
+    left: 0px !important;
+    width: 70% !important;
+
+}
+
+#column1 .collapsible-toggle {
+  
+    display: none !important;
+}
+
+#ViewerWrap #column2 {
+
+    display: none !important;
+}
+
+.format-active .source {
+    padding: 30px 0px !important;
+    color: #222 !important;
+    font-size: 1.1em !important;
+    font-weight: normal !important;
+    line-height: 1.5 !important;
+
+}
+
+.format-active {
+  
+    border: none !important;
+   
+}
+
+#ViewerArea #column1.collapsible{
+
+display: none !important;
+}
+
+#ViewerArea #column1 .collapsible-content {
+  
+    margin-left: 5% !important;
+    margin-right: -8% !important;
+    position: fixed !important;
+    right: 0 !important;
+    
+    width: 100% !important
+}
+
+.contentItems>li {
+
+    padding: 5px 5px 5px 5px !important;
+    font-weight: normal !important;
+    line-height: 1.5 !important;
+    border-bottom: none !important;
+}
+
+ul.format-control
+{
+    padding-left: 20px !important;
+}
+
+a#downloadLink.link.color-s1, a#ctl00_ToolbarArea_returnLink.resultListLink.link.color-s1
+
+{
+
+    color: #222 !important;
+    font-weight: normal !important;
+}
+
+ul#ctl00_ToolbarArea_toolbarNav_menuList.toolbar-tools.border-p1
+{
+    display: none !important;
+}
+#titleBar {
+
+    display: none !important;
+}
+
+
+#viewport {
+  
+    top: -28px !important;
+
+}
+
+
+a#downloadLink.link.color-s1
+{
+
+    
+        background-position: unset !important;
+        background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon-download-blue.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: 7px 12px !important;
+        background-size: auto 19px !important;
+        padding-left: 33px !important;
+        margin-left: 15px !important;
+    
+}
+
+
+#TOC {
+    max-height: unset !important;
+
+}
+/**
+.panel_toggle_active, .panel_toggle, .collapse-toggle {
+
+    padding: 15px 0 10px 5px !important;
+    line-height: 1.4em !important;
+
+}
+**/
+
+.pdf-collapsible-section .collapse-toggle .icon
+
+{display: none !important;}
+
+
+
+.pdf-inside-this-work {
+    padding: 11px 4px !important;
+    font-size: 1.2em !important;
+    font-weight: normal !important;
+}
+
+/**  Viewer  End **/
+
+
+.result-list-li {
+
+    padding-top: 10px !important;
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+  
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+   
+}
+
+.result-list-li .title-link {
+   
+    font-size: 1.2em !important;
+    
+}
+
+.collapsible-list .collapse-toggle {
+
+    margin-top: 2px !important;
+}
+
+.collapsible-list li {
+
+    line-height: 1.5em !important;
+}
+
+#hover_content ul li a {
+  
+    line-height: 1.5em !important;
+    padding-left: 5px !important;
+}
+
+.title-link-wrapper {
+ 
+    line-height: 1.9em !important;
+
+}
+
+/**
+.collapsible-list .icon
+
+    {background-position: unset !important;
+        background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_plus_open.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: 0px 0px !important;
+        background-size: 12px 12px !important;
+        }
+**/
+
+
+
+.collapsible-list .icon {
+    
+       top: 9px !important;
+       
+   }
+
+
+
+
+#hover_content ul li a {
+    color: #222 !important;
+}
+.perm_link {
+    position: relative !important;
+    right: unset !important;
+    padding-top: 6px !important;
+    border-left: 1px solid #eee !important;
+    padding-left: 13px !important;
+    margin-left: 10px !important;
+}
+
+.results-count {
+
+
+    font-size: 1.3em !important;
+}
+.dialog-left-arrow, .dialog-rt-arrow, .dialog-top-arrow, .dialog-bot-arrow {
+
+    display: none !important;
+}
+
+.uidialog {
+  
+    border: none !important;
+    box-shadow: 2px 2px 5px 1px #999 !important;
+    -moz-box-shadow: 2px 2px 5px #ccc !important;
+    border-radius: 2px !important;
+    background: #ffff;
+    padding: 10px !important;
+}
+
+
+#hover_column
+{
+    width: 40% !important;
+    margin-top: 10px !important;
+    overflow: -webkit-paged-x !important;
+}
+
+/**  Detail Page  **/
+
+.column1-closed.detail #column1 {
+
+    display: none !important;
+}
+
+/**
+.detail .search-within {
+    
+     display: none !important;
+ }
+ **/
+
+ .detail .search-within {
+
+    right: 17px !important;
+    top: 3px !important;
+    padding-right: 6px!important;
+    padding-top: 2px !important;}
+
+    .detail #ToolPanelContent .close-panel {
+        top: 26px !important;
+    }
+
+ .detail .font_select {
+    right: 20px !important;
+}
+
+.detail #column1 {
+    background-image: none !important;
+    background-color: white !important;
+    margin-top: 13px !important;
+    border: none !important;
+
+}
+
+.column1-open #column1 {
+    width: 20% !important;
+    padding: 25px !important;
+}
+
+#column1 {
+
+    margin: 0 150px 0 70% !important;
+
+    z-index: 40 !important;
+}
+
+
+.detail #content {
+    background: none !important;
+    left: 0 !important;
+    width: 62% !important;
+    max-width: 1200px !important;
+    margin-top: 13px !important
+ 
+}
+
+#toc_container {
+
+    border: none !important;
+}
+
+#result_toc {
+
+    padding: 10px 0px !important;
+
+}
+
+.column2-closed #column2 {
+    margin-right: 2% !important;
+    background: none !important;
+    padding: 0px !important;
+    width: 50% !important;
+    margin-left: 4% !important;
+    margin-top: 18px !important;
+    max-width: 400px !important;
+}
+
+#column2 {
+
+    z-index: 40000 !important;
+    position: fixed !important;
+
+}
+
+
+.column2-closed .delivery-control a {
+    text-indent: unset !important;
+}
+ul.delivery-control
+{
+        display: -webkit-inline-box;
+
+}
+
+.delivery-control #alert {
+    background-position: unset !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_alert_black.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 7px 0px !important;
+    background-size: auto 19px !important;
+}
+
+.detail #searchwithinbutton
+{
+    background-position: unset !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_search_teal.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 4px 1px !important;
+    background-size: auto 19px !important;
+}
+
+
+a#ctl00_ctl00_Column2_Column2_topDeliveryControl_deliveryButtonControl_lnkPrint.print-link
+{background-position: unset !important;
+background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_print_black.png) !important;
+background-repeat: no-repeat !important;
+background-position: 4px 0px !important;
+background-size: auto 19px !important;
+}
+
+
+
+
+a#ctl00_ctl00_Column2_Column2_topDeliveryControl_deliveryButtonControl_lnkEmail.email-link
+
+{
+    background-position: unset !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_mail_black.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 2px 1px !important;
+    background-size: auto 14px !important;
+    margin-right: -9px !important;
+}
+
+a#permaLink.permalink-link
+
+{
+    background-position: unset !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_link_black.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 6px 0px !important;
+    background-size: auto 17px !important;
+}
+
+#toplink_container .icon {
+   
+    width: unset !important;
+
+    display: unset !important;
+
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_cme_blue.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 0px 0px !important;
+    background-size: auto 17px !important;
+    padding-right: 20px !important;
+    margin-right: 5px !important;
+
+}
+
+a#send_comment{
+width: unset !important;
+
+    display: unset !important;
+
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_comment.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 0px 0px !important;
+    background-size: auto 17px !important;
+    padding-left: 28px !important;
+    
+
+}
+
+a.record-info
+{
+    background: none !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_arrow_circle_right_gray.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 0px 0px !important;
+    background-size: auto 17px !important;
+ 
+    margin-right: 5px !important;
+    margin-left: 25px !important;
+    margin-top: 5px !important;
+}
+
+
+
+li.result-list-li.active-result div.result-list-record a.record-info
+
+{
+background: none !important;
+background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_orange_on.png) !important;
+background-repeat: no-repeat !important;
+background-position: 0px 0px !important;
+background-size: auto 17px !important;
+
+margin-right: 5px !important;
+margin-left: 25px !important;
+}
+
+
+.result-list {
+  
+    width: 60% !important;
+
+}
+
+
+a.column-close
+{
+    display: none !important;
+}
+
+.column2-closed #column2 .collapsible-content h2
+{display: none !important}
+
+.column2-closed #column2 .collapsible-content
+{
+padding-top: 20px !important;
+}
+.column2-closed .delivery-control a {
+
+    padding-right: 24px !important;
+    margin-right: 5px !important;
+    padding-left: 30px !important;
+  
+}
+
+.delivery-control a, .delivery-control a :visited {
+
+    margin: 0px 0 0 !important;
+    padding: 0px 0 0px 28px !important;
+    border-bottom: none !important;
+    font-size: 1em !important;
+    font-weight: normal !important;
+    color: #222 !important;
+}
+.article-tool {
+    padding: 0 !important;
+}
+
+
+
+
+.detail .ui-resizable-handle {
+
+    display: none !important;
+}
+
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.uidialog
+{
+    z-index: 80000 !important;
+}
+
+#headerUl .nav-list li {
+  
+    display: none !important;
+}
+
+.content-header, #headerUl, #freeModalHeader, .content-footer {
+    min-height: 2.5em !important;
+    
+}
+
+
+
+.citation-title {
+  
+    padding: 0px 20px 14px 25px !important;
+    
+    padding-bottom: 14px !important;
+    font-size: 1.9em !important;
+    border-bottom: 3px solid #eee !important;
+    color: #3781A6 !important;
+    font-weight: normal !important;
+    line-height: 1.3 !important;
+}
+
+
+
+
+#theFirstUpdate {
+   
+    margin: 26px 20px 26px -15px !important;
+    background: #f5f5f5 !important;
+    padding: 20px 20px 20px 20px !important;
+    border-left: 4px solid orange !important;
+}
+
+.citation-content ul {
+    
+    padding: 0 0 0 1em !important;
+    margin: 0 0 0 0 !important;
+}
+
+.citation-content {
+    padding: 15px 30px !important;
+
+}
+
+
+DIV.detail .sectionHeader, DIV.detail section.hd, h4 {
+
+    margin-bottom: .7em !important;
+    margin-top: 1.2em !important;
+}
+
+.citation-content li {
+    font-size: .75em !important;
+    line-height: 1.6 !important ;
+    padding: 5px 0 !important;
+}
+
+#column1 li a:link
+{
+    color: #333 !important;
+    padding: 5px 0px 5px 5px !important;
+}
+#column1 li a:hover
+{
+    color: #3781A6 !important;
+    
+}
+#column1 li a:active
+{
+    color: #3781A6 !important;
+    
+}
+
+
+#column1 li a:visited
+{
+    color: #8829c7 !important;
+    
+}
+
+#toc_container .sos-perc {
+    padding: 10px 0px !important;
+    border: none !important;
+}
+
+div#sublink_container
+{
+    margin-bottom: 20px !important;
+}
+
+
+    .table-border-no-indent table, .table-border-no-indent td {
+        
+        margin-left: 2px !important;
+        padding-left: 20px !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    
+    width: 97% !important;
+}
+
+.citation-content .collapse-toggle.active, .citation-content .collapse-toggle {
+    line-height: 1.6em !important;
+    padding: 8px 0 8px 40px !important;
+    font-size: 1.2em !important;
+    color: #027591 !important;
+}
+
+.hover-title {
+    
+    margin-right: 50px !important;
+    color: #027591 !important;
+    padding: 0px 40px !important;
+    font-size: 1.2em !important;
+    font-weight: normal !important;
+}
+
+#hover_content {
+    overflow: unset !important;
+    padding: 0 40px 10px !important;
+
+}
+
+
+.citation-content .collapse-toggle.active .arrow, .citation-content .collapse-toggle .arrow {
+
+    top: 13px !important;
+
+}
+div#sublink_container
+{
+position: sticky !important;
+bottom: 0 !important;
+padding-bottom: 20px !important;
+background: white !important;
+}
+
+/** End Detail Page **/
+
+
+
+
+
+
+a#ctl00_ctl00_FindField_FindField_findField_lnkSearchOtherServices
+{
+    display: none !important;
+}
+.submenu {
+
+    line-height: 2.4em !important;
+    margin-top: 26px !important;
+}
+
+#toolbarControl .submenu-trigger .link {
+
+    padding-right: 15px !important;
+}
+.basic #content {
+    margin: 0 4% !important;
+}
+
+.customerLogo {
+
+    font-weight: normal !important;
+    padding: 20px 20px 0px 0px !important;
+    mix-blend-mode: multiply;
+}
+
+
+
+#footerControl {
+  
+    margin-top: 300px !important;
+}
+
+div#ctl00_ctl00_MainContentArea_MainContentArea_basicSearch.basic-search
+{
+	margin-left: auto !important;
+    margin-right: auto !important;
+
+}
+
+#toolbarControl {
+  
+    border-bottom: none !important;
+    font-family: Helvetics, Arial,Sans-Serif !important;
+    background: none !important;
+    font-size: 1.1em !important;
+    font-weight: normal !important;
+    padding-right: 20px !important;
+    position: fixed !important;
+    right: 0px !important;
+    left: 0px !important;
+
+  
+
+}
+
+#toolbarControl .presentation {
+
+    height: 12em !important;
+}
+#toolbarControl .link {
+    display: inline !important;
+    padding: 14px 13px !important;
+    font-weight: normal !important;
+    padding-left: 20px !important;
+}
+
+.toolbar-navigation .link {
+  
+    border-left: none !important;
+}
+
+.submenu-trigger .icon {
+    height: 20px !important;
+    width: 20px !important;
+    right: 5px !important;
+    top: 15px !important;
+    display: none !important;
+}
+
+#toolbarControl .submenu-trigger .link {
+   
+    padding-right: 2px !important;
+    margin-right: 9px !important;
+}
+
+span.presentation.bg-p1
+ {
+    background-color: #027591 !important;
+}
+
+div.start-splash-container
+{
+	    display: inline-flex !important;
+}
+
+.browse-alpha-links li {
+
+    padding: 21px 10px !important;
+    font-size: 1.1em !important;
+    color: #333 !important;
+ 
+}
+
+.browse-alpha-links {
+  
+  
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+
+.start-splash-container .spotlight_container {
+ 
+    width: 66% !important;
+    background: #fff !important;
+	border: none !important;
+	border-radius: 0px !important;
+	padding: 20px !important;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)!important;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
+  border-top: 4px solid orange !important;
+}
+
+
+.spotlight_container ul {
+    padding-left: 30px !important;
+    list-style: disc none outside;
+    padding-bottom: 10px !important;
+    padding-right: 10px !important;
+    line-height: 2em !important;
+}
+
+
+.services_container {
+    position: relative;
+    margin-left: 4% !important;
+    width: 33% !important;
+    padding: 20px !important;
+    border: none !important;
+    overflow: hidden;
+	background: #fff !important;
+	border-radius: 0px !important;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)!important;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
+  border-top: 4px solid orange !important;
+}
+
+
+
+.services_container ul {
+
+    display: grid !important;
+    padding-top: 21px !important;
+    padding-bottom: 21px !important;
+}
+
+.services_container ul li {
+    width: 90% !important;
+    padding: 10px 0px 10px 0px !important;
+    border-bottom: 1px Solid #eee !important;}
+
+    .spot-image {
+    float: left;
+    width: 40% !important;
+}
+    .spot-image img {
+    max-width: 84px !important;
+    padding-top: 5px !important;
+    padding-right: 20px !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.search_other_services_link span
+ {
+    font-size: 1.1em !important;
+    color: #666 !important;
+    padding-top: 12px !important;
+    padding-top: 12px !important;
+    padding-left: 10px !important;
+}
+.spot-image {
+ 
+    text-align: -webkit-center !important;
+}
+
+
+.browse-alpha {
+
+    margin-top: 0px !important;
+}
+
+.toolbar-navigation {
+    position: absolute !important;
+    display: -webkit-box !important;
+    margin-left: 10px !important;
+    
+}
+   
+
+.toolbar-tools {
+   
+    background: #027591 !important;
+    margin-right: -20px !important;
+
+ 
+}
+
+.spotlight_container ul li
+{
+    margin-bottom: 15px !important;
+    line-height: 1.7em !important;
+}
+
+div.browse-alpha
+{
+
+    max-width: 96.5% !important;
+    background: #fff !important;
+	padding: 20px !important;
+
+    margin-top: 50px !important;
+    margin-bottom: 30px !important;
+   margin-left: -10px !important;
+    margin-right: 0px !important;
+    width: 96.5% !important;
+
+
+}
+
+.feature_caption {
+    font-size: 1.5em !important;
+    padding: 0px 10px !important;
+    background: unset !important;
+    color: #333 !important;
+    margin-bottom: 5px !important;
+    font-weight: normal !important;
+}
+
+
+
+
+#mainContentArea {
+
+    background: #f5f5f5 !important;
+    position: absolute !important;
+   
+}	
+
+#outerContainer {
+
+    background: #f5f5f5 !important;
+}
+
+#footerControl {
+
+    background: #f5f5f5 !important;
+
+}
+
+.wide #header {
+
+    background: #f5f5f5 !important;
+}
+
+.basic #content {
+
+    background: #f5f5f5 !important;
+}
+.dynamed .find-field-controls {
+
+   
+padding-top: 0px !important;
+    padding-bottom: 35px !important;
+    width: 100% !important;
+    clear: none !important;
+    float: left !important;
+    
+
+}
+
+.logo-image, .logo-image img
+
+{
+    mix-blend-mode: multiply !important;
+}
+
+input#ctl00_ctl00_FindField_FindField_ctl00_Logo1_logoLink.logo-image
+{
+width:100% !important;
+max-width: 165px !important;
+margin-left: 0px !important;
+margin-right: 0px !important;
+
+}
+
+
+div.find-field-controls
+{
+	padding-left: 0px !important;
+}
+
+.basic .find-field-controls {
+  
+    padding-left: -10px !important;
+}
+
+div.find-field-controls
+{
+	clear: both !important;
+	
+}
+
+div#ctl00_ctl00_MainContentArea_MainContentArea_basicSearch.basic-search
+{
+        max-width: 1200px !important;
+            width: 90% !important;
+}
+
+div.find-field-inner.find-field-simple
+{
+    width: 100% !important;
+    max-width: 1200px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.logo-wrapper {
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+    position: relative !important;
+    clear: both !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.logo-image {
+    max-width: 250px !important;
+    margin-left: auto !important;
+	margin-right: auto!important;
+    mix-blend-mode: multiply;
+}
+
+.basic .find-field-inner {
+
+    padding-bottom: 1px !important;
+}
+
+.basic .find-field-controls {
+    max-width: unset !important;
+    padding: 19px 0 0 10px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+}
+.find-field-inputs {
+    position: relative !important;
+	width:60% !important; 
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.textbox {
+    width: 70% !important;
+}
+
+.find-field-submit {
+    position: relative !important;
+    top: unset !important;
+    left: unset !important;
+    white-space: unset !important;
+}
+
+
+
+input[type=text], textarea, select {
+	color: #000 !important;
+	padding-left: 10px !important;
+
+}
+
+.border-p3, .styled-button-c3 {
+    border-color: orange !important;
+    height: 35px !important;
+	border-radius: 2px !important;
+	background-color: orange !important;
+}
+
+input#ctl00_ctl00_MainContentArea_MainContentArea_findField_SearchButton.button.styled-button-c3
+ {
+    border-color: orange !important;
+	background-color: orange !important;
+}
+
+input#ctl00_ctl00_FindField_FindField_findField_SearchButton.button.styled-button-c3
+{
+    border-color: orange !important;
+	background-color: orange !important;
+}
+
+
+
+input#ctl00_ctl00_MainContentArea_MainContentArea_findField_SearchTerm1.textbox.border-p3.ui-autocomplete-input
+{
+	border-color: #999 !important;
+}
+
+.textbox {
+
+    font-family: Helvetica,Arial,Sans-Serif !important;
+    background-image: unset !important;
+    background-position: 0 -32px!important;
+    font-size: 1.3em !important;
+    background: #fff !important;
+
+}
+
+
+
+.alpha-trail a {
+
+    text-transform: none!important;
+    clear: both !important;
+    position: relative !important;
+    display: table-row !important;
+    line-height: 3em !important;
+}
+
+.button.styled-button-c3 {
+    padding: 4px 13px !important;
+    margin: 0px 4px !important;
+    font-size: 1.4em !important;
+    font-family: Helvetica,Arial,sans-serif !important;
+    font-weight: normal !important;
+    height: 43px !important;
+}
+
+.button, .button:link {
+    
+    background: unset !important;
+   
+}
+
+
+/**  Result List **/
+
+
+
+#column2 .collapsible-toggle
+{
+    display: none !important; 
+}
+   
+
+div#ctl00_ctl00_FindField_FindField_ctl00_Logo1_logoWrapper.logo-wrapper
+{
+   width: 165px !important;
+  
+   position: absolute !important;
+   left: 0 !important;
+   padding-top: 20px !important;
+   padding-left: 2% !important;
+
+}
+
+input#ctl00_ctl00_FindField_FindField_ctl00_SearchButton.button.styled-button-c3
+{
+    background-color: orange !important; 
+    border-color: orange !important;
+}
+
+div#ctl00_ctl00_FindField_FindField_ctl00_findFieldOuter.find-field-outer div.browse-alpha
+
+{
+    display: none !important;
+}
+
+div#ctl00_ctl00_FindField_FindField_findField_findFieldOuter.find-field-outer div.browse-alpha
+
+{
+    display: none !important;
+}
+
+#UpdatableContent {
+
+    background: white !important;
+
+}
+
+div.option-controls
+{
+
+    display: none !important;
+}
+
+
+.paging-links {
+    display: none !important;
+}
+#pageNavigation {
+    
+    display: none !important;
+}
+ul#headerUl.nav-tabs.bar2.bg-p1.border-p1 li.perm_link
+
+{
+    display: none !important;
+}
+
+#innerContainer {
+ 
+    background: #FFF !important;
+    max-width: 1600px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+}
+#header {
+ 
+    background: none !important;
+    margin: 0px auto 15px auto !important;
+    margin-top: 60px !important;
+}
+
+.content-header, #headerUl, #freeModalHeader, .content-footer {
+
+    background-image: none !important;
+    border: none !important;
+    border-radius: 0px !important;
+    padding: 16px 18px 15px !important;
+}
+
+
+.results-paging {
+   
+    font-weight: normal !important;
+    
+}
+
+/**
+.results-count {
+    display: none !important;
+}**/
+
+
+#headerUl .nav-list li {
+
+    padding: 8px !important;
+    font-size: 1.1em !important;
+    color: #666 !important;
+    margin-left: -5px !important;
+}
+.font_select {
+
+    margin-top: 4px !important;
+}
+
+.option-controls .text-small, .option-controls .text-normal, .option-controls .text-large {
+ 
+    font-weight: normal !important;
+    text-decoration: none !important;
+    vertical-align: -webkit-baseline-middle;
+    color: #666 !important;
+
+}
+
+#mainContentArea {
+
+
+    border-top: none !important;
+}
+
+
+.icon_perm_link {
+    
+    background-position: unset !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_link_black.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 6px 0px !important;
+    background-size: auto 17px !important;
+    width: 24px !important;
+    height: 24px !important;
+    border: none !important;
+}
+
+.icon_perm_link:after {
+    
+    content: "Permalink";
+   
+}
+
+a#permaLink.icon_perm_link::after
+{
+    
+    content: "Permalink";
+   
+}
+
+.font_select {
+   
+    border-left: none !important;
+   
+}
+
+.column2-open #column2 {
+
+
+    clear: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 25% !important;
+    max-width: 300px !important;
+    background: #fff !important;
+    margin-right: 2% !important;
+
+    padding: 30px 30px 30px 30px !important;
+    float: left !important;
+    position: absolute !important;
+    margin-left: 65% !important;
+    z-index: 1 !important;
+}
+
+.column2-open #content {
+ 
+    position: relative !important;
+    left: 0 !important;
+    margin-left: 2% !important;
+     margin-right: 2% !important;
+    width: 60% !important;
+   
+}
+
+.content-header {
+    margin: 0px 0px 0 !important;
+    color: #222 !important;
+}
+
+a#ctl00_ctl00_MainContentArea_MainContentArea_topMultiPage_rptPageLinks_ctl04_lnkPageLink
+,a#ctl00_ctl00_MainContentArea_MainContentArea_topMultiPage_lnkNext.arrow-link.legacy-link.next, a#ctl00_ctl00_MainContentArea_MainContentArea_topMultiPage_rptPageLinks_ctl03_lnkPageLink, a#ctl00_ctl00_MainContentArea_MainContentArea_topMultiPage_rptPageLinks_ctl02_lnkPageLink, a#ctl00_ctl00_MainContentArea_MainContentArea_topMultiPage_rptPageLinks_ctl01_lnkPageLink
+
+
+
+{
+    color: #000 !important;
+}
+
+div.main-section-header.bar2.bg-p1.border-p1.content-header
+ {
+    background-color: #FFF!important;
+    border-top: 4px solid #3781A6 !important;
+}
+
+#column2 {
+
+    margin: 0px 0 0 0px !important;
+
+}
+
+
+div#content.text-normal
+{
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+}
+
+
+#content {
+    padding: 0px 0 0 !important;
+
+}
+
+#innerContainer {
+    
+    background: #f5f5f5 !important;
+
+}
+
+/**
+{
+    width: 90% !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+**/
+
+#footerControl {
+    
+    display: none !important;
+}
+
+#content {
+
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    
+}
+ a#ctl00_ctl00_FindField_FindField_ctl00_lnkSearchOtherServices, .customerLogo
+
+
+{
+    display: none !important;
+}
+.find-field-controls {
+    
+    max-width: unset !important;}
+
+.wide #header {
+    min-height: unset !important;
+}
+
+
+/**   End Result List **/
+
+
+
+@media (max-width: 1024px) 
+{
+    
+    
+
+
+
+
+
+    #ViewerColumn {
+        
+          right: 0px !important;
+          bottom: 0px !important;
+          left: 0px !important;
+          width:100% !important;
+      
+      }
+      #viewport {
+        overflow-y: overlay !important;}
+ 
+
+      #ViewerWrap #column1 .collapsible-content
+
+      {
+        
+          display: none !important;
+          
+      }
+
+    .column2-closed .delivery-control a {
+        
+           
+            width: 0px !important;
+            overflow: hidden !important;
+            font-size: 0em !important;
+        }
+
+        .column2-closed #column2 {
+      
+            margin-left: 5% !important;
+       
+        }
+        
+   
+    div#ctl00_ctl00_FindField_FindField_ctl00_Logo1_logoWrapper.logo-wrapper
+    {
+       
+
+       padding-left: 4% !important;
+    
+    }
+
+
+
+input#ctl00_ctl00_FindField_FindField_ctl00_Logo1_logoLink.logo-image
+{
+display: none !important;
+}
+
+
+    div#ctl00_ctl00_MainContentArea_MainContentArea_basicSearch.basic-search
+{
+      
+            width: 90% !important;
+}
+
+a#ctl00_ctl00_FindField_FindField_ctl00_lnkHelpSearch
+{
+    display: none !important;
+}
+
+a#ctl00_ctl00_FindField_FindField_findField_lnkHelpSearch
+{
+    display: none !important;
+}
+
+div.start-splash-container
+{
+        display: block !important;
+            margin-right: 1% !important;
+}
+
+.start-splash-container .spotlight_container {
+ 
+    width: 94% !important;
+    margin-bottom: 30px !important;
+}
+
+.services_container {
+   width: 94% !important;
+   margin-left: 0px !important;
+   
+}
+
+
+
+	.find-field-inputs {
+    position: relative !important;
+	width: 80% !important; 
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+}
+
+.textbox {
+    width: 70% !important;
+}
+
+.find-field-submit {
+
+    float: right !important;
+    width: 25% !important;
+}
+.button.styled-button-c3 {
+
+	padding-left: 12% !important;
+	 padding-right: 12% !important;
+}
+
+a#ctl00_ctl00_MainContentArea_MainContentArea_findField_lnkHelpSearch
+{
+	display:none !important;
+}
+
+div.browse-alpha
+{
+
+   
+    width: 93.5% !important;
+  
+    max-width: 1200px !important;
+    margin-left: -11px !important;
+    margin-right: auto !important;
+
+
+}
+
+
+
+
+}
+
+
+@media (max-width: 900px) 
+{
+
+
+    a[title="Help"] 
+    
+    {
+    position: relative !important;
+    text-indent: -15000px !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_help_white.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 0px 10px !important;
+    background-size: auto 22px !important;
+    margin-left: 8px !important;
+    }
+    
+    a[title="About"] 
+    
+    {
+    position: relative !important;
+    text-indent: -15000px !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_info_white.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 0px 10px !important;
+    background-size: auto 22px !important;
+    margin-left: 8px !important;
+    
+    }
+    
+    
+    a[title="Send Comment"] 
+    
+    {
+    position: relative !important;
+    text-indent: -15000px !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_message_square_white.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 0px 10px !important;
+    background-size: auto 22px !important;
+    margin-left: 20px !important;
+    padding-left: 34px !important;
+    max-width: 0px !important;
+    }
+
+    .detail #column1
+
+    {
+        display: none !important;
+    }
+
+    .detail #content
+    {
+        width: 95% !important;
+    }
+   
+
+    .column2-open #content {
+        
+           
+           width: 90% !important;
+           margin-left: 4% !important;
+           margin-right: 4% !important;
+          
+       }
+
+   
+
+
+
+       .column2-open #column2 {
+        
+        
+            display: none !important;
+        }
+
+ }
+
+@media (max-width: 600px) 
+{
+
+
+    span#ctl00_ctl00_MainContentArea_MainContentArea_topResultCounts.results-count.medium-bold
+    {
+        display: block !important;
+        margin-left: 20px !important;
+
+    }
+    .result-list {
+        
+        width: 100% !important;}
+
+
+    .dynamed .content-wrapper {
+        overflow-y: auto !important;
+       
+    }
+
+    .detail #column2 {
+      
+        max-width: unset !important;
+    }
+
+    .detail .search-within {
+   
+        right: 42px !important;
+        top: 19px !important;
+    }
+
+    .detail #searchwithin {
+    
+        top: 2px !important;
+   
+    }
+
+    .citation-title {
+   
+        padding: 5px 10px 18px 13px !important;
+        font-size: 1.3em !important;
+    }
+
+    .content-header, #headerUl, #freeModalHeader, .content-footer {
+       
+        padding: 0px 0px 0px 0px !important;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+    .detail #content {
+       
+        margin-top: 0px !important;
+        
+    }
+    
+    .detail #header {
+
+        padding-bottom: 10px !important;
+   
+    }
+
+    ul#headerUl.nav-tabs.bar2.bg-p1.border-p1
+    {
+    
+        height: 39px !important;
+        padding-top: 15px !important;
+    }
+  
+    .column2-closed #column2 {
+
+        display: block !important;
+        position: fixed !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        top: unset !important;
+        background: #fff !important;
+        padding: 0px 20px 10px 20px !important;
+        z-index: 44 !important;
+        width: 100% !important;
+        margin: 0 !important;
+    
+        -webkit-box-shadow: 0px -6px 3px -6px rgba(0,0,0,0.37) !important;
+        -moz-box-shadow: 0px -6px 3px -6px rgba(0,0,0,0.37) !important;
+        box-shadow: 0px -6px 3px -6px rgba(0,0,0,0.37) !important;
+    }
+        
+        #hover_column {
+         
+            display: none !important;
+        }
+
+
+
+	.find-field-inputs {
+   
+	width: 100% !important; 
+  
+}
+
+div.browse-alpha
+{
+
+    margin-left: 0px !important;
+    padding-left: 20px !important;
+}
+
+.browse-alpha-links {
+  
+  line-height: 2.5 !important;
+}
+
+    span.find-field-submit
+ {
+    
+    width: 20% !important;
+
+}
+
+.toolbar-navigation {
+    position: relative;
+    z-index: 2;
+    float: left;
+    font-weight: bold;
+    clear: left;
+    margin-left: 0px !important;
+}
+
+.button.styled-button-c3
+{
+    width: 100% !important;
+   text-indent: -9000px !important;
+   font-size: 1.1em !important;
+    background-color: orange !important;
+    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon-search-white.png) !important;
+    background-size: auto 24px !important;
+    background-repeat: no-repeat !important;
+    border-radius: 2px !important;
+    background-position: center !important;
+}
+
+.textbox {
+    width: 75% !important;
+}
+
+
+}

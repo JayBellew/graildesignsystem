@@ -1,0 +1,52 @@
+{
+  "name": "EBSCO UX: Night Time View",
+  "version": "1.4",
+  "manifest_version": 2,
+  "description": "EBSCO UX: Night Time View",
+  "homepage_url": "http://graildesignsystem.com",
+  "icons": {
+    "16": "icons/icon128.png",
+    "48": "icons/icon128.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+   "browser_action": {
+        "default_icon": "icons/icon128.png",
+        "default_popup": "src/page_action/page_action.html",
+        "default_title": "EBSCO UX: Night Time View"
+    },
+  "background": {
+    "page": "src/bg/background.html"
+   // "persistent": false
+  },
+  
+  "permissions": [
+    "contentSettings",
+    "tabs",
+    "activeTab",
+    "https://ebsco.com/*",
+    "http://web.b.ebscohost.com/*",
+    "http://web.a.ebscohost.com/*",
+    "http://eds.a.ebscohost.com/*",
+    "http://eds.b.ebscohost.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ebsco.com/*",
+        "http://web.b.ebscohost.com/*",
+        "http://web.a.ebscohost.com/*",
+         "http://eds.a.ebscohost.com/*",
+        "http://eds.b.ebscohost.com/*"],
+
+      "all_frames": true,
+
+      "css": [
+        "src/inject/inject.css"],
+      "js": [
+        "src/inject/inject.js",
+        "src/contentscripts/content.js"
+      ]
+    }
+  ]
+}

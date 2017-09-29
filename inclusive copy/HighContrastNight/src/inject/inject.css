@@ -1,0 +1,55 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+
+body {
+    -webkit-filter: invert(100%) grayscale(100%) brightness(150%) contrast(150%);
+    background: #000 !important;
+
+    -webkit-filter: invert(100%) grayscale(100%) brightness(220%) contrast(120%);
+    background: #000 !important;
+    
+    
+}
+
+/** this is Grayscale UI 
+
+body {
+    -webkit-filter: grayscale(100%) brightness(70%) contrast(250%);
+}
+
+**/
+
+/** this is Sepia UI 
+ -webkit-filter: brightness(70%) contrast(150%) sepia(150%);
+**/
+
+/** this is Invert Color UI 
+ -webkit-filter: invert(100%) brightness(150%) contrast(150%);
+    background: #000 !important;
+**/
+
+/** this is Invert Grayscale UI 
+ -webkit-filter: invert(100%) grayscale(100%) brightness(150%) contrast(150%);
+    background: #000 !important;
+
+    -webkit-filter: invert(100%) grayscale(100%) brightness(220%) contrast(120%);
+    background: #000 !important;
+**/
+
+/** this is High Contrast UI 
+  -webkit-filter: contrast(140%);
+**/
+
+
+/** These are other filters 
+
+-webkit-filter: saturate(250%);
+
+-webkit-filter: sepia(1);
+
+-webkit-filter: grayscale(1);
+
+-webkit-filter: invert(1);
+
+**/

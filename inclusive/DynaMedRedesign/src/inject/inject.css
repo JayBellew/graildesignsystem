@@ -20,7 +20,7 @@ a[title="Help"]
 {
 position: relative !important;
 
-background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_help_white.png) !important;
+background-image: url(https://rpatriquin12.github.io/grail/images/icon_help_white.png) !important;
 background-repeat: no-repeat !important;
 background-position: 0px 15px !important;
 background-size: auto 14px !important;
@@ -32,7 +32,7 @@ a[title="About"]
 {
 position: relative !important;
 
-background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_info_white.png) !important;
+background-image: url(https://rpatriquin12.github.io/grail/images/icon_info_white.png) !important;
 background-repeat: no-repeat !important;
 background-position: 0px 15px !important;
 background-size: auto 14px !important;
@@ -45,7 +45,7 @@ a[title="Send Comment"]
 {
 position: relative !important;
 
-background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_message_square_white.png) !important;
+background-image: url(https://rpatriquin12.github.io/grail/images/icon_message_square_white.png) !important;
 background-repeat: no-repeat !important;
 background-position: 0px 15px !important;
 background-size: auto 14px !important;
@@ -188,7 +188,7 @@ a#downloadLink.link.color-s1
 
     
         background-position: unset !important;
-        background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon-download-blue.png) !important;
+        background-image: url(https://rpatriquin12.github.io/grail/images/icon-download-blue.png) !important;
         background-repeat: no-repeat !important;
         background-position: 7px 12px !important;
         background-size: auto 19px !important;
@@ -269,7 +269,7 @@ a#downloadLink.link.color-s1
 .collapsible-list .icon
 
     {background-position: unset !important;
-        background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_plus_open.png) !important;
+        background-image: url(https://rpatriquin12.github.io/grail/images/icon_plus_open.png) !important;
         background-repeat: no-repeat !important;
         background-position: 0px 0px !important;
         background-size: 12px 12px !important;
@@ -426,7 +426,7 @@ ul.delivery-control
 
 .delivery-control #alert {
     background-position: unset !important;
-    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_alert_black.png) !important;
+    background-image: url(https://rpatriquin12.github.io/grail/images/icon_alert_black.png) !important;
     background-repeat: no-repeat !important;
     background-position: 7px 0px !important;
     background-size: auto 19px !important;
@@ -435,7 +435,7 @@ ul.delivery-control
 .detail #searchwithinbutton
 {
     background-position: unset !important;
-    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_search_teal.png) !important;
+    background-image: url(https://rpatriquin12.github.io/grail/images/icon_search_teal.png) !important;
     background-repeat: no-repeat !important;
     background-position: 4px 1px !important;
     background-size: auto 19px !important;
@@ -444,7 +444,7 @@ ul.delivery-control
 
 a#ctl00_ctl00_Column2_Column2_topDeliveryControl_deliveryButtonControl_lnkPrint.print-link
 {background-position: unset !important;
-background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_print_black.png) !important;
+background-image: url(https://rpatriquin12.github.io/grail/images/icon_print_black.png) !important;
 background-repeat: no-repeat !important;
 background-position: 4px 0px !important;
 background-size: auto 19px !important;
@@ -457,7 +457,7 @@ a#ctl00_ctl00_Column2_Column2_topDeliveryControl_deliveryButtonControl_lnkEmail.
 
 {
     background-position: unset !important;
-    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_mail_black.png) !important;
+    background-image: url(https://rpatriquin12.github.io/grail/images/icon_mail_black.png) !important;
     background-repeat: no-repeat !important;
     background-position: 2px 1px !important;
     background-size: auto 14px !important;
@@ -468,7 +468,7 @@ a#permaLink.permalink-link
 
 {
     background-position: unset !important;
-    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_link_black.png) !important;
+    background-image: url(https://rpatriquin12.github.io/grail/images/icon_link_black.png) !important;
     background-repeat: no-repeat !important;
     background-position: 6px 0px !important;
     background-size: auto 17px !important;
@@ -480,7 +480,7 @@ a#permaLink.permalink-link
 
     display: unset !important;
 
-    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_cme_blue.png) !important;
+    background-image: url(https://rpatriquin12.github.io/grail/images/icon_cme_blue.png) !important;
     background-repeat: no-repeat !important;
     background-position: 0px 0px !important;
     background-size: auto 17px !important;
@@ -494,7 +494,7 @@ width: unset !important;
 
     display: unset !important;
 
-    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_comment.png) !important;
+    background-image: url(https://rpatriquin12.github.io/grail/images/icon_comment.png) !important;
     background-repeat: no-repeat !important;
     background-position: 0px 0px !important;
     background-size: auto 17px !important;
@@ -506,7 +506,7 @@ width: unset !important;
 a.record-info
 {
     background: none !important;
-    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_arrow_circle_right_gray.png) !important;
+    background-image: url(https://rpatriquin12.github.io/grail/images/icon_arrow_circle_right_gray.png) !important;
     background-repeat: no-repeat !important;
     background-position: 0px 0px !important;
     background-size: auto 17px !important;
@@ -522,7 +522,7 @@ li.result-list-li.active-result div.result-list-record a.record-info
 
 {
 background: none !important;
-background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_orange_on.png) !important;
+background-image: url(https://rpatriquin12.github.io/grail/images/icon_orange_on.png) !important;
 background-repeat: no-repeat !important;
 background-position: 0px 0px !important;
 background-size: auto 17px !important;
@@ -1307,7 +1307,7 @@ ul#headerUl.nav-tabs.bar2.bg-p1.border-p1 li.perm_link
 .icon_perm_link {
     
     background-position: unset !important;
-    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_link_black.png) !important;
+    background-image: url(https://rpatriquin12.github.io/grail/images/icon_link_black.png) !important;
     background-repeat: no-repeat !important;
     background-position: 6px 0px !important;
     background-size: auto 17px !important;
@@ -1599,7 +1599,7 @@ div.browse-alpha
     {
     position: relative !important;
     text-indent: -15000px !important;
-    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_help_white.png) !important;
+    background-image: url(https://rpatriquin12.github.io/grail/images/icon_help_white.png) !important;
     background-repeat: no-repeat !important;
     background-position: 0px 10px !important;
     background-size: auto 22px !important;
@@ -1611,7 +1611,7 @@ div.browse-alpha
     {
     position: relative !important;
     text-indent: -15000px !important;
-    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_info_white.png) !important;
+    background-image: url(https://rpatriquin12.github.io/grail/images/icon_info_white.png) !important;
     background-repeat: no-repeat !important;
     background-position: 0px 10px !important;
     background-size: auto 22px !important;
@@ -1625,7 +1625,7 @@ div.browse-alpha
     {
     position: relative !important;
     text-indent: -15000px !important;
-    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon_message_square_white.png) !important;
+    background-image: url(https://rpatriquin12.github.io/grail/images/icon_message_square_white.png) !important;
     background-repeat: no-repeat !important;
     background-position: 0px 10px !important;
     background-size: auto 22px !important;
@@ -1803,7 +1803,7 @@ div.browse-alpha
    text-indent: -9000px !important;
    font-size: 1.1em !important;
     background-color: orange !important;
-    background-image: url(https://jaybellew.github.io/graildesignsystem/images/icon-search-white.png) !important;
+    background-image: url(https://rpatriquin12.github.io/grail/images/icon-search-white.png) !important;
     background-size: auto 24px !important;
     background-repeat: no-repeat !important;
     border-radius: 2px !important;
